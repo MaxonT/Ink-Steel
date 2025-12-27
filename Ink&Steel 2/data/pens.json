@@ -1,0 +1,36 @@
+```json
+{
+  "pens": [
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "description": "Black resin, rhodium trim",
+      "details": "A weightless darkness that glides across the page with silent precision.",
+      "image": "http://static.photos/black/640x360/1",
+      "price": 285,
+      "nib": "Medium",
+      "material": "Resin",
+      "trim": "Rhodium",
+      "weight": 22,
+      "length": 140,
+      "inkRecommendations": ["midnight-sky", "carbon-black"],
+      "tags": ["professional", "minimalist", "everyday"]
+    },
+    {
+      "id": "azure",
+      "name": "Azure",
+      "description": "Lacquered blue, gold accents",
+      "details": "The blue of deep ocean currents, flowing effortlessly from nib to paper.",
+      "image": "http://static.photos/blue/640x360/2",
+      "price": 320,
+      "nib": "Fine",
+      "material": "Lacquer",
+      "trim": "Gold",
+      "weight": 25,
+      "length": 135,
+      "inkRecommendations": ["royal-blue", "deep-sea"],
+      "tags": ["elegant", "signature", "gift"]
+    }
+  ]
+}
+```

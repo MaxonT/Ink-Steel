@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Us | Ink & Steel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/donate-button.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-20 max-w-4xl">
+        <article class="prose prose-lg mx-auto">
+            <h1 class="text-4xl font-light mb-12 text-center">Support Our Work</h1>
+            
+            <div class="bg-white p-12 shadow-sm mb-16 text-center">
+                <p class="text-xl mb-8">
+                    Ink & Steel is supported entirely by generous contributions from our community. 
+                    Your donation helps preserve the art of fine writing instruments.
+                </p>
+                
+                <div class="flex flex-wrap justify-center gap-6 mb-12">
+                    <donate-button>Donate $5</donate-button>
+                    <donate-button>Donate $10</donate-button>
+                    <donate-button>Donate $25</donate-button>
+                    <donate-button>Donate $50</donate-button>
+                    <donate-button>Other Amount</donate-button>
+                </div>
+                
+                <p class="text-sm text-gray-600">
+                    All donations are processed securely. We appreciate your support!
+                </p>
+            </div>
+            
+            <div class="text-center">
+                <a href="/" class="inline-block border-b border-gray-300 pb-1 hover:border-gray-500 transition-colors">
+                    Return to Gallery
+                </a>
+            </div>
+        </article>
+    </main>
+
+    <custom-footer></custom-footer>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script src="components/ink-swatch.js"></script>
+<script>
+        document.body.style.opacity = '0';
+        window.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                document.body.style.transition = 'opacity 1.5s ease';
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
