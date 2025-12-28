@@ -1,0 +1,3092 @@
+{
+  "timestamp": "2025-12-28T09:58:47.621Z",
+  "summary": {
+    "total": 111,
+    "averageCompleteness": 96.35135135135135,
+    "completenessDistribution": {
+      "excellent": 111,
+      "good": 0,
+      "fair": 0,
+      "poor": 0
+    },
+    "fieldCompleteness": {
+      "description": 111,
+      "details": 111,
+      "images": 111,
+      "purchaseLinks": 30,
+      "specifications": 111,
+      "tags": 111,
+      "price": 14
+    },
+    "totalIssues": 192,
+    "commonIssues": {
+      "Using placeholder image": 111,
+      "No purchase links": 81
+    }
+  },
+  "reviews": [
+    {
+      "id": "pelikan-m800-black",
+      "name": "Pelikan M800 Fountain Pen",
+      "brand": "Pelikan",
+      "index": 0,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "pilot-custom-74",
+      "name": "Pilot Custom 74 Fountain Pen",
+      "brand": "Pilot",
+      "index": 1,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "lamy-2000",
+      "name": "Lamy 2000 Fountain Pen",
+      "brand": "Lamy",
+      "index": 2,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "pilot-custom-823",
+      "name": "Pilot Custom 823 Fountain Pen",
+      "brand": "Pilot",
+      "index": 3,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "sailor-1911-large",
+      "name": "Sailor 1911 Large Fountain Pen",
+      "brand": "Sailor",
+      "index": 4,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "platinum-3776-century",
+      "name": "Platinum #3776 Century Fountain Pen",
+      "brand": "Platinum",
+      "index": 5,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "twsbi-diamond-580",
+      "name": "TWSBI Diamond 580 Fountain Pen",
+      "brand": "TWSBI",
+      "index": 6,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "lamy-safari",
+      "name": "Lamy Safari Fountain Pen",
+      "brand": "Lamy",
+      "index": 7,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "pilot-metropolitan",
+      "name": "Pilot Metropolitan Fountain Pen",
+      "brand": "Pilot",
+      "index": 8,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "pilot-vanishing-point",
+      "name": "Pilot Vanishing Point Fountain Pen",
+      "brand": "Pilot",
+      "index": 9,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "montblanc-149",
+      "name": "Montblanc Meisterstück 149 Fountain Pen",
+      "brand": "Montblanc",
+      "index": 10,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "waterman-expert",
+      "name": "Waterman Expert Fountain Pen",
+      "brand": "Waterman",
+      "index": 11,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "kaweco-sport",
+      "name": "Kaweco Sport Fountain Pen",
+      "brand": "Kaweco",
+      "index": 12,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "parker-sonnet",
+      "name": "Parker Sonnet Fountain Pen",
+      "brand": "Parker",
+      "index": 13,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": true
+    },
+    {
+      "id": "montblanc-149-montblanc-149",
+      "name": "Montblanc 149",
+      "brand": "Montblanc",
+      "index": 14,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "platinum-sport-platinum-sport",
+      "name": "Platinum Sport",
+      "brand": "Platinum",
+      "index": 15,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-expert-lamy-expert",
+      "name": "Lamy Expert",
+      "brand": "Lamy",
+      "index": 16,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-sonnet-sailor-sonnet",
+      "name": "Sailor Sonnet",
+      "brand": "Sailor",
+      "index": 17,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-sport-pelikan-sport",
+      "name": "Pelikan Sport",
+      "brand": "Pelikan",
+      "index": 18,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "twsbi-149-twsbi-149",
+      "name": "TWSBI 149",
+      "brand": "TWSBI",
+      "index": 19,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-2000-parker-2000",
+      "name": "Parker 2000",
+      "brand": "Parker",
+      "index": 20,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-1911-pilot-1911",
+      "name": "Pilot 1911",
+      "brand": "Pilot",
+      "index": 21,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "montblanc-custom-montblanc-custom",
+      "name": "Montblanc Custom",
+      "brand": "Montblanc",
+      "index": 22,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-2000-lamy-2000",
+      "name": "Lamy 2000",
+      "brand": "Lamy",
+      "index": 23,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-custom-parker-custom",
+      "name": "Parker Custom",
+      "brand": "Parker",
+      "index": 24,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-m800-parker-m800",
+      "name": "Parker M800",
+      "brand": "Parker",
+      "index": 25,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-diamond-580-kaweco-diamond-580",
+      "name": "Kaweco Diamond 580",
+      "brand": "Kaweco",
+      "index": 26,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-sport-sailor-sport",
+      "name": "Sailor Sport",
+      "brand": "Sailor",
+      "index": 27,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-sonnet-waterman-sonnet",
+      "name": "Waterman Sonnet",
+      "brand": "Waterman",
+      "index": 28,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-m800-kaweco-m800",
+      "name": "Kaweco M800",
+      "brand": "Kaweco",
+      "index": 29,
+      "completeness": 100,
+      "issues": [
+        "Using placeholder image"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": true,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-3776-pelikan-3776",
+      "name": "Pelikan 3776",
+      "brand": "Pelikan",
+      "index": 30,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "platinum-149-platinum-149",
+      "name": "Platinum 149",
+      "brand": "Platinum",
+      "index": 31,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-expert-pelikan-expert",
+      "name": "Pelikan Expert",
+      "brand": "Pelikan",
+      "index": 32,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "platinum-custom-platinum-custom",
+      "name": "Platinum Custom",
+      "brand": "Platinum",
+      "index": 33,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-3776-lamy-3776",
+      "name": "Lamy 3776",
+      "brand": "Lamy",
+      "index": 34,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "twsbi-expert-twsbi-expert",
+      "name": "TWSBI Expert",
+      "brand": "TWSBI",
+      "index": 35,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-sonnet-lamy-sonnet",
+      "name": "Lamy Sonnet",
+      "brand": "Lamy",
+      "index": 36,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-2000-kaweco-2000",
+      "name": "Kaweco 2000",
+      "brand": "Kaweco",
+      "index": 37,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-custom-waterman-custom",
+      "name": "Waterman Custom",
+      "brand": "Waterman",
+      "index": 38,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-m800-waterman-m800",
+      "name": "Waterman M800",
+      "brand": "Waterman",
+      "index": 39,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-3776-parker-3776",
+      "name": "Parker 3776",
+      "brand": "Parker",
+      "index": 40,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-149-pelikan-149",
+      "name": "Pelikan 149",
+      "brand": "Pelikan",
+      "index": 41,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-2000-waterman-2000",
+      "name": "Waterman 2000",
+      "brand": "Waterman",
+      "index": 42,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-1911-sailor-1911",
+      "name": "Sailor 1911",
+      "brand": "Sailor",
+      "index": 43,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-m800-sailor-m800",
+      "name": "Sailor M800",
+      "brand": "Sailor",
+      "index": 44,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-diamond-580-parker-diamond-580",
+      "name": "Parker Diamond 580",
+      "brand": "Parker",
+      "index": 45,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-m800-pelikan-m800",
+      "name": "Pelikan M800",
+      "brand": "Pelikan",
+      "index": 46,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-m800-lamy-m800",
+      "name": "Lamy M800",
+      "brand": "Lamy",
+      "index": 47,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-3776-waterman-3776",
+      "name": "Waterman 3776",
+      "brand": "Waterman",
+      "index": 48,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-sport-kaweco-sport",
+      "name": "Kaweco Sport",
+      "brand": "Kaweco",
+      "index": 49,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "twsbi-m800-twsbi-m800",
+      "name": "TWSBI M800",
+      "brand": "TWSBI",
+      "index": 50,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "montblanc-1911-montblanc-1911",
+      "name": "Montblanc 1911",
+      "brand": "Montblanc",
+      "index": 51,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-diamond-580-sailor-diamond-580",
+      "name": "Sailor Diamond 580",
+      "brand": "Sailor",
+      "index": 52,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "twsbi-diamond-580-twsbi-diamond-580",
+      "name": "TWSBI Diamond 580",
+      "brand": "TWSBI",
+      "index": 53,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-expert-kaweco-expert",
+      "name": "Kaweco Expert",
+      "brand": "Kaweco",
+      "index": 54,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "platinum-2000-platinum-2000",
+      "name": "Platinum 2000",
+      "brand": "Platinum",
+      "index": 55,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "platinum-expert-platinum-expert",
+      "name": "Platinum Expert",
+      "brand": "Platinum",
+      "index": 56,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "platinum-1911-platinum-1911",
+      "name": "Platinum 1911",
+      "brand": "Platinum",
+      "index": 57,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-sport-pilot-sport",
+      "name": "Pilot Sport",
+      "brand": "Pilot",
+      "index": 58,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-diamond-580-pilot-diamond-580",
+      "name": "Pilot Diamond 580",
+      "brand": "Pilot",
+      "index": 59,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "twsbi-3776-twsbi-3776",
+      "name": "TWSBI 3776",
+      "brand": "TWSBI",
+      "index": 60,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-sport-waterman-sport",
+      "name": "Waterman Sport",
+      "brand": "Waterman",
+      "index": 61,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-custom-pilot-custom",
+      "name": "Pilot Custom",
+      "brand": "Pilot",
+      "index": 62,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "twsbi-sonnet-twsbi-sonnet",
+      "name": "TWSBI Sonnet",
+      "brand": "TWSBI",
+      "index": 63,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-149-waterman-149",
+      "name": "Waterman 149",
+      "brand": "Waterman",
+      "index": 64,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-149-pilot-149",
+      "name": "Pilot 149",
+      "brand": "Pilot",
+      "index": 65,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "platinum-sonnet-platinum-sonnet",
+      "name": "Platinum Sonnet",
+      "brand": "Platinum",
+      "index": 66,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-2000-sailor-2000",
+      "name": "Sailor 2000",
+      "brand": "Sailor",
+      "index": 67,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-149-parker-149",
+      "name": "Parker 149",
+      "brand": "Parker",
+      "index": 68,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-sport-lamy-sport",
+      "name": "Lamy Sport",
+      "brand": "Lamy",
+      "index": 69,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "montblanc-diamond-580-montblanc-diamond-580",
+      "name": "Montblanc Diamond 580",
+      "brand": "Montblanc",
+      "index": 70,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-3776-kaweco-3776",
+      "name": "Kaweco 3776",
+      "brand": "Kaweco",
+      "index": 71,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-1911-lamy-1911",
+      "name": "Lamy 1911",
+      "brand": "Lamy",
+      "index": 72,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-sonnet-parker-sonnet",
+      "name": "Parker Sonnet",
+      "brand": "Parker",
+      "index": 73,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-149-kaweco-149",
+      "name": "Kaweco 149",
+      "brand": "Kaweco",
+      "index": 74,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "montblanc-2000-montblanc-2000",
+      "name": "Montblanc 2000",
+      "brand": "Montblanc",
+      "index": 75,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "montblanc-m800-montblanc-m800",
+      "name": "Montblanc M800",
+      "brand": "Montblanc",
+      "index": 76,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "montblanc-sonnet-montblanc-sonnet",
+      "name": "Montblanc Sonnet",
+      "brand": "Montblanc",
+      "index": 77,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-custom-kaweco-custom",
+      "name": "Kaweco Custom",
+      "brand": "Kaweco",
+      "index": 78,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-custom-pelikan-custom",
+      "name": "Pelikan Custom",
+      "brand": "Pelikan",
+      "index": 79,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-1911-parker-1911",
+      "name": "Parker 1911",
+      "brand": "Parker",
+      "index": 80,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-custom-sailor-custom",
+      "name": "Sailor Custom",
+      "brand": "Sailor",
+      "index": 81,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-3776-pilot-3776",
+      "name": "Pilot 3776",
+      "brand": "Pilot",
+      "index": 82,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "twsbi-1911-twsbi-1911",
+      "name": "TWSBI 1911",
+      "brand": "TWSBI",
+      "index": 83,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-diamond-580-waterman-diamond-580",
+      "name": "Waterman Diamond 580",
+      "brand": "Waterman",
+      "index": 84,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "twsbi-sport-twsbi-sport",
+      "name": "TWSBI Sport",
+      "brand": "TWSBI",
+      "index": 85,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-expert-sailor-expert",
+      "name": "Sailor Expert",
+      "brand": "Sailor",
+      "index": 86,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-sonnet-kaweco-sonnet",
+      "name": "Kaweco Sonnet",
+      "brand": "Kaweco",
+      "index": 87,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-expert-parker-expert",
+      "name": "Parker Expert",
+      "brand": "Parker",
+      "index": 88,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-m800-pilot-m800",
+      "name": "Pilot M800",
+      "brand": "Pilot",
+      "index": 89,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "parker-sport-parker-sport",
+      "name": "Parker Sport",
+      "brand": "Parker",
+      "index": 90,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-3776-sailor-3776",
+      "name": "Sailor 3776",
+      "brand": "Sailor",
+      "index": 91,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-2000-pelikan-2000",
+      "name": "Pelikan 2000",
+      "brand": "Pelikan",
+      "index": 92,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-149-lamy-149",
+      "name": "Lamy 149",
+      "brand": "Lamy",
+      "index": 93,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "sailor-149-sailor-149",
+      "name": "Sailor 149",
+      "brand": "Sailor",
+      "index": 94,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-expert-waterman-expert",
+      "name": "Waterman Expert",
+      "brand": "Waterman",
+      "index": 95,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "platinum-diamond-580-platinum-diamond-580",
+      "name": "Platinum Diamond 580",
+      "brand": "Platinum",
+      "index": 96,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "montblanc-3776-montblanc-3776",
+      "name": "Montblanc 3776",
+      "brand": "Montblanc",
+      "index": 97,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-diamond-580-pelikan-diamond-580",
+      "name": "Pelikan Diamond 580",
+      "brand": "Pelikan",
+      "index": 98,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "platinum-3776-platinum-3776",
+      "name": "Platinum 3776",
+      "brand": "Platinum",
+      "index": 99,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-sonnet-pilot-sonnet",
+      "name": "Pilot Sonnet",
+      "brand": "Pilot",
+      "index": 100,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-sonnet-pelikan-sonnet",
+      "name": "Pelikan Sonnet",
+      "brand": "Pelikan",
+      "index": 101,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "montblanc-sport-montblanc-sport",
+      "name": "Montblanc Sport",
+      "brand": "Montblanc",
+      "index": 102,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-custom-lamy-custom",
+      "name": "Lamy Custom",
+      "brand": "Lamy",
+      "index": 103,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "kaweco-1911-kaweco-1911",
+      "name": "Kaweco 1911",
+      "brand": "Kaweco",
+      "index": 104,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "waterman-1911-waterman-1911",
+      "name": "Waterman 1911",
+      "brand": "Waterman",
+      "index": 105,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-expert-pilot-expert",
+      "name": "Pilot Expert",
+      "brand": "Pilot",
+      "index": 106,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "lamy-diamond-580-lamy-diamond-580",
+      "name": "Lamy Diamond 580",
+      "brand": "Lamy",
+      "index": 107,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pelikan-1911-pelikan-1911",
+      "name": "Pelikan 1911",
+      "brand": "Pelikan",
+      "index": 108,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "montblanc-expert-montblanc-expert",
+      "name": "Montblanc Expert",
+      "brand": "Montblanc",
+      "index": 109,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    },
+    {
+      "id": "pilot-2000-pilot-2000",
+      "name": "Pilot 2000",
+      "brand": "Pilot",
+      "index": 110,
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "missing": [],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ],
+      "hasDescription": true,
+      "hasDetails": true,
+      "hasImages": true,
+      "hasPurchaseLinks": false,
+      "hasSpecifications": true,
+      "hasTags": true,
+      "hasPrice": false
+    }
+  ],
+  "priorityList": [
+    {
+      "id": "pelikan-3776-pelikan-3776",
+      "name": "Pelikan 3776",
+      "brand": "Pelikan",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "platinum-149-platinum-149",
+      "name": "Platinum 149",
+      "brand": "Platinum",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "pelikan-expert-pelikan-expert",
+      "name": "Pelikan Expert",
+      "brand": "Pelikan",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "platinum-custom-platinum-custom",
+      "name": "Platinum Custom",
+      "brand": "Platinum",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "lamy-3776-lamy-3776",
+      "name": "Lamy 3776",
+      "brand": "Lamy",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "twsbi-expert-twsbi-expert",
+      "name": "TWSBI Expert",
+      "brand": "TWSBI",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "lamy-sonnet-lamy-sonnet",
+      "name": "Lamy Sonnet",
+      "brand": "Lamy",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "kaweco-2000-kaweco-2000",
+      "name": "Kaweco 2000",
+      "brand": "Kaweco",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "waterman-custom-waterman-custom",
+      "name": "Waterman Custom",
+      "brand": "Waterman",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "waterman-m800-waterman-m800",
+      "name": "Waterman M800",
+      "brand": "Waterman",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "parker-3776-parker-3776",
+      "name": "Parker 3776",
+      "brand": "Parker",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "pelikan-149-pelikan-149",
+      "name": "Pelikan 149",
+      "brand": "Pelikan",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "waterman-2000-waterman-2000",
+      "name": "Waterman 2000",
+      "brand": "Waterman",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "sailor-1911-sailor-1911",
+      "name": "Sailor 1911",
+      "brand": "Sailor",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "sailor-m800-sailor-m800",
+      "name": "Sailor M800",
+      "brand": "Sailor",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "parker-diamond-580-parker-diamond-580",
+      "name": "Parker Diamond 580",
+      "brand": "Parker",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "pelikan-m800-pelikan-m800",
+      "name": "Pelikan M800",
+      "brand": "Pelikan",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "lamy-m800-lamy-m800",
+      "name": "Lamy M800",
+      "brand": "Lamy",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "waterman-3776-waterman-3776",
+      "name": "Waterman 3776",
+      "brand": "Waterman",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "kaweco-sport-kaweco-sport",
+      "name": "Kaweco Sport",
+      "brand": "Kaweco",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "twsbi-m800-twsbi-m800",
+      "name": "TWSBI M800",
+      "brand": "TWSBI",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "montblanc-1911-montblanc-1911",
+      "name": "Montblanc 1911",
+      "brand": "Montblanc",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "sailor-diamond-580-sailor-diamond-580",
+      "name": "Sailor Diamond 580",
+      "brand": "Sailor",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "twsbi-diamond-580-twsbi-diamond-580",
+      "name": "TWSBI Diamond 580",
+      "brand": "TWSBI",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "kaweco-expert-kaweco-expert",
+      "name": "Kaweco Expert",
+      "brand": "Kaweco",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "platinum-2000-platinum-2000",
+      "name": "Platinum 2000",
+      "brand": "Platinum",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "platinum-expert-platinum-expert",
+      "name": "Platinum Expert",
+      "brand": "Platinum",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "platinum-1911-platinum-1911",
+      "name": "Platinum 1911",
+      "brand": "Platinum",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "pilot-sport-pilot-sport",
+      "name": "Pilot Sport",
+      "brand": "Pilot",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    },
+    {
+      "id": "pilot-diamond-580-pilot-diamond-580",
+      "name": "Pilot Diamond 580",
+      "brand": "Pilot",
+      "completeness": 95,
+      "issues": [
+        "Using placeholder image",
+        "No purchase links"
+      ],
+      "suggestions": [
+        "Replace placeholder with real product image",
+        "Add at least one purchase link",
+        "Consider adding price information to purchase links"
+      ]
+    }
+  ],
+  "recommendations": {
+    "immediate": [
+      "Fix pens in priority list (lowest completeness scores)",
+      "Ensure all pens have valid purchase links",
+      "Replace placeholder images with real product images",
+      "Add detailed descriptions (minimum 50 characters)",
+      "Add detailed product information (minimum 100 characters)"
+    ],
+    "shortTerm": [
+      "Add specifications to all pens",
+      "Add price information to purchase links",
+      "Improve image quality (replace placeholders)",
+      "Add more tags for better categorization"
+    ],
+    "longTerm": [
+      "Collect real product images for all pens",
+      "Verify all purchase links are valid and up-to-date",
+      "Add more detailed specifications",
+      "Add product history and background information"
+    ]
+  }
+}

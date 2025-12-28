@@ -1,0 +1,155 @@
+{
+  "sources": [
+    {
+      "id": "goulet-pens",
+      "name": "Goulet Pens",
+      "type": "retailer",
+      "url": "https://www.gouletpens.com",
+      "priority": "high",
+      "hasApi": false,
+      "scraping": {
+        "enabled": true,
+        "baseUrl": "https://www.gouletpens.com",
+        "categoryPages": [
+          "https://www.gouletpens.com/collections/fountain-pens",
+          "https://www.gouletpens.com/collections/ink"
+        ],
+        "rateLimit": 2000,
+        "robotsTxt": "https://www.gouletpens.com/robots.txt",
+        "userAgent": "Mozilla/5.0 (compatible; InkSteelBot/1.0; +https://inkandsteel.com/bot)"
+      },
+      "dataMapping": {
+        "brand": ".product-vendor",
+        "name": ".product-title",
+        "price": ".product-price",
+        "description": ".product-description",
+        "images": ".product-images img",
+        "specifications": ".product-specs"
+      }
+    },
+    {
+      "id": "jetpens",
+      "name": "JetPens",
+      "type": "retailer",
+      "url": "https://www.jetpens.com",
+      "priority": "high",
+      "hasApi": false,
+      "scraping": {
+        "enabled": true,
+        "baseUrl": "https://www.jetpens.com",
+        "categoryPages": [
+          "https://www.jetpens.com/Fountain-Pens/ct/346",
+          "https://www.jetpens.com/Fountain-Pen-Ink/ct/91"
+        ],
+        "rateLimit": 2000,
+        "robotsTxt": "https://www.jetpens.com/robots.txt",
+        "userAgent": "Mozilla/5.0 (compatible; InkSteelBot/1.0; +https://inkandsteel.com/bot)"
+      },
+      "dataMapping": {
+        "brand": ".brand-name",
+        "name": ".product-name",
+        "price": ".price",
+        "description": ".product-description",
+        "images": ".product-image img",
+        "specifications": ".specifications"
+      }
+    },
+    {
+      "id": "pen-chalet",
+      "name": "Pen Chalet",
+      "type": "retailer",
+      "url": "https://www.penchalet.com",
+      "priority": "medium",
+      "hasApi": false,
+      "scraping": {
+        "enabled": true,
+        "baseUrl": "https://www.penchalet.com",
+        "categoryPages": [
+          "https://www.penchalet.com/fountain_pens.html",
+          "https://www.penchalet.com/ink.html"
+        ],
+        "rateLimit": 2000,
+        "robotsTxt": "https://www.penchalet.com/robots.txt",
+        "userAgent": "Mozilla/5.0 (compatible; InkSteelBot/1.0; +https://inkandsteel.com/bot)"
+      }
+    },
+    {
+      "id": "pilot-official",
+      "name": "Pilot Official Website",
+      "type": "manufacturer",
+      "url": "https://www.pilotpen.us",
+      "priority": "high",
+      "hasApi": false,
+      "scraping": {
+        "enabled": true,
+        "baseUrl": "https://www.pilotpen.us",
+        "categoryPages": [
+          "https://www.pilotpen.us/categories/fountain-pens"
+        ],
+        "rateLimit": 3000,
+        "userAgent": "Mozilla/5.0 (compatible; InkSteelBot/1.0; +https://inkandsteel.com/bot)"
+      }
+    },
+    {
+      "id": "pelikan-official",
+      "name": "Pelikan Official Website",
+      "type": "manufacturer",
+      "url": "https://www.pelikan.com",
+      "priority": "high",
+      "hasApi": false,
+      "scraping": {
+        "enabled": true,
+        "baseUrl": "https://www.pelikan.com",
+        "categoryPages": [
+          "https://www.pelikan.com/pulse/Pulsar/en_US_INTL.CMS.displayCMS.204311./writing-instruments"
+        ],
+        "rateLimit": 3000,
+        "userAgent": "Mozilla/5.0 (compatible; InkSteelBot/1.0; +https://inkandsteel.com/bot)"
+      }
+    },
+    {
+      "id": "lamy-official",
+      "name": "Lamy Official Website",
+      "type": "manufacturer",
+      "url": "https://www.lamy.com",
+      "priority": "high",
+      "hasApi": false,
+      "scraping": {
+        "enabled": true,
+        "baseUrl": "https://www.lamy.com",
+        "categoryPages": [
+          "https://www.lamy.com/en/fountain-pens/"
+        ],
+        "rateLimit": 3000,
+        "userAgent": "Mozilla/5.0 (compatible; InkSteelBot/1.0; +https://inkandsteel.com/bot)"
+      }
+    },
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia/Wikidata",
+      "type": "database",
+      "url": "https://www.wikidata.org",
+      "priority": "low",
+      "hasApi": true,
+      "api": {
+        "endpoint": "https://www.wikidata.org/w/api.php",
+        "format": "json",
+        "action": "wbsearchentities",
+        "language": "en"
+      },
+      "scraping": {
+        "enabled": false
+      }
+    }
+  ],
+  "globalSettings": {
+    "defaultRateLimit": 2000,
+    "maxRetries": 3,
+    "retryDelay": 5000,
+    "timeout": 30000,
+    "userAgent": "Mozilla/5.0 (compatible; InkSteelBot/1.0; +https://inkandsteel.com/bot)",
+    "respectRobotsTxt": true,
+    "maxConcurrentRequests": 2
+  }
+}
+

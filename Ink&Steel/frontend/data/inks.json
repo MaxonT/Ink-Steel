@@ -36,9 +36,16 @@
       "compatibility": "Works well with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Pilot official website"],
+      "sources": [
+        "Pilot official website"
+      ],
       "verified": true,
-      "tags": ["blue", "shading", "wet", "everyday"]
+      "tags": [
+        "blue",
+        "shading",
+        "wet",
+        "everyday"
+      ]
     },
     {
       "id": "pelikan-4001-brilliant-black",
@@ -60,7 +67,7 @@
         "lubrication": "medium",
         "waterResistance": "low",
         "lightfastness": "excellent",
-        "ph": 7.0
+        "ph": 7
       },
       "purchaseLinks": [
         {
@@ -76,9 +83,16 @@
       "compatibility": "Works well with all fountain pens, especially German pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Pelikan official website"],
+      "sources": [
+        "Pelikan official website"
+      ],
       "verified": true,
-      "tags": ["black", "professional", "dry", "reliable"]
+      "tags": [
+        "black",
+        "professional",
+        "dry",
+        "reliable"
+      ]
     },
     {
       "id": "pilot-iroshizuku-kon-peki",
@@ -116,9 +130,17 @@
       "compatibility": "Works excellently with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Pilot official website"],
+      "sources": [
+        "Pilot official website"
+      ],
       "verified": true,
-      "tags": ["blue", "shading", "wet", "popular", "everyday"]
+      "tags": [
+        "blue",
+        "shading",
+        "wet",
+        "popular",
+        "everyday"
+      ]
     },
     {
       "id": "sailor-jentle-yama-dori",
@@ -140,7 +162,7 @@
         "lubrication": "high",
         "waterResistance": "low",
         "lightfastness": "good",
-        "ph": 7.0
+        "ph": 7
       },
       "purchaseLinks": [
         {
@@ -156,9 +178,17 @@
       "compatibility": "Works well with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Sailor official website"],
+      "sources": [
+        "Sailor official website"
+      ],
       "verified": true,
-      "tags": ["teal", "sheen", "shading", "wet", "special"]
+      "tags": [
+        "teal",
+        "sheen",
+        "shading",
+        "wet",
+        "special"
+      ]
     },
     {
       "id": "diamine-oxford-blue",
@@ -180,7 +210,7 @@
         "lubrication": "medium",
         "waterResistance": "low",
         "lightfastness": "good",
-        "ph": 7.0
+        "ph": 7
       },
       "purchaseLinks": [
         {
@@ -196,9 +226,16 @@
       "compatibility": "Works well with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Diamine official website"],
+      "sources": [
+        "Diamine official website"
+      ],
       "verified": true,
-      "tags": ["blue", "professional", "everyday", "value"]
+      "tags": [
+        "blue",
+        "professional",
+        "everyday",
+        "value"
+      ]
     },
     {
       "id": "pilot-iroshizuku-shin-ryoku",
@@ -236,9 +273,16 @@
       "compatibility": "Works excellently with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Pilot official website"],
+      "sources": [
+        "Pilot official website"
+      ],
       "verified": true,
-      "tags": ["green", "shading", "wet", "colorful"]
+      "tags": [
+        "green",
+        "shading",
+        "wet",
+        "colorful"
+      ]
     },
     {
       "id": "waterman-serenity-blue",
@@ -260,7 +304,7 @@
         "lubrication": "medium",
         "waterResistance": "low",
         "lightfastness": "good",
-        "ph": 7.0
+        "ph": 7
       },
       "purchaseLinks": [
         {
@@ -276,9 +320,17 @@
       "compatibility": "Extremely safe and well-behaved with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Waterman official website"],
+      "sources": [
+        "Waterman official website"
+      ],
       "verified": true,
-      "tags": ["blue", "safe", "reliable", "beginner-friendly", "everyday"]
+      "tags": [
+        "blue",
+        "safe",
+        "reliable",
+        "beginner-friendly",
+        "everyday"
+      ]
     },
     {
       "id": "sailor-jentle-apricot",
@@ -300,7 +352,7 @@
         "lubrication": "high",
         "waterResistance": "low",
         "lightfastness": "fair",
-        "ph": 7.0
+        "ph": 7
       },
       "purchaseLinks": [
         {
@@ -316,9 +368,16 @@
       "compatibility": "Works well with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Sailor official website"],
+      "sources": [
+        "Sailor official website"
+      ],
       "verified": true,
-      "tags": ["orange", "colorful", "shading", "wet"]
+      "tags": [
+        "orange",
+        "colorful",
+        "shading",
+        "wet"
+      ]
     },
     {
       "id": "montblanc-irish-green",
@@ -340,7 +399,7 @@
         "lubrication": "high",
         "waterResistance": "low",
         "lightfastness": "good",
-        "ph": 7.0
+        "ph": 7
       },
       "purchaseLinks": [
         {
@@ -356,9 +415,16 @@
       "compatibility": "Works excellently with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Montblanc official website"],
+      "sources": [
+        "Montblanc official website"
+      ],
       "verified": true,
-      "tags": ["green", "shading", "luxury", "premium"]
+      "tags": [
+        "green",
+        "shading",
+        "luxury",
+        "premium"
+      ]
     },
     {
       "id": "diamine-ancient-copper",
@@ -380,7 +446,7 @@
         "lubrication": "medium",
         "waterResistance": "low",
         "lightfastness": "good",
-        "ph": 7.0
+        "ph": 7
       },
       "purchaseLinks": [
         {
@@ -396,9 +462,17 @@
       "compatibility": "Works well with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Diamine official website"],
+      "sources": [
+        "Diamine official website"
+      ],
       "verified": true,
-      "tags": ["brown", "copper", "shading", "popular", "value"]
+      "tags": [
+        "brown",
+        "copper",
+        "shading",
+        "popular",
+        "value"
+      ]
     },
     {
       "id": "pilot-iroshizuku-asa-gao",
@@ -436,9 +510,17 @@
       "compatibility": "Works excellently with all fountain pens",
       "addedDate": "2024-01-01",
       "lastUpdated": "2024-01-15",
-      "sources": ["Pilot official website"],
+      "sources": [
+        "Pilot official website"
+      ],
       "verified": true,
-      "tags": ["blue", "shading", "wet", "bright", "everyday"]
+      "tags": [
+        "blue",
+        "shading",
+        "wet",
+        "bright",
+        "everyday"
+      ]
     },
     {
       "id": "lamy-blue",
@@ -446,39 +528,1516 @@
       "brand": "Lamy",
       "name": "Blue",
       "series": "Standard",
-      "description": "Classic blue cartridge ink",
+      "description": "A blue ink from Lamy",
       "details": "Lamy Blue is a standard, reliable blue ink that comes in cartridges and bottles. It's well-behaved, safe for all pens, and offers consistent performance.",
-      "color": "#1976D2",
+      "color": "#000000",
       "type": "Dye-based",
-      "volume": 50,
+      "volume": null,
       "bottleType": "Standard plastic bottle",
       "properties": {
         "sheen": false,
         "shimmer": false,
         "shading": "low",
         "flow": "medium",
-        "lubrication": "medium",
-        "waterResistance": "low",
-        "lightfastness": "good",
-        "ph": 7.0
+        "waterResistance": "low"
       },
-      "purchaseLinks": [
-        {
-          "name": "Goulet Pens",
-          "url": "https://www.gouletpens.com/products/lamy-blue-ink",
-          "price": 9,
-          "currency": "USD",
-          "region": "US",
-          "availability": "In Stock",
-          "lastChecked": "2024-01-15"
-        }
-      ],
+      "purchaseLinks": [],
       "compatibility": "Works well with all fountain pens",
-      "addedDate": "2024-01-01",
-      "lastUpdated": "2024-01-15",
-      "sources": ["Lamy official website"],
-      "verified": true,
-      "tags": ["blue", "reliable", "everyday", "german"]
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "Lamy official website",
+        "unknown"
+      ],
+      "verified": false,
+      "tags": [
+        "lamy",
+        "colored"
+      ]
+    },
+    {
+      "id": "sailor-green",
+      "slug": "sailor-green",
+      "brand": "Sailor",
+      "name": "Green",
+      "description": "A green ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-orange",
+      "slug": "waterman-orange",
+      "brand": "Waterman",
+      "name": "Orange",
+      "description": "A orange ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-teal",
+      "slug": "sailor-teal",
+      "brand": "Sailor",
+      "name": "Teal",
+      "description": "A teal ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-red",
+      "slug": "waterman-red",
+      "brand": "Waterman",
+      "name": "Red",
+      "description": "A red ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-blue",
+      "slug": "waterman-blue",
+      "brand": "Waterman",
+      "name": "Blue",
+      "description": "A blue ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-purple",
+      "slug": "pelikan-purple",
+      "brand": "Pelikan",
+      "name": "Purple",
+      "description": "A purple ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-orange",
+      "slug": "sailor-orange",
+      "brand": "Sailor",
+      "name": "Orange",
+      "description": "A orange ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-orange",
+      "slug": "diamine-orange",
+      "brand": "Diamine",
+      "name": "Orange",
+      "description": "A orange ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-red",
+      "slug": "lamy-red",
+      "brand": "Lamy",
+      "name": "Red",
+      "description": "A red ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-brown",
+      "slug": "sailor-brown",
+      "brand": "Sailor",
+      "name": "Brown",
+      "description": "A brown ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-red",
+      "slug": "pilot-iroshizuku-red",
+      "brand": "Pilot",
+      "name": "Iroshizuku Red",
+      "description": "A red ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-red",
+      "slug": "montblanc-red",
+      "brand": "Montblanc",
+      "name": "Red",
+      "description": "A red ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-brown",
+      "slug": "montblanc-brown",
+      "brand": "Montblanc",
+      "name": "Brown",
+      "description": "A brown ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-teal",
+      "slug": "montblanc-teal",
+      "brand": "Montblanc",
+      "name": "Teal",
+      "description": "A teal ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-black",
+      "slug": "montblanc-black",
+      "brand": "Montblanc",
+      "name": "Black",
+      "description": "A black ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-black",
+      "slug": "pelikan-black",
+      "brand": "Pelikan",
+      "name": "Black",
+      "description": "A black ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-blue",
+      "slug": "diamine-blue",
+      "brand": "Diamine",
+      "name": "Blue",
+      "description": "A blue ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-teal",
+      "slug": "lamy-teal",
+      "brand": "Lamy",
+      "name": "Teal",
+      "description": "A teal ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-red",
+      "slug": "pelikan-red",
+      "brand": "Pelikan",
+      "name": "Red",
+      "description": "A red ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-blue",
+      "slug": "pelikan-blue",
+      "brand": "Pelikan",
+      "name": "Blue",
+      "description": "A blue ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-brown",
+      "slug": "lamy-brown",
+      "brand": "Lamy",
+      "name": "Brown",
+      "description": "A brown ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-brown",
+      "slug": "pilot-iroshizuku-brown",
+      "brand": "Pilot",
+      "name": "Iroshizuku Brown",
+      "description": "A brown ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-red",
+      "slug": "diamine-red",
+      "brand": "Diamine",
+      "name": "Red",
+      "description": "A red ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-blue",
+      "slug": "montblanc-blue",
+      "brand": "Montblanc",
+      "name": "Blue",
+      "description": "A blue ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-blue",
+      "slug": "pilot-iroshizuku-blue",
+      "brand": "Pilot",
+      "name": "Iroshizuku Blue",
+      "description": "A blue ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-purple",
+      "slug": "waterman-purple",
+      "brand": "Waterman",
+      "name": "Purple",
+      "description": "A purple ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-purple",
+      "slug": "diamine-purple",
+      "brand": "Diamine",
+      "name": "Purple",
+      "description": "A purple ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-teal",
+      "slug": "waterman-teal",
+      "brand": "Waterman",
+      "name": "Teal",
+      "description": "A teal ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-orange",
+      "slug": "montblanc-orange",
+      "brand": "Montblanc",
+      "name": "Orange",
+      "description": "A orange ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-orange",
+      "slug": "pilot-iroshizuku-orange",
+      "brand": "Pilot",
+      "name": "Iroshizuku Orange",
+      "description": "A orange ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-green",
+      "slug": "waterman-green",
+      "brand": "Waterman",
+      "name": "Green",
+      "description": "A green ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-black",
+      "slug": "waterman-black",
+      "brand": "Waterman",
+      "name": "Black",
+      "description": "A black ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-green",
+      "slug": "pilot-iroshizuku-green",
+      "brand": "Pilot",
+      "name": "Iroshizuku Green",
+      "description": "A green ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-orange",
+      "slug": "lamy-orange",
+      "brand": "Lamy",
+      "name": "Orange",
+      "description": "A orange ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-purple",
+      "slug": "pilot-iroshizuku-purple",
+      "brand": "Pilot",
+      "name": "Iroshizuku Purple",
+      "description": "A purple ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-green",
+      "slug": "diamine-green",
+      "brand": "Diamine",
+      "name": "Green",
+      "description": "A green ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-purple",
+      "slug": "montblanc-purple",
+      "brand": "Montblanc",
+      "name": "Purple",
+      "description": "A purple ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-brown",
+      "slug": "waterman-brown",
+      "brand": "Waterman",
+      "name": "Brown",
+      "description": "A brown ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-red",
+      "slug": "sailor-red",
+      "brand": "Sailor",
+      "name": "Red",
+      "description": "A red ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-black",
+      "slug": "diamine-black",
+      "brand": "Diamine",
+      "name": "Black",
+      "description": "A black ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-black",
+      "slug": "pilot-iroshizuku-black",
+      "brand": "Pilot",
+      "name": "Iroshizuku Black",
+      "description": "A black ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-brown",
+      "slug": "pelikan-brown",
+      "brand": "Pelikan",
+      "name": "Brown",
+      "description": "A brown ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-teal",
+      "slug": "diamine-teal",
+      "brand": "Diamine",
+      "name": "Teal",
+      "description": "A teal ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-purple",
+      "slug": "lamy-purple",
+      "brand": "Lamy",
+      "name": "Purple",
+      "description": "A purple ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-brown",
+      "slug": "diamine-brown",
+      "brand": "Diamine",
+      "name": "Brown",
+      "description": "A brown ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-green",
+      "slug": "pelikan-green",
+      "brand": "Pelikan",
+      "name": "Green",
+      "description": "A green ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-black",
+      "slug": "lamy-black",
+      "brand": "Lamy",
+      "name": "Black",
+      "description": "A black ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-purple",
+      "slug": "sailor-purple",
+      "brand": "Sailor",
+      "name": "Purple",
+      "description": "A purple ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-orange",
+      "slug": "pelikan-orange",
+      "brand": "Pelikan",
+      "name": "Orange",
+      "description": "A orange ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-teal",
+      "slug": "pelikan-teal",
+      "brand": "Pelikan",
+      "name": "Teal",
+      "description": "A teal ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-green",
+      "slug": "lamy-green",
+      "brand": "Lamy",
+      "name": "Green",
+      "description": "A green ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-teal",
+      "slug": "pilot-iroshizuku-teal",
+      "brand": "Pilot",
+      "name": "Iroshizuku Teal",
+      "description": "A teal ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-black",
+      "slug": "sailor-black",
+      "brand": "Sailor",
+      "name": "Black",
+      "description": "A black ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
     }
   ]
 }

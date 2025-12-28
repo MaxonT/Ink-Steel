@@ -1,0 +1,400 @@
+{
+  "timestamp": "2025-12-28T10:01:04.042Z",
+  "pens": {
+    "total": 111,
+    "withBrand": 111,
+    "withModel": 111,
+    "withPrice": 14,
+    "withImages": 111,
+    "withDescription": 111,
+    "withSpecs": 111,
+    "issues": []
+  },
+  "inks": {
+    "total": 65,
+    "withBrand": 65,
+    "withPrice": 11,
+    "withColor": 65,
+    "withDescription": 65,
+    "issues": [
+      {
+        "id": "lamy-blue",
+        "name": "Blue",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "sailor-green",
+        "name": "Green",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "waterman-orange",
+        "name": "Orange",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "sailor-teal",
+        "name": "Teal",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "waterman-red",
+        "name": "Red",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "waterman-blue",
+        "name": "Blue",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pelikan-purple",
+        "name": "Purple",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "sailor-orange",
+        "name": "Orange",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "diamine-orange",
+        "name": "Orange",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "lamy-red",
+        "name": "Red",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "sailor-brown",
+        "name": "Brown",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pilot-iroshizuku-red",
+        "name": "Iroshizuku Red",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "montblanc-red",
+        "name": "Red",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "montblanc-brown",
+        "name": "Brown",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "montblanc-teal",
+        "name": "Teal",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "montblanc-black",
+        "name": "Black",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pelikan-black",
+        "name": "Black",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "diamine-blue",
+        "name": "Blue",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "lamy-teal",
+        "name": "Teal",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pelikan-red",
+        "name": "Red",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pelikan-blue",
+        "name": "Blue",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "lamy-brown",
+        "name": "Brown",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pilot-iroshizuku-brown",
+        "name": "Iroshizuku Brown",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "diamine-red",
+        "name": "Red",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "montblanc-blue",
+        "name": "Blue",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pilot-iroshizuku-blue",
+        "name": "Iroshizuku Blue",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "waterman-purple",
+        "name": "Purple",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "diamine-purple",
+        "name": "Purple",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "waterman-teal",
+        "name": "Teal",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "montblanc-orange",
+        "name": "Orange",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pilot-iroshizuku-orange",
+        "name": "Iroshizuku Orange",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "waterman-green",
+        "name": "Green",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "waterman-black",
+        "name": "Black",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pilot-iroshizuku-green",
+        "name": "Iroshizuku Green",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "lamy-orange",
+        "name": "Orange",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pilot-iroshizuku-purple",
+        "name": "Iroshizuku Purple",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "diamine-green",
+        "name": "Green",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "montblanc-purple",
+        "name": "Purple",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "waterman-brown",
+        "name": "Brown",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "sailor-red",
+        "name": "Red",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "diamine-black",
+        "name": "Black",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pilot-iroshizuku-black",
+        "name": "Iroshizuku Black",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pelikan-brown",
+        "name": "Brown",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "diamine-teal",
+        "name": "Teal",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "lamy-purple",
+        "name": "Purple",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "diamine-brown",
+        "name": "Brown",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pelikan-green",
+        "name": "Green",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "lamy-black",
+        "name": "Black",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "sailor-purple",
+        "name": "Purple",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pelikan-orange",
+        "name": "Orange",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pelikan-teal",
+        "name": "Teal",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "lamy-green",
+        "name": "Green",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "pilot-iroshizuku-teal",
+        "name": "Iroshizuku Teal",
+        "issues": [
+          "Missing purchase links"
+        ]
+      },
+      {
+        "id": "sailor-black",
+        "name": "Black",
+        "issues": [
+          "Missing purchase links"
+        ]
+      }
+    ]
+  }
+}

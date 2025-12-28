@@ -1,0 +1,1175 @@
+{
+  "pens": [
+    {
+      "id": "montblanc-149-montblanc-149",
+      "slug": "montblanc-149-montblanc-149",
+      "brand": "Montblanc",
+      "model": "149",
+      "name": "Montblanc 149",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "description": "A classic Montblanc 149 fountain pen",
+      "details": "The Montblanc 149 represents Montblanc's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 140,
+        "lengthCapped": 154,
+        "lengthUncapped": 121,
+        "weight": 17,
+        "diameter": 11,
+        "material": "Resin",
+        "fillingSystem": "Converter",
+        "capacity": "0.70",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Montblanc%20149",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/montblanc-149-montblanc-149",
+          "price": 235,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1994,
+      "tags": [
+        "montblanc",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "platinum-sport-platinum-sport",
+      "slug": "platinum-sport-platinum-sport",
+      "brand": "Platinum",
+      "model": "Sport",
+      "name": "Platinum Sport",
+      "type": "Fountain Pen",
+      "country": "France",
+      "description": "A classic Platinum Sport fountain pen",
+      "details": "The Platinum Sport represents Platinum's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 136,
+        "lengthCapped": 131,
+        "lengthUncapped": 138,
+        "weight": 27,
+        "diameter": 11,
+        "material": "Metal",
+        "fillingSystem": "Cartridge",
+        "capacity": "1.00",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Platinum%20Sport",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/platinum-sport-platinum-sport",
+          "price": 132,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2017,
+      "tags": [
+        "platinum",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-expert-lamy-expert",
+      "slug": "lamy-expert-lamy-expert",
+      "brand": "Lamy",
+      "model": "Expert",
+      "name": "Lamy Expert",
+      "type": "Fountain Pen",
+      "country": "Taiwan",
+      "description": "A classic Lamy Expert fountain pen",
+      "details": "The Lamy Expert represents Lamy's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 152,
+        "lengthCapped": 130,
+        "lengthUncapped": 123,
+        "weight": 37,
+        "diameter": 12,
+        "material": "Resin",
+        "fillingSystem": "Vacuum",
+        "capacity": "1.02",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Lamy%20Expert",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/lamy-expert-lamy-expert",
+          "price": 108,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2017,
+      "tags": [
+        "lamy",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-sonnet-sailor-sonnet",
+      "slug": "sailor-sonnet-sailor-sonnet",
+      "brand": "Sailor",
+      "model": "Sonnet",
+      "name": "Sailor Sonnet",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "description": "A classic Sailor Sonnet fountain pen",
+      "details": "The Sailor Sonnet represents Sailor's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 139,
+        "lengthCapped": 137,
+        "lengthUncapped": 115,
+        "weight": 15,
+        "diameter": 10,
+        "material": "Metal",
+        "fillingSystem": "Converter",
+        "capacity": "1.28",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Sailor%20Sonnet",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/sailor-sonnet-sailor-sonnet",
+          "price": 422,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2003,
+      "tags": [
+        "sailor",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-sport-pelikan-sport",
+      "slug": "pelikan-sport-pelikan-sport",
+      "brand": "Pelikan",
+      "model": "Sport",
+      "name": "Pelikan Sport",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "description": "A classic Pelikan Sport fountain pen",
+      "details": "The Pelikan Sport represents Pelikan's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 139,
+        "lengthCapped": 137,
+        "lengthUncapped": 135,
+        "weight": 31,
+        "diameter": 12,
+        "material": "Resin",
+        "fillingSystem": "Vacuum",
+        "capacity": "1.95",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pelikan%20Sport",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/pelikan-sport-pelikan-sport",
+          "price": 345,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2001,
+      "tags": [
+        "pelikan",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "twsbi-149-twsbi-149",
+      "slug": "twsbi-149-twsbi-149",
+      "brand": "TWSBI",
+      "model": "149",
+      "name": "TWSBI 149",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "description": "A classic TWSBI 149 fountain pen",
+      "details": "The TWSBI 149 represents TWSBI's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 146,
+        "lengthCapped": 139,
+        "lengthUncapped": 127,
+        "weight": 28,
+        "diameter": 10,
+        "material": "Metal",
+        "fillingSystem": "Converter",
+        "capacity": "1.00",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=TWSBI%20149",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/twsbi-149-twsbi-149",
+          "price": 122,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1993,
+      "tags": [
+        "twsbi",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "parker-2000-parker-2000",
+      "slug": "parker-2000-parker-2000",
+      "brand": "Parker",
+      "model": "2000",
+      "name": "Parker 2000",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "description": "A classic Parker 2000 fountain pen",
+      "details": "The Parker 2000 represents Parker's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 151,
+        "lengthCapped": 144,
+        "lengthUncapped": 134,
+        "weight": 34,
+        "diameter": 14,
+        "material": "Resin",
+        "fillingSystem": "Cartridge",
+        "capacity": "1.32",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Parker%202000",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/parker-2000-parker-2000",
+          "price": 456,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2012,
+      "tags": [
+        "parker",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-1911-pilot-1911",
+      "slug": "pilot-1911-pilot-1911",
+      "brand": "Pilot",
+      "model": "1911",
+      "name": "Pilot 1911",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "description": "A classic Pilot 1911 fountain pen",
+      "details": "The Pilot 1911 represents Pilot's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 144,
+        "lengthCapped": 156,
+        "lengthUncapped": 123,
+        "weight": 19,
+        "diameter": 12,
+        "material": "Resin",
+        "fillingSystem": "Vacuum",
+        "capacity": "1.61",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pilot%201911",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/pilot-1911-pilot-1911",
+          "price": 422,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2013,
+      "tags": [
+        "pilot",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-1911-pilot-1911",
+      "slug": "pilot-1911-pilot-1911",
+      "brand": "Pilot",
+      "model": "1911",
+      "name": "Pilot 1911",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "description": "A classic Pilot 1911 fountain pen",
+      "details": "The Pilot 1911 represents Pilot's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 149,
+        "lengthCapped": 136,
+        "lengthUncapped": 132,
+        "weight": 38,
+        "diameter": 12,
+        "material": "Metal",
+        "fillingSystem": "Converter",
+        "capacity": "1.79",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pilot%201911",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/pilot-1911-pilot-1911",
+          "price": 263,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2015,
+      "tags": [
+        "pilot",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-custom-montblanc-custom",
+      "slug": "montblanc-custom-montblanc-custom",
+      "brand": "Montblanc",
+      "model": "Custom",
+      "name": "Montblanc Custom",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "description": "A classic Montblanc Custom fountain pen",
+      "details": "The Montblanc Custom represents Montblanc's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 146,
+        "lengthCapped": 145,
+        "lengthUncapped": 127,
+        "weight": 28,
+        "diameter": 14,
+        "material": "Resin",
+        "fillingSystem": "Piston",
+        "capacity": "0.63",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Montblanc%20Custom",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/montblanc-custom-montblanc-custom",
+          "price": 275,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2008,
+      "tags": [
+        "montblanc",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "platinum-sport-platinum-sport",
+      "slug": "platinum-sport-platinum-sport",
+      "brand": "Platinum",
+      "model": "Sport",
+      "name": "Platinum Sport",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "description": "A classic Platinum Sport fountain pen",
+      "details": "The Platinum Sport represents Platinum's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 130,
+        "lengthCapped": 137,
+        "lengthUncapped": 118,
+        "weight": 38,
+        "diameter": 11,
+        "material": "Metal",
+        "fillingSystem": "Converter",
+        "capacity": "0.63",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Platinum%20Sport",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/platinum-sport-platinum-sport",
+          "price": 389,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2012,
+      "tags": [
+        "platinum",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-2000-lamy-2000",
+      "slug": "lamy-2000-lamy-2000",
+      "brand": "Lamy",
+      "model": "2000",
+      "name": "Lamy 2000",
+      "type": "Fountain Pen",
+      "country": "France",
+      "description": "A classic Lamy 2000 fountain pen",
+      "details": "The Lamy 2000 represents Lamy's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 153,
+        "lengthCapped": 157,
+        "lengthUncapped": 139,
+        "weight": 17,
+        "diameter": 11,
+        "material": "Metal",
+        "fillingSystem": "Piston",
+        "capacity": "1.63",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Lamy%202000",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/lamy-2000-lamy-2000",
+          "price": 258,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1991,
+      "tags": [
+        "lamy",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "parker-custom-parker-custom",
+      "slug": "parker-custom-parker-custom",
+      "brand": "Parker",
+      "model": "Custom",
+      "name": "Parker Custom",
+      "type": "Fountain Pen",
+      "country": "Taiwan",
+      "description": "A classic Parker Custom fountain pen",
+      "details": "The Parker Custom represents Parker's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 140,
+        "lengthCapped": 138,
+        "lengthUncapped": 124,
+        "weight": 31,
+        "diameter": 12,
+        "material": "Resin",
+        "fillingSystem": "Converter",
+        "capacity": "1.00",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Parker%20Custom",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/parker-custom-parker-custom",
+          "price": 74,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1991,
+      "tags": [
+        "parker",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "parker-m800-parker-m800",
+      "slug": "parker-m800-parker-m800",
+      "brand": "Parker",
+      "model": "M800",
+      "name": "Parker M800",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "description": "A classic Parker M800 fountain pen",
+      "details": "The Parker M800 represents Parker's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 145,
+        "lengthCapped": 156,
+        "lengthUncapped": 139,
+        "weight": 36,
+        "diameter": 10,
+        "material": "Resin",
+        "fillingSystem": "Cartridge",
+        "capacity": "0.62",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Parker%20M800",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/parker-m800-parker-m800",
+          "price": 147,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1995,
+      "tags": [
+        "parker",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "kaweco-diamond-580-kaweco-diamond-580",
+      "slug": "kaweco-diamond-580-kaweco-diamond-580",
+      "brand": "Kaweco",
+      "model": "Diamond 580",
+      "name": "Kaweco Diamond 580",
+      "type": "Fountain Pen",
+      "country": "France",
+      "description": "A classic Kaweco Diamond 580 fountain pen",
+      "details": "The Kaweco Diamond 580 represents Kaweco's commitment to quality and craftsmanship.",
+      "specifications": {
+        "length": 145,
+        "lengthCapped": 140,
+        "lengthUncapped": 132,
+        "weight": 19,
+        "diameter": 12,
+        "material": "Metal",
+        "fillingSystem": "Cartridge",
+        "capacity": "1.07",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Kaweco%20Diamond%20580",
+        "gallery": []
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/products/kaweco-diamond-580-kaweco-diamond-580",
+          "price": 255,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1993,
+      "tags": [
+        "kaweco",
+        "sample"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    }
+  ],
+  "inks": [
+    {
+      "id": "sailor-green",
+      "slug": "sailor-green",
+      "brand": "Sailor",
+      "name": "Green",
+      "series": "Standard",
+      "description": "A green ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": 30,
+      "properties": {
+        "sheen": true,
+        "shimmer": false,
+        "shading": "high",
+        "flow": "wet",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/inks/sailor-green",
+          "price": 20,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "tags": [
+        "sailor",
+        "green"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-orange",
+      "slug": "waterman-orange",
+      "brand": "Waterman",
+      "name": "Orange",
+      "series": "Standard",
+      "description": "A orange ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": 80,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "wet",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/inks/waterman-orange",
+          "price": 23,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "tags": [
+        "waterman",
+        "orange"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-teal",
+      "slug": "sailor-teal",
+      "brand": "Sailor",
+      "name": "Teal",
+      "series": "Standard",
+      "description": "A teal ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": 30,
+      "properties": {
+        "sheen": true,
+        "shimmer": false,
+        "shading": "high",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/inks/sailor-teal",
+          "price": 27,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "tags": [
+        "sailor",
+        "teal"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-red",
+      "slug": "waterman-red",
+      "brand": "Waterman",
+      "name": "Red",
+      "series": "Standard",
+      "description": "A red ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": 50,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "medium",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/inks/waterman-red",
+          "price": 28,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "tags": [
+        "waterman",
+        "red"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-blue",
+      "slug": "waterman-blue",
+      "brand": "Waterman",
+      "name": "Blue",
+      "series": "Standard",
+      "description": "A blue ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": 60,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "high",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/inks/waterman-blue",
+          "price": 11,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "tags": [
+        "waterman",
+        "blue"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-purple",
+      "slug": "pelikan-purple",
+      "brand": "Pelikan",
+      "name": "Purple",
+      "series": "Standard",
+      "description": "A purple ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": 50,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "high",
+        "flow": "wet",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/inks/pelikan-purple",
+          "price": 23,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "tags": [
+        "pelikan",
+        "purple"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-orange",
+      "slug": "sailor-orange",
+      "brand": "Sailor",
+      "name": "Orange",
+      "series": "Standard",
+      "description": "A orange ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": 60,
+      "properties": {
+        "sheen": true,
+        "shimmer": false,
+        "shading": "medium",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/inks/sailor-orange",
+          "price": 17,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "tags": [
+        "sailor",
+        "orange"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-orange",
+      "slug": "sailor-orange",
+      "brand": "Sailor",
+      "name": "Orange",
+      "series": "Standard",
+      "description": "A orange ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": 30,
+      "properties": {
+        "sheen": true,
+        "shimmer": false,
+        "shading": "high",
+        "flow": "wet",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [
+        {
+          "name": "Sample Store",
+          "url": "https://example.com/inks/sailor-orange",
+          "price": 11,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2025-12-28"
+        }
+      ],
+      "tags": [
+        "sailor",
+        "orange"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "sample-generator"
+      ],
+      "verified": false
+    }
+  ],
+  "timestamp": "2025-12-28T09:42:15.047Z",
+  "source": "sample-generator"
+}

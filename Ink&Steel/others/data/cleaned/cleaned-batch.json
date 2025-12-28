@@ -1,0 +1,5469 @@
+{
+  "pens": [
+    {
+      "id": "sailor-sport-sailor-sport",
+      "slug": "sailor-sport-sailor-sport",
+      "brand": "Sailor",
+      "model": "Sport",
+      "name": "Sailor Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor Sport fountain pen",
+      "specifications": {
+        "length": 135,
+        "weight": 35,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-sonnet-waterman-sonnet",
+      "slug": "waterman-sonnet-waterman-sonnet",
+      "brand": "Waterman",
+      "model": "Sonnet",
+      "name": "Waterman Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman Sonnet fountain pen",
+      "specifications": {
+        "length": 156,
+        "weight": 32,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-m800-kaweco-m800",
+      "slug": "kaweco-m800-kaweco-m800",
+      "brand": "Kaweco",
+      "model": "M800",
+      "name": "Kaweco M800",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco M800 fountain pen",
+      "specifications": {
+        "length": 149,
+        "weight": 33,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-expert-lamy-expert",
+      "slug": "lamy-expert-lamy-expert",
+      "brand": "Lamy",
+      "model": "Expert",
+      "name": "Lamy Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy Expert fountain pen",
+      "specifications": {
+        "length": 153,
+        "weight": 17,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-3776-pelikan-3776",
+      "slug": "pelikan-3776-pelikan-3776",
+      "brand": "Pelikan",
+      "model": "3776",
+      "name": "Pelikan 3776",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan 3776 fountain pen",
+      "specifications": {
+        "length": 157,
+        "weight": 30,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-149-platinum-149",
+      "slug": "platinum-149-platinum-149",
+      "brand": "Platinum",
+      "model": "149",
+      "name": "Platinum 149",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum 149 fountain pen",
+      "specifications": {
+        "length": 132,
+        "weight": 35,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-expert-pelikan-expert",
+      "slug": "pelikan-expert-pelikan-expert",
+      "brand": "Pelikan",
+      "model": "Expert",
+      "name": "Pelikan Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan Expert fountain pen",
+      "specifications": {
+        "length": 146,
+        "weight": 33,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-custom-platinum-custom",
+      "slug": "platinum-custom-platinum-custom",
+      "brand": "Platinum",
+      "model": "Custom",
+      "name": "Platinum Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum Custom fountain pen",
+      "specifications": {
+        "length": 150,
+        "weight": 36,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-3776-lamy-3776",
+      "slug": "lamy-3776-lamy-3776",
+      "brand": "Lamy",
+      "model": "3776",
+      "name": "Lamy 3776",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy 3776 fountain pen",
+      "specifications": {
+        "length": 145,
+        "weight": 18,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "twsbi-expert-twsbi-expert",
+      "slug": "twsbi-expert-twsbi-expert",
+      "brand": "TWSBI",
+      "model": "Expert",
+      "name": "TWSBI Expert",
+      "type": "Fountain Pen",
+      "description": "A classic TWSBI Expert fountain pen",
+      "specifications": {
+        "length": 137,
+        "weight": 17,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "twsbi"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-sonnet-lamy-sonnet",
+      "slug": "lamy-sonnet-lamy-sonnet",
+      "brand": "Lamy",
+      "model": "Sonnet",
+      "name": "Lamy Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy Sonnet fountain pen",
+      "specifications": {
+        "length": 149,
+        "weight": 39,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-2000-kaweco-2000",
+      "slug": "kaweco-2000-kaweco-2000",
+      "brand": "Kaweco",
+      "model": "2000",
+      "name": "Kaweco 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco 2000 fountain pen",
+      "specifications": {
+        "length": 155,
+        "weight": 31,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-custom-waterman-custom",
+      "slug": "waterman-custom-waterman-custom",
+      "brand": "Waterman",
+      "model": "Custom",
+      "name": "Waterman Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman Custom fountain pen",
+      "specifications": {
+        "length": 147,
+        "weight": 39,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-m800-waterman-m800",
+      "slug": "waterman-m800-waterman-m800",
+      "brand": "Waterman",
+      "model": "M800",
+      "name": "Waterman M800",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman M800 fountain pen",
+      "specifications": {
+        "length": 153,
+        "weight": 21,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-3776-parker-3776",
+      "slug": "parker-3776-parker-3776",
+      "brand": "Parker",
+      "model": "3776",
+      "name": "Parker 3776",
+      "type": "Fountain Pen",
+      "description": "A classic Parker 3776 fountain pen",
+      "specifications": {
+        "length": 159,
+        "weight": 18,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-149-pelikan-149",
+      "slug": "pelikan-149-pelikan-149",
+      "brand": "Pelikan",
+      "model": "149",
+      "name": "Pelikan 149",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan 149 fountain pen",
+      "specifications": {
+        "length": 153,
+        "weight": 35,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-2000-waterman-2000",
+      "slug": "waterman-2000-waterman-2000",
+      "brand": "Waterman",
+      "model": "2000",
+      "name": "Waterman 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman 2000 fountain pen",
+      "specifications": {
+        "length": 145,
+        "weight": 30,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-1911-sailor-1911",
+      "slug": "sailor-1911-sailor-1911",
+      "brand": "Sailor",
+      "model": "1911",
+      "name": "Sailor 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor 1911 fountain pen",
+      "specifications": {
+        "length": 144,
+        "weight": 35,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-2000-parker-2000",
+      "slug": "parker-2000-parker-2000",
+      "brand": "Parker",
+      "model": "2000",
+      "name": "Parker 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Parker 2000 fountain pen",
+      "specifications": {
+        "length": 137,
+        "weight": 23,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-m800-sailor-m800",
+      "slug": "sailor-m800-sailor-m800",
+      "brand": "Sailor",
+      "model": "M800",
+      "name": "Sailor M800",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor M800 fountain pen",
+      "specifications": {
+        "length": 141,
+        "weight": 29,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-diamond-580-parker-diamond-580",
+      "slug": "parker-diamond-580-parker-diamond-580",
+      "brand": "Parker",
+      "model": "Diamond 580",
+      "name": "Parker Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Parker Diamond 580 fountain pen",
+      "specifications": {
+        "length": 131,
+        "weight": 17,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-m800-pelikan-m800",
+      "slug": "pelikan-m800-pelikan-m800",
+      "brand": "Pelikan",
+      "model": "M800",
+      "name": "Pelikan M800",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan M800 fountain pen",
+      "specifications": {
+        "length": 134,
+        "weight": 32,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-m800-lamy-m800",
+      "slug": "lamy-m800-lamy-m800",
+      "brand": "Lamy",
+      "model": "M800",
+      "name": "Lamy M800",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy M800 fountain pen",
+      "specifications": {
+        "length": 140,
+        "weight": 19,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-3776-waterman-3776",
+      "slug": "waterman-3776-waterman-3776",
+      "brand": "Waterman",
+      "model": "3776",
+      "name": "Waterman 3776",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman 3776 fountain pen",
+      "specifications": {
+        "length": 136,
+        "weight": 28,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-sport-kaweco-sport",
+      "slug": "kaweco-sport-kaweco-sport",
+      "brand": "Kaweco",
+      "model": "Sport",
+      "name": "Kaweco Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco Sport fountain pen",
+      "specifications": {
+        "length": 157,
+        "weight": 29,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "twsbi-m800-twsbi-m800",
+      "slug": "twsbi-m800-twsbi-m800",
+      "brand": "TWSBI",
+      "model": "M800",
+      "name": "TWSBI M800",
+      "type": "Fountain Pen",
+      "description": "A classic TWSBI M800 fountain pen",
+      "specifications": {
+        "length": 149,
+        "weight": 23,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "twsbi"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-1911-montblanc-1911",
+      "slug": "montblanc-1911-montblanc-1911",
+      "brand": "Montblanc",
+      "model": "1911",
+      "name": "Montblanc 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc 1911 fountain pen",
+      "specifications": {
+        "length": 134,
+        "weight": 32,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-diamond-580-sailor-diamond-580",
+      "slug": "sailor-diamond-580-sailor-diamond-580",
+      "brand": "Sailor",
+      "model": "Diamond 580",
+      "name": "Sailor Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor Diamond 580 fountain pen",
+      "specifications": {
+        "length": 158,
+        "weight": 24,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-m800-parker-m800",
+      "slug": "parker-m800-parker-m800",
+      "brand": "Parker",
+      "model": "M800",
+      "name": "Parker M800",
+      "type": "Fountain Pen",
+      "description": "A classic Parker M800 fountain pen",
+      "specifications": {
+        "length": 148,
+        "weight": 27,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "twsbi-diamond-580-twsbi-diamond-580",
+      "slug": "twsbi-diamond-580-twsbi-diamond-580",
+      "brand": "TWSBI",
+      "model": "Diamond 580",
+      "name": "TWSBI Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic TWSBI Diamond 580 fountain pen",
+      "specifications": {
+        "length": 151,
+        "weight": 27,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "twsbi"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-expert-kaweco-expert",
+      "slug": "kaweco-expert-kaweco-expert",
+      "brand": "Kaweco",
+      "model": "Expert",
+      "name": "Kaweco Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco Expert fountain pen",
+      "specifications": {
+        "length": 141,
+        "weight": 21,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-2000-platinum-2000",
+      "slug": "platinum-2000-platinum-2000",
+      "brand": "Platinum",
+      "model": "2000",
+      "name": "Platinum 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum 2000 fountain pen",
+      "specifications": {
+        "length": 137,
+        "weight": 29,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-expert-platinum-expert",
+      "slug": "platinum-expert-platinum-expert",
+      "brand": "Platinum",
+      "model": "Expert",
+      "name": "Platinum Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum Expert fountain pen",
+      "specifications": {
+        "length": 140,
+        "weight": 18,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-1911-platinum-1911",
+      "slug": "platinum-1911-platinum-1911",
+      "brand": "Platinum",
+      "model": "1911",
+      "name": "Platinum 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum 1911 fountain pen",
+      "specifications": {
+        "length": 130,
+        "weight": 32,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-sport-pilot-sport",
+      "slug": "pilot-sport-pilot-sport",
+      "brand": "Pilot",
+      "model": "Sport",
+      "name": "Pilot Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot Sport fountain pen",
+      "specifications": {
+        "length": 159,
+        "weight": 15,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-1911-pilot-1911",
+      "slug": "pilot-1911-pilot-1911",
+      "brand": "Pilot",
+      "model": "1911",
+      "name": "Pilot 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot 1911 fountain pen",
+      "specifications": {
+        "length": 157,
+        "weight": 16,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-diamond-580-pilot-diamond-580",
+      "slug": "pilot-diamond-580-pilot-diamond-580",
+      "brand": "Pilot",
+      "model": "Diamond 580",
+      "name": "Pilot Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot Diamond 580 fountain pen",
+      "specifications": {
+        "length": 150,
+        "weight": 34,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "twsbi-3776-twsbi-3776",
+      "slug": "twsbi-3776-twsbi-3776",
+      "brand": "TWSBI",
+      "model": "3776",
+      "name": "TWSBI 3776",
+      "type": "Fountain Pen",
+      "description": "A classic TWSBI 3776 fountain pen",
+      "specifications": {
+        "length": 141,
+        "weight": 39,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "twsbi"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-diamond-580-kaweco-diamond-580",
+      "slug": "kaweco-diamond-580-kaweco-diamond-580",
+      "brand": "Kaweco",
+      "model": "Diamond 580",
+      "name": "Kaweco Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco Diamond 580 fountain pen",
+      "specifications": {
+        "length": 148,
+        "weight": 38,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-sport-waterman-sport",
+      "slug": "waterman-sport-waterman-sport",
+      "brand": "Waterman",
+      "model": "Sport",
+      "name": "Waterman Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman Sport fountain pen",
+      "specifications": {
+        "length": 145,
+        "weight": 38,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-custom-pilot-custom",
+      "slug": "pilot-custom-pilot-custom",
+      "brand": "Pilot",
+      "model": "Custom",
+      "name": "Pilot Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot Custom fountain pen",
+      "specifications": {
+        "length": 142,
+        "weight": 15,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-2000-lamy-2000",
+      "slug": "lamy-2000-lamy-2000",
+      "brand": "Lamy",
+      "model": "2000",
+      "name": "Lamy 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy 2000 fountain pen",
+      "specifications": {
+        "length": 152,
+        "weight": 30,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "twsbi-sonnet-twsbi-sonnet",
+      "slug": "twsbi-sonnet-twsbi-sonnet",
+      "brand": "TWSBI",
+      "model": "Sonnet",
+      "name": "TWSBI Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic TWSBI Sonnet fountain pen",
+      "specifications": {
+        "length": 136,
+        "weight": 17,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "twsbi"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-149-waterman-149",
+      "slug": "waterman-149-waterman-149",
+      "brand": "Waterman",
+      "model": "149",
+      "name": "Waterman 149",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman 149 fountain pen",
+      "specifications": {
+        "length": 140,
+        "weight": 28,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-sport-platinum-sport",
+      "slug": "platinum-sport-platinum-sport",
+      "brand": "Platinum",
+      "model": "Sport",
+      "name": "Platinum Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum Sport fountain pen",
+      "specifications": {
+        "length": 134,
+        "weight": 33,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-149-pilot-149",
+      "slug": "pilot-149-pilot-149",
+      "brand": "Pilot",
+      "model": "149",
+      "name": "Pilot 149",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot 149 fountain pen",
+      "specifications": {
+        "length": 153,
+        "weight": 28,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-sonnet-platinum-sonnet",
+      "slug": "platinum-sonnet-platinum-sonnet",
+      "brand": "Platinum",
+      "model": "Sonnet",
+      "name": "Platinum Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum Sonnet fountain pen",
+      "specifications": {
+        "length": 132,
+        "weight": 39,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-sonnet-sailor-sonnet",
+      "slug": "sailor-sonnet-sailor-sonnet",
+      "brand": "Sailor",
+      "model": "Sonnet",
+      "name": "Sailor Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor Sonnet fountain pen",
+      "specifications": {
+        "length": 147,
+        "weight": 27,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-2000-sailor-2000",
+      "slug": "sailor-2000-sailor-2000",
+      "brand": "Sailor",
+      "model": "2000",
+      "name": "Sailor 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor 2000 fountain pen",
+      "specifications": {
+        "length": 131,
+        "weight": 15,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-149-parker-149",
+      "slug": "parker-149-parker-149",
+      "brand": "Parker",
+      "model": "149",
+      "name": "Parker 149",
+      "type": "Fountain Pen",
+      "description": "A classic Parker 149 fountain pen",
+      "specifications": {
+        "length": 152,
+        "weight": 39,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-sport-lamy-sport",
+      "slug": "lamy-sport-lamy-sport",
+      "brand": "Lamy",
+      "model": "Sport",
+      "name": "Lamy Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy Sport fountain pen",
+      "specifications": {
+        "length": 158,
+        "weight": 22,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-diamond-580-montblanc-diamond-580",
+      "slug": "montblanc-diamond-580-montblanc-diamond-580",
+      "brand": "Montblanc",
+      "model": "Diamond 580",
+      "name": "Montblanc Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc Diamond 580 fountain pen",
+      "specifications": {
+        "length": 159,
+        "weight": 20,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "twsbi-149-twsbi-149",
+      "slug": "twsbi-149-twsbi-149",
+      "brand": "TWSBI",
+      "model": "149",
+      "name": "TWSBI 149",
+      "type": "Fountain Pen",
+      "description": "A classic TWSBI 149 fountain pen",
+      "specifications": {
+        "length": 143,
+        "weight": 24,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "twsbi"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-3776-kaweco-3776",
+      "slug": "kaweco-3776-kaweco-3776",
+      "brand": "Kaweco",
+      "model": "3776",
+      "name": "Kaweco 3776",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco 3776 fountain pen",
+      "specifications": {
+        "length": 157,
+        "weight": 25,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-1911-lamy-1911",
+      "slug": "lamy-1911-lamy-1911",
+      "brand": "Lamy",
+      "model": "1911",
+      "name": "Lamy 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy 1911 fountain pen",
+      "specifications": {
+        "length": 144,
+        "weight": 26,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-sonnet-parker-sonnet",
+      "slug": "parker-sonnet-parker-sonnet",
+      "brand": "Parker",
+      "model": "Sonnet",
+      "name": "Parker Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Parker Sonnet fountain pen",
+      "specifications": {
+        "length": 152,
+        "weight": 17,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-149-kaweco-149",
+      "slug": "kaweco-149-kaweco-149",
+      "brand": "Kaweco",
+      "model": "149",
+      "name": "Kaweco 149",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco 149 fountain pen",
+      "specifications": {
+        "length": 155,
+        "weight": 25,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-2000-montblanc-2000",
+      "slug": "montblanc-2000-montblanc-2000",
+      "brand": "Montblanc",
+      "model": "2000",
+      "name": "Montblanc 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc 2000 fountain pen",
+      "specifications": {
+        "length": 154,
+        "weight": 19,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-m800-montblanc-m800",
+      "slug": "montblanc-m800-montblanc-m800",
+      "brand": "Montblanc",
+      "model": "M800",
+      "name": "Montblanc M800",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc M800 fountain pen",
+      "specifications": {
+        "length": 153,
+        "weight": 22,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-sonnet-montblanc-sonnet",
+      "slug": "montblanc-sonnet-montblanc-sonnet",
+      "brand": "Montblanc",
+      "model": "Sonnet",
+      "name": "Montblanc Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc Sonnet fountain pen",
+      "specifications": {
+        "length": 138,
+        "weight": 17,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-custom-kaweco-custom",
+      "slug": "kaweco-custom-kaweco-custom",
+      "brand": "Kaweco",
+      "model": "Custom",
+      "name": "Kaweco Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco Custom fountain pen",
+      "specifications": {
+        "length": 131,
+        "weight": 24,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-custom-pelikan-custom",
+      "slug": "pelikan-custom-pelikan-custom",
+      "brand": "Pelikan",
+      "model": "Custom",
+      "name": "Pelikan Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan Custom fountain pen",
+      "specifications": {
+        "length": 140,
+        "weight": 26,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-1911-parker-1911",
+      "slug": "parker-1911-parker-1911",
+      "brand": "Parker",
+      "model": "1911",
+      "name": "Parker 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Parker 1911 fountain pen",
+      "specifications": {
+        "length": 141,
+        "weight": 36,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-custom-sailor-custom",
+      "slug": "sailor-custom-sailor-custom",
+      "brand": "Sailor",
+      "model": "Custom",
+      "name": "Sailor Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor Custom fountain pen",
+      "specifications": {
+        "length": 132,
+        "weight": 34,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-3776-pilot-3776",
+      "slug": "pilot-3776-pilot-3776",
+      "brand": "Pilot",
+      "model": "3776",
+      "name": "Pilot 3776",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot 3776 fountain pen",
+      "specifications": {
+        "length": 157,
+        "weight": 15,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "twsbi-1911-twsbi-1911",
+      "slug": "twsbi-1911-twsbi-1911",
+      "brand": "TWSBI",
+      "model": "1911",
+      "name": "TWSBI 1911",
+      "type": "Fountain Pen",
+      "description": "A classic TWSBI 1911 fountain pen",
+      "specifications": {
+        "length": 153,
+        "weight": 37,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "twsbi"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-diamond-580-waterman-diamond-580",
+      "slug": "waterman-diamond-580-waterman-diamond-580",
+      "brand": "Waterman",
+      "model": "Diamond 580",
+      "name": "Waterman Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman Diamond 580 fountain pen",
+      "specifications": {
+        "length": 144,
+        "weight": 30,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "twsbi-sport-twsbi-sport",
+      "slug": "twsbi-sport-twsbi-sport",
+      "brand": "TWSBI",
+      "model": "Sport",
+      "name": "TWSBI Sport",
+      "type": "Fountain Pen",
+      "description": "A classic TWSBI Sport fountain pen",
+      "specifications": {
+        "length": 139,
+        "weight": 33,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "twsbi"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-expert-sailor-expert",
+      "slug": "sailor-expert-sailor-expert",
+      "brand": "Sailor",
+      "model": "Expert",
+      "name": "Sailor Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor Expert fountain pen",
+      "specifications": {
+        "length": 136,
+        "weight": 16,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-sonnet-kaweco-sonnet",
+      "slug": "kaweco-sonnet-kaweco-sonnet",
+      "brand": "Kaweco",
+      "model": "Sonnet",
+      "name": "Kaweco Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco Sonnet fountain pen",
+      "specifications": {
+        "length": 150,
+        "weight": 24,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-expert-parker-expert",
+      "slug": "parker-expert-parker-expert",
+      "brand": "Parker",
+      "model": "Expert",
+      "name": "Parker Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Parker Expert fountain pen",
+      "specifications": {
+        "length": 134,
+        "weight": 21,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-m800-pilot-m800",
+      "slug": "pilot-m800-pilot-m800",
+      "brand": "Pilot",
+      "model": "M800",
+      "name": "Pilot M800",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot M800 fountain pen",
+      "specifications": {
+        "length": 131,
+        "weight": 36,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-sport-parker-sport",
+      "slug": "parker-sport-parker-sport",
+      "brand": "Parker",
+      "model": "Sport",
+      "name": "Parker Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Parker Sport fountain pen",
+      "specifications": {
+        "length": 159,
+        "weight": 31,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-3776-sailor-3776",
+      "slug": "sailor-3776-sailor-3776",
+      "brand": "Sailor",
+      "model": "3776",
+      "name": "Sailor 3776",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor 3776 fountain pen",
+      "specifications": {
+        "length": 130,
+        "weight": 27,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-2000-pelikan-2000",
+      "slug": "pelikan-2000-pelikan-2000",
+      "brand": "Pelikan",
+      "model": "2000",
+      "name": "Pelikan 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan 2000 fountain pen",
+      "specifications": {
+        "length": 151,
+        "weight": 19,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-149-lamy-149",
+      "slug": "lamy-149-lamy-149",
+      "brand": "Lamy",
+      "model": "149",
+      "name": "Lamy 149",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy 149 fountain pen",
+      "specifications": {
+        "length": 142,
+        "weight": 33,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-149-sailor-149",
+      "slug": "sailor-149-sailor-149",
+      "brand": "Sailor",
+      "model": "149",
+      "name": "Sailor 149",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor 149 fountain pen",
+      "specifications": {
+        "length": 150,
+        "weight": 27,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-expert-waterman-expert",
+      "slug": "waterman-expert-waterman-expert",
+      "brand": "Waterman",
+      "model": "Expert",
+      "name": "Waterman Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman Expert fountain pen",
+      "specifications": {
+        "length": 156,
+        "weight": 25,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-custom-montblanc-custom",
+      "slug": "montblanc-custom-montblanc-custom",
+      "brand": "Montblanc",
+      "model": "Custom",
+      "name": "Montblanc Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc Custom fountain pen",
+      "specifications": {
+        "length": 156,
+        "weight": 39,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-diamond-580-platinum-diamond-580",
+      "slug": "platinum-diamond-580-platinum-diamond-580",
+      "brand": "Platinum",
+      "model": "Diamond 580",
+      "name": "Platinum Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum Diamond 580 fountain pen",
+      "specifications": {
+        "length": 135,
+        "weight": 35,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-3776-montblanc-3776",
+      "slug": "montblanc-3776-montblanc-3776",
+      "brand": "Montblanc",
+      "model": "3776",
+      "name": "Montblanc 3776",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc 3776 fountain pen",
+      "specifications": {
+        "length": 133,
+        "weight": 25,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-diamond-580-pelikan-diamond-580",
+      "slug": "pelikan-diamond-580-pelikan-diamond-580",
+      "brand": "Pelikan",
+      "model": "Diamond 580",
+      "name": "Pelikan Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan Diamond 580 fountain pen",
+      "specifications": {
+        "length": 143,
+        "weight": 20,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-3776-platinum-3776",
+      "slug": "platinum-3776-platinum-3776",
+      "brand": "Platinum",
+      "model": "3776",
+      "name": "Platinum 3776",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum 3776 fountain pen",
+      "specifications": {
+        "length": 132,
+        "weight": 37,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-sonnet-pilot-sonnet",
+      "slug": "pilot-sonnet-pilot-sonnet",
+      "brand": "Pilot",
+      "model": "Sonnet",
+      "name": "Pilot Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot Sonnet fountain pen",
+      "specifications": {
+        "length": 144,
+        "weight": 18,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-sonnet-pelikan-sonnet",
+      "slug": "pelikan-sonnet-pelikan-sonnet",
+      "brand": "Pelikan",
+      "model": "Sonnet",
+      "name": "Pelikan Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan Sonnet fountain pen",
+      "specifications": {
+        "length": 156,
+        "weight": 34,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-sport-montblanc-sport",
+      "slug": "montblanc-sport-montblanc-sport",
+      "brand": "Montblanc",
+      "model": "Sport",
+      "name": "Montblanc Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc Sport fountain pen",
+      "specifications": {
+        "length": 145,
+        "weight": 22,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-sport-pelikan-sport",
+      "slug": "pelikan-sport-pelikan-sport",
+      "brand": "Pelikan",
+      "model": "Sport",
+      "name": "Pelikan Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan Sport fountain pen",
+      "specifications": {
+        "length": 131,
+        "weight": 23,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-custom-parker-custom",
+      "slug": "parker-custom-parker-custom",
+      "brand": "Parker",
+      "model": "Custom",
+      "name": "Parker Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Parker Custom fountain pen",
+      "specifications": {
+        "length": 148,
+        "weight": 28,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-custom-lamy-custom",
+      "slug": "lamy-custom-lamy-custom",
+      "brand": "Lamy",
+      "model": "Custom",
+      "name": "Lamy Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy Custom fountain pen",
+      "specifications": {
+        "length": 145,
+        "weight": 23,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-1911-kaweco-1911",
+      "slug": "kaweco-1911-kaweco-1911",
+      "brand": "Kaweco",
+      "model": "1911",
+      "name": "Kaweco 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco 1911 fountain pen",
+      "specifications": {
+        "length": 154,
+        "weight": 20,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "waterman-1911-waterman-1911",
+      "slug": "waterman-1911-waterman-1911",
+      "brand": "Waterman",
+      "model": "1911",
+      "name": "Waterman 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Waterman 1911 fountain pen",
+      "specifications": {
+        "length": 131,
+        "weight": 21,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-expert-pilot-expert",
+      "slug": "pilot-expert-pilot-expert",
+      "brand": "Pilot",
+      "model": "Expert",
+      "name": "Pilot Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot Expert fountain pen",
+      "specifications": {
+        "length": 136,
+        "weight": 26,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-diamond-580-lamy-diamond-580",
+      "slug": "lamy-diamond-580-lamy-diamond-580",
+      "brand": "Lamy",
+      "model": "Diamond 580",
+      "name": "Lamy Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy Diamond 580 fountain pen",
+      "specifications": {
+        "length": 145,
+        "weight": 29,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-149-montblanc-149",
+      "slug": "montblanc-149-montblanc-149",
+      "brand": "Montblanc",
+      "model": "149",
+      "name": "Montblanc 149",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc 149 fountain pen",
+      "specifications": {
+        "length": 130,
+        "weight": 23,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-1911-pelikan-1911",
+      "slug": "pelikan-1911-pelikan-1911",
+      "brand": "Pelikan",
+      "model": "1911",
+      "name": "Pelikan 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan 1911 fountain pen",
+      "specifications": {
+        "length": 144,
+        "weight": 27,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-expert-montblanc-expert",
+      "slug": "montblanc-expert-montblanc-expert",
+      "brand": "Montblanc",
+      "model": "Expert",
+      "name": "Montblanc Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc Expert fountain pen",
+      "specifications": {
+        "length": 148,
+        "weight": 22,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-2000-pilot-2000",
+      "slug": "pilot-2000-pilot-2000",
+      "brand": "Pilot",
+      "model": "2000",
+      "name": "Pilot 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot 2000 fountain pen",
+      "specifications": {
+        "length": 153,
+        "weight": 17,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    }
+  ],
+  "inks": [
+    {
+      "id": "diamine-orange",
+      "slug": "diamine-orange",
+      "brand": "Diamine",
+      "name": "Orange",
+      "description": "A orange ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-red",
+      "slug": "lamy-red",
+      "brand": "Lamy",
+      "name": "Red",
+      "description": "A red ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-brown",
+      "slug": "sailor-brown",
+      "brand": "Sailor",
+      "name": "Brown",
+      "description": "A brown ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-red",
+      "slug": "pilot-iroshizuku-red",
+      "brand": "Pilot",
+      "name": "Iroshizuku Red",
+      "description": "A red ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-red",
+      "slug": "montblanc-red",
+      "brand": "Montblanc",
+      "name": "Red",
+      "description": "A red ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-brown",
+      "slug": "montblanc-brown",
+      "brand": "Montblanc",
+      "name": "Brown",
+      "description": "A brown ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-teal",
+      "slug": "montblanc-teal",
+      "brand": "Montblanc",
+      "name": "Teal",
+      "description": "A teal ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-black",
+      "slug": "montblanc-black",
+      "brand": "Montblanc",
+      "name": "Black",
+      "description": "A black ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-blue",
+      "slug": "lamy-blue",
+      "brand": "Lamy",
+      "name": "Blue",
+      "description": "A blue ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-teal",
+      "slug": "sailor-teal",
+      "brand": "Sailor",
+      "name": "Teal",
+      "description": "A teal ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-black",
+      "slug": "pelikan-black",
+      "brand": "Pelikan",
+      "name": "Black",
+      "description": "A black ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-blue",
+      "slug": "diamine-blue",
+      "brand": "Diamine",
+      "name": "Blue",
+      "description": "A blue ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-teal",
+      "slug": "lamy-teal",
+      "brand": "Lamy",
+      "name": "Teal",
+      "description": "A teal ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-red",
+      "slug": "pelikan-red",
+      "brand": "Pelikan",
+      "name": "Red",
+      "description": "A red ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-blue",
+      "slug": "pelikan-blue",
+      "brand": "Pelikan",
+      "name": "Blue",
+      "description": "A blue ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-brown",
+      "slug": "lamy-brown",
+      "brand": "Lamy",
+      "name": "Brown",
+      "description": "A brown ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-brown",
+      "slug": "pilot-iroshizuku-brown",
+      "brand": "Pilot",
+      "name": "Iroshizuku Brown",
+      "description": "A brown ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-red",
+      "slug": "diamine-red",
+      "brand": "Diamine",
+      "name": "Red",
+      "description": "A red ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-blue",
+      "slug": "montblanc-blue",
+      "brand": "Montblanc",
+      "name": "Blue",
+      "description": "A blue ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-blue",
+      "slug": "pilot-iroshizuku-blue",
+      "brand": "Pilot",
+      "name": "Iroshizuku Blue",
+      "description": "A blue ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-purple",
+      "slug": "waterman-purple",
+      "brand": "Waterman",
+      "name": "Purple",
+      "description": "A purple ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-purple",
+      "slug": "diamine-purple",
+      "brand": "Diamine",
+      "name": "Purple",
+      "description": "A purple ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-teal",
+      "slug": "waterman-teal",
+      "brand": "Waterman",
+      "name": "Teal",
+      "description": "A teal ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-orange",
+      "slug": "montblanc-orange",
+      "brand": "Montblanc",
+      "name": "Orange",
+      "description": "A orange ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-orange",
+      "slug": "pilot-iroshizuku-orange",
+      "brand": "Pilot",
+      "name": "Iroshizuku Orange",
+      "description": "A orange ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-green",
+      "slug": "waterman-green",
+      "brand": "Waterman",
+      "name": "Green",
+      "description": "A green ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-black",
+      "slug": "waterman-black",
+      "brand": "Waterman",
+      "name": "Black",
+      "description": "A black ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-green",
+      "slug": "pilot-iroshizuku-green",
+      "brand": "Pilot",
+      "name": "Iroshizuku Green",
+      "description": "A green ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-orange",
+      "slug": "lamy-orange",
+      "brand": "Lamy",
+      "name": "Orange",
+      "description": "A orange ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-purple",
+      "slug": "pilot-iroshizuku-purple",
+      "brand": "Pilot",
+      "name": "Iroshizuku Purple",
+      "description": "A purple ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-green",
+      "slug": "diamine-green",
+      "brand": "Diamine",
+      "name": "Green",
+      "description": "A green ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "montblanc-purple",
+      "slug": "montblanc-purple",
+      "brand": "Montblanc",
+      "name": "Purple",
+      "description": "A purple ink from Montblanc",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-brown",
+      "slug": "waterman-brown",
+      "brand": "Waterman",
+      "name": "Brown",
+      "description": "A brown ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-red",
+      "slug": "sailor-red",
+      "brand": "Sailor",
+      "name": "Red",
+      "description": "A red ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-black",
+      "slug": "diamine-black",
+      "brand": "Diamine",
+      "name": "Black",
+      "description": "A black ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-black",
+      "slug": "pilot-iroshizuku-black",
+      "brand": "Pilot",
+      "name": "Iroshizuku Black",
+      "description": "A black ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-brown",
+      "slug": "pelikan-brown",
+      "brand": "Pelikan",
+      "name": "Brown",
+      "description": "A brown ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-teal",
+      "slug": "diamine-teal",
+      "brand": "Diamine",
+      "name": "Teal",
+      "description": "A teal ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-orange",
+      "slug": "sailor-orange",
+      "brand": "Sailor",
+      "name": "Orange",
+      "description": "A orange ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-purple",
+      "slug": "lamy-purple",
+      "brand": "Lamy",
+      "name": "Purple",
+      "description": "A purple ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "diamine-brown",
+      "slug": "diamine-brown",
+      "brand": "Diamine",
+      "name": "Brown",
+      "description": "A brown ink from Diamine",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "diamine",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-green",
+      "slug": "pelikan-green",
+      "brand": "Pelikan",
+      "name": "Green",
+      "description": "A green ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-black",
+      "slug": "lamy-black",
+      "brand": "Lamy",
+      "name": "Black",
+      "description": "A black ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-blue",
+      "slug": "waterman-blue",
+      "brand": "Waterman",
+      "name": "Blue",
+      "description": "A blue ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-purple",
+      "slug": "sailor-purple",
+      "brand": "Sailor",
+      "name": "Purple",
+      "description": "A purple ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-orange",
+      "slug": "pelikan-orange",
+      "brand": "Pelikan",
+      "name": "Orange",
+      "description": "A orange ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-teal",
+      "slug": "pelikan-teal",
+      "brand": "Pelikan",
+      "name": "Teal",
+      "description": "A teal ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pelikan-purple",
+      "slug": "pelikan-purple",
+      "brand": "Pelikan",
+      "name": "Purple",
+      "description": "A purple ink from Pelikan",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lamy-green",
+      "slug": "lamy-green",
+      "brand": "Lamy",
+      "name": "Green",
+      "description": "A green ink from Lamy",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-red",
+      "slug": "waterman-red",
+      "brand": "Waterman",
+      "name": "Red",
+      "description": "A red ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "pilot-iroshizuku-teal",
+      "slug": "pilot-iroshizuku-teal",
+      "brand": "Pilot",
+      "name": "Iroshizuku Teal",
+      "description": "A teal ink from Pilot",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "waterman-orange",
+      "slug": "waterman-orange",
+      "brand": "Waterman",
+      "name": "Orange",
+      "description": "A orange ink from Waterman",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "waterman",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    },
+    {
+      "id": "sailor-black",
+      "slug": "sailor-black",
+      "brand": "Sailor",
+      "name": "Black",
+      "description": "A black ink from Sailor",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": null,
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "waterResistance": "low"
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor",
+        "colored"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false
+    }
+  ],
+  "timestamp": "2025-12-28T09:45:32.851Z",
+  "sourceFile": "/Users/yangming/Desktop/Github/Ink&Steel/Ink&Steel/others/data/cleaned/mapped-batch.json"
+}

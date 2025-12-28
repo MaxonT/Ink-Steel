@@ -1,0 +1,1919 @@
+{
+  "pens": [
+    {
+      "id": "pelikan-m800-black",
+      "slug": "pelikan-m800-black",
+      "brand": "Pelikan",
+      "model": "M800",
+      "series": "Souverän",
+      "name": "Pelikan M800 Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "manufacturer": "Pelikan",
+      "description": "Classic piston-filler with iconic striped barrel",
+      "details": "The M800 represents Pelikan's commitment to traditional German craftsmanship. With its distinctive striped barrel pattern and robust piston filling system, this pen has become an icon in the fountain pen world.",
+      "history": "Introduced in 1987, the M800 was designed to bridge the gap between the smaller M400 and larger M1000 models. It quickly gained popularity for its perfect balance and reliable performance.",
+      "specifications": {
+        "length": 140,
+        "lengthCapped": 140,
+        "lengthUncapped": 127,
+        "lengthPosted": 165,
+        "diameter": 13,
+        "diameterBody": 13,
+        "diameterGrip": 11,
+        "diameterCap": 15,
+        "weight": 28,
+        "weightBody": 18,
+        "weightCap": 10,
+        "material": [
+          "Resin",
+          "Brass"
+        ],
+        "finish": "Glossy",
+        "trim": "Gold-plated",
+        "clip": "Pelikan beak clip, gold-plated",
+        "fillingSystem": "Piston",
+        "capacity": 1.35,
+        "capType": "Screw-on",
+        "capRotation": 0.75,
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "EF",
+            "F",
+            "M",
+            "B",
+            "BB"
+          ],
+          "default": "M",
+          "engraving": "Pelikan logo and size marking",
+          "flexibility": "Semi-flex"
+        },
+        "section": "Resin with brass threads",
+        "threading": "Brass threads in section",
+        "balance": "Slightly rear-weighted when posted"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pelikan+M800",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Pelikan+M800+Side",
+          "https://via.placeholder.com/800x600?text=Pelikan+M800+Nib",
+          "https://via.placeholder.com/800x600?text=Pelikan+M800+Cap"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen",
+          "price": 450,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1987,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in multiple barrel colors",
+      "tags": [
+        "professional",
+        "classic",
+        "piston-filler",
+        "luxury",
+        "german"
+      ],
+      "relatedPens": [
+        "pelikan-m600",
+        "pelikan-m1000"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Pelikan official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "pilot-custom-74",
+      "slug": "pilot-custom-74",
+      "brand": "Pilot",
+      "model": "Custom 74",
+      "series": "Custom",
+      "name": "Pilot Custom 74 Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "manufacturer": "Pilot Corporation",
+      "description": "Versatile Japanese workhorse with smooth gold nib",
+      "details": "The Custom 74 is one of Pilot's most popular fountain pens, known for its excellent writing experience and value proposition. It features Pilot's renowned gold nib and accepts both converters and cartridges.",
+      "history": "Part of Pilot's Custom series, the Custom 74 has been a staple in the Japanese fountain pen market since its introduction, offering exceptional quality at an accessible price point.",
+      "specifications": {
+        "length": 142,
+        "lengthCapped": 142,
+        "lengthUncapped": 126,
+        "lengthPosted": 158,
+        "diameter": 12,
+        "diameterBody": 12,
+        "diameterGrip": 10.5,
+        "diameterCap": 14,
+        "weight": 19,
+        "weightBody": 12,
+        "weightCap": 7,
+        "material": [
+          "Resin"
+        ],
+        "finish": "Glossy",
+        "trim": "Gold-plated",
+        "clip": "Pilot arrow clip, gold-plated",
+        "fillingSystem": "Converter",
+        "capacity": 0.7,
+        "capType": "Snap-on",
+        "capRotation": null,
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "EF",
+            "F",
+            "FM",
+            "M",
+            "B",
+            "SM",
+            "SFM",
+            "SF",
+            "SB"
+          ],
+          "default": "M",
+          "engraving": "Pilot logo and size marking",
+          "flexibility": "Soft"
+        },
+        "section": "Resin with step",
+        "threading": "Plastic threads",
+        "balance": "Well-balanced"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pilot+Custom+74",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Pilot+Custom+74+Side",
+          "https://via.placeholder.com/800x600?text=Pilot+Custom+74+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Pilot-Custom-74",
+          "price": 160,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1993,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in multiple colors and nib sizes",
+      "tags": [
+        "professional",
+        "japanese",
+        "converter",
+        "everyday",
+        "value"
+      ],
+      "relatedPens": [
+        "pilot-custom-91",
+        "pilot-custom-823"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Pilot official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "lamy-2000",
+      "slug": "lamy-2000",
+      "brand": "Lamy",
+      "model": "2000",
+      "series": "2000",
+      "name": "Lamy 2000 Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "manufacturer": "Lamy",
+      "description": "Iconic Bauhaus design with piston filling system",
+      "details": "Designed by Gerd A. Müller in 1966, the Lamy 2000 is a timeless classic that embodies Bauhaus principles. Its brushed Makrolon exterior and hooded gold nib create a distinctive, minimalist aesthetic that has remained virtually unchanged for over 50 years.",
+      "history": "Introduced in 1966, the Lamy 2000 was revolutionary in its use of Makrolon (polycarbonate) and its innovative piston filling mechanism. It quickly became a design icon and remains one of Lamy's most popular pens.",
+      "specifications": {
+        "length": 146,
+        "lengthCapped": 146,
+        "lengthUncapped": 134,
+        "lengthPosted": 157,
+        "diameter": 12.5,
+        "diameterBody": 12.5,
+        "diameterGrip": 10.5,
+        "diameterCap": 14,
+        "weight": 25,
+        "weightBody": 15,
+        "weightCap": 10,
+        "material": [
+          "Makrolon",
+          "Stainless Steel"
+        ],
+        "finish": "Brushed",
+        "trim": "Stainless steel",
+        "clip": "Spring-loaded stainless steel",
+        "fillingSystem": "Piston",
+        "capacity": 1.35,
+        "capType": "Snap-on",
+        "capRotation": null,
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "EF",
+            "F",
+            "M",
+            "B",
+            "BB",
+            "OM",
+            "OB",
+            "OBB"
+          ],
+          "default": "M",
+          "engraving": "Lamy logo",
+          "flexibility": "Firm"
+        },
+        "section": "Makrolon",
+        "threading": "Stainless steel threads",
+        "balance": "Perfect balance"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Lamy+2000",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Lamy+2000+Side",
+          "https://via.placeholder.com/800x600?text=Lamy+2000+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/lamy-2000-fountain-pen",
+          "price": 200,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1966,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in Makrolon and stainless steel variants",
+      "tags": [
+        "professional",
+        "classic",
+        "piston-filler",
+        "design",
+        "german"
+      ],
+      "relatedPens": [
+        "lamy-safari",
+        "lamy-dialog"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Lamy official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "pilot-custom-823",
+      "slug": "pilot-custom-823",
+      "brand": "Pilot",
+      "model": "Custom 823",
+      "series": "Custom",
+      "name": "Pilot Custom 823 Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "manufacturer": "Pilot Corporation",
+      "description": "Premium vacuum-filler with large ink capacity",
+      "details": "The Custom 823 represents the pinnacle of Pilot's Custom series. Its vacuum filling system provides an impressive 2.3ml ink capacity, while the transparent amber barrel allows you to monitor ink levels. The pen features Pilot's signature 14K gold nib with exceptional smoothness.",
+      "history": "Introduced as part of Pilot's premium Custom line, the 823 combines traditional Japanese craftsmanship with innovative filling technology, making it a favorite among pen enthusiasts worldwide.",
+      "specifications": {
+        "length": 150,
+        "lengthCapped": 150,
+        "lengthUncapped": 135,
+        "lengthPosted": 167,
+        "diameter": 14,
+        "diameterBody": 14,
+        "diameterGrip": 11.5,
+        "diameterCap": 16,
+        "weight": 28,
+        "weightBody": 18,
+        "weightCap": 10,
+        "material": [
+          "Resin",
+          "Amber transparent"
+        ],
+        "finish": "Glossy",
+        "trim": "Gold-plated",
+        "clip": "Pilot arrow clip, gold-plated",
+        "fillingSystem": "Vacuum",
+        "capacity": 2.3,
+        "capType": "Screw-on",
+        "capRotation": 1.5,
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B",
+            "FA"
+          ],
+          "default": "M",
+          "engraving": "Pilot logo and size marking",
+          "flexibility": "Soft"
+        },
+        "section": "Resin",
+        "threading": "Metal threads",
+        "balance": "Slightly front-weighted"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pilot+Custom+823",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Pilot+Custom+823+Side",
+          "https://via.placeholder.com/800x600?text=Pilot+Custom+823+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/pilot-custom-823-fountain-pen",
+          "price": 288,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2000,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in amber, smoke, and clear variants",
+      "tags": [
+        "professional",
+        "japanese",
+        "vacuum-filler",
+        "luxury",
+        "large-capacity"
+      ],
+      "relatedPens": [
+        "pilot-custom-74",
+        "pilot-custom-912"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Pilot official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "sailor-1911-large",
+      "slug": "sailor-1911-large",
+      "brand": "Sailor",
+      "model": "1911 Large",
+      "series": "1911",
+      "name": "Sailor 1911 Large Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "manufacturer": "Sailor Pen Co.",
+      "description": "Classic cigar-shaped design with legendary Sailor nib",
+      "details": "The 1911 Large pays homage to Sailor's founding year and classic pen designs. It features Sailor's renowned 21K gold nib, known for its unique feedback and precision. The pen combines traditional aesthetics with modern Japanese engineering.",
+      "history": "Introduced as part of Sailor's Professional Gear series, the 1911 Large has become one of the most recognizable Japanese fountain pens, celebrated for its writing characteristics and build quality.",
+      "specifications": {
+        "length": 143,
+        "lengthCapped": 143,
+        "lengthUncapped": 127,
+        "lengthPosted": 162,
+        "diameter": 13,
+        "diameterBody": 13,
+        "diameterGrip": 10.5,
+        "diameterCap": 15,
+        "weight": 23,
+        "weightBody": 14,
+        "weightCap": 9,
+        "material": [
+          "Resin"
+        ],
+        "finish": "Glossy",
+        "trim": "Gold-plated",
+        "clip": "Anchor clip, gold-plated",
+        "fillingSystem": "Converter",
+        "capacity": 1,
+        "capType": "Screw-on",
+        "capRotation": 1.5,
+        "nib": {
+          "type": "21K Gold",
+          "sizes": [
+            "EF",
+            "F",
+            "MF",
+            "M",
+            "B",
+            "Z"
+          ],
+          "default": "MF",
+          "engraving": "Sailor anchor logo and size marking",
+          "flexibility": "Firm"
+        },
+        "section": "Resin",
+        "threading": "Metal threads",
+        "balance": "Well-balanced"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Sailor+1911+Large",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Sailor+1911+Large+Side",
+          "https://via.placeholder.com/800x600?text=Sailor+1911+Large+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/sailor-1911-large-fountain-pen",
+          "price": 312,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1992,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in multiple colors, including limited editions",
+      "tags": [
+        "professional",
+        "japanese",
+        "converter",
+        "luxury",
+        "premium-nib"
+      ],
+      "relatedPens": [
+        "sailor-pro-gear",
+        "sailor-1911-standard"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Sailor official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "platinum-3776-century",
+      "slug": "platinum-3776-century",
+      "brand": "Platinum",
+      "model": "3776 Century",
+      "series": "3776",
+      "name": "Platinum #3776 Century Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "manufacturer": "Platinum Pen Co.",
+      "description": "Classic Japanese pen with Slip & Seal cap mechanism",
+      "details": "The #3776 Century is named after Mount Fuji's height (3776 meters) and represents Platinum's commitment to Japanese penmaking tradition. Its unique Slip & Seal cap mechanism ensures the pen won't dry out for up to 24 months when capped.",
+      "history": "Introduced in 1978, the #3776 has been continuously refined and improved. The Century version features enhanced materials and the innovative Slip & Seal cap technology.",
+      "specifications": {
+        "length": 144,
+        "lengthCapped": 144,
+        "lengthUncapped": 127,
+        "lengthPosted": 162,
+        "diameter": 13,
+        "diameterBody": 13,
+        "diameterGrip": 10.5,
+        "diameterCap": 15.5,
+        "weight": 21,
+        "weightBody": 13,
+        "weightCap": 8,
+        "material": [
+          "Resin"
+        ],
+        "finish": "Glossy",
+        "trim": "Gold-plated",
+        "clip": "Platinum clip with heart shape, gold-plated",
+        "fillingSystem": "Converter",
+        "capacity": 0.8,
+        "capType": "Snap-on with Slip & Seal",
+        "capRotation": null,
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "EF",
+            "F",
+            "M",
+            "B",
+            "C",
+            "UEF",
+            "SF",
+            "SM",
+            "SB"
+          ],
+          "default": "M",
+          "engraving": "3776 and size marking",
+          "flexibility": "Firm to Soft (varies by size)"
+        },
+        "section": "Resin",
+        "threading": "Metal threads",
+        "balance": "Well-balanced"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Platinum+3776",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Platinum+3776+Side",
+          "https://via.placeholder.com/800x600?text=Platinum+3776+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Platinum-3776-Century",
+          "price": 176,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1978,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Slip & Seal cap prevents drying. Available in multiple colors.",
+      "tags": [
+        "professional",
+        "japanese",
+        "converter",
+        "everyday",
+        "slip-seal"
+      ],
+      "relatedPens": [
+        "platinum-preppy",
+        "platinum-3776-chartres"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Platinum official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "twsbi-diamond-580",
+      "slug": "twsbi-diamond-580",
+      "brand": "TWSBI",
+      "model": "Diamond 580",
+      "series": "Diamond",
+      "name": "TWSBI Diamond 580 Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Taiwan",
+      "manufacturer": "TWSBI",
+      "description": "Transparent demonstrator with precision piston mechanism",
+      "details": "The Diamond 580 combines the allure of a transparent demonstrator with TWSBI's precise engineering. Its piston filling system is smooth and reliable, while the faceted barrel design provides an elegant grip. The pen showcases the ink beautifully while maintaining excellent functionality.",
+      "history": "TWSBI has gained a strong reputation for offering high-quality piston fillers at accessible prices. The Diamond 580 represents the brand's commitment to transparency, both literally and figuratively, in pen design.",
+      "specifications": {
+        "length": 142,
+        "lengthCapped": 142,
+        "lengthUncapped": 130,
+        "lengthPosted": 168,
+        "diameter": 13,
+        "diameterBody": 13,
+        "diameterGrip": 11,
+        "diameterCap": 15,
+        "weight": 27,
+        "weightBody": 17,
+        "weightCap": 10,
+        "material": [
+          "Polycarbonate"
+        ],
+        "finish": "Transparent",
+        "trim": "Chrome-plated",
+        "clip": "Chrome-plated spring clip",
+        "fillingSystem": "Piston",
+        "capacity": 1.85,
+        "capType": "Screw-on",
+        "capRotation": 1.5,
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "EF",
+            "F",
+            "M",
+            "B",
+            "1.1mm Stub"
+          ],
+          "default": "M",
+          "engraving": "TWSBI logo",
+          "flexibility": "Firm"
+        },
+        "section": "Polycarbonate with facets",
+        "threading": "Metal threads",
+        "balance": "Slightly rear-weighted when posted"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=TWSBI+Diamond+580",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=TWSBI+Diamond+580+Side",
+          "https://via.placeholder.com/800x600?text=TWSBI+Diamond+580+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/twsbi-diamond-580-fountain-pen",
+          "price": 65,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2012,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in multiple transparent and opaque colors. Includes wrench and silicone grease.",
+      "tags": [
+        "demonstrator",
+        "piston-filler",
+        "value",
+        "transparent",
+        "taiwan"
+      ],
+      "relatedPens": [
+        "twsbi-eco",
+        "twsbi-vac700r"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "TWSBI official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "lamy-safari",
+      "slug": "lamy-safari",
+      "brand": "Lamy",
+      "model": "Safari",
+      "series": "Safari",
+      "name": "Lamy Safari Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "manufacturer": "Lamy",
+      "description": "Indestructible entry-level pen with iconic triangular grip",
+      "details": "The Safari is Lamy's most popular fountain pen, designed by Wolfgang Fabian in 1980. Its ABS plastic construction makes it virtually indestructible, while the triangular grip helps teach proper writing posture. Available in a wide array of vibrant colors.",
+      "history": "Introduced in 1980, the Safari was revolutionary in making fountain pens accessible and durable for students and everyday use. It remains one of the best-selling fountain pens worldwide.",
+      "specifications": {
+        "length": 139,
+        "lengthCapped": 139,
+        "lengthUncapped": 126,
+        "lengthPosted": 160,
+        "diameter": 11,
+        "diameterBody": 11,
+        "diameterGrip": 9,
+        "diameterCap": 13.5,
+        "weight": 17,
+        "weightBody": 10,
+        "weightCap": 7,
+        "material": [
+          "ABS Plastic"
+        ],
+        "finish": "Matte or Glossy",
+        "trim": "Chrome-plated",
+        "clip": "Chrome-plated wire clip",
+        "fillingSystem": "Converter",
+        "capacity": 0.6,
+        "capType": "Snap-on",
+        "capRotation": null,
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "EF",
+            "F",
+            "M",
+            "B",
+            "LH",
+            "1.1mm Stub",
+            "1.5mm Stub",
+            "1.9mm Stub"
+          ],
+          "default": "M",
+          "engraving": "Lamy logo",
+          "flexibility": "Firm"
+        },
+        "section": "ABS plastic with triangular grip",
+        "threading": "Snap fit",
+        "balance": "Well-balanced"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Lamy+Safari",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Lamy+Safari+Side",
+          "https://via.placeholder.com/800x600?text=Lamy+Safari+Grip"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/lamy-safari-fountain-pen",
+          "price": 29,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1980,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in dozens of colors. Nibs are easily interchangeable.",
+      "tags": [
+        "entry-level",
+        "durable",
+        "student",
+        "everyday",
+        "german",
+        "colorful"
+      ],
+      "relatedPens": [
+        "lamy-al-star",
+        "lamy-lx"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Lamy official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "pilot-metropolitan",
+      "slug": "pilot-metropolitan",
+      "brand": "Pilot",
+      "model": "Metropolitan",
+      "series": "MR",
+      "name": "Pilot Metropolitan Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "manufacturer": "Pilot Corporation",
+      "description": "Exceptional value with smooth steel nib and elegant design",
+      "details": "The Metropolitan offers an incredible writing experience at an unbeatable price point. Its brass body provides substantial weight and durability, while the steel nib delivers smooth, consistent performance that rivals pens costing many times more.",
+      "history": "Introduced as the MR in Europe and Metropolitan in North America, this pen has become the go-to recommendation for fountain pen beginners, combining quality, style, and affordability.",
+      "specifications": {
+        "length": 137,
+        "lengthCapped": 137,
+        "lengthUncapped": 119,
+        "lengthPosted": 149,
+        "diameter": 11,
+        "diameterBody": 11,
+        "diameterGrip": 9.5,
+        "diameterCap": 13,
+        "weight": 26,
+        "weightBody": 17,
+        "weightCap": 9,
+        "material": [
+          "Brass",
+          "Resin"
+        ],
+        "finish": "Matte or Glossy",
+        "trim": "Chrome-plated",
+        "clip": "Chrome-plated",
+        "fillingSystem": "Converter",
+        "capacity": 0.7,
+        "capType": "Snap-on",
+        "capRotation": null,
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M"
+          ],
+          "default": "M",
+          "engraving": "Pilot logo",
+          "flexibility": "Firm"
+        },
+        "section": "Resin",
+        "threading": "Snap fit",
+        "balance": "Slightly rear-weighted"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pilot+Metropolitan",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Pilot+Metropolitan+Side",
+          "https://via.placeholder.com/800x600?text=Pilot+Metropolitan+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Pilot-Metropolitan",
+          "price": 20,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 2012,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Exceptional value for money. Available in multiple finishes.",
+      "tags": [
+        "entry-level",
+        "value",
+        "everyday",
+        "japanese",
+        "beginner-friendly"
+      ],
+      "relatedPens": [
+        "pilot-kakuno",
+        "pilot-prera"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Pilot official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "pilot-vanishing-point",
+      "slug": "pilot-vanishing-point",
+      "brand": "Pilot",
+      "model": "Vanishing Point",
+      "series": "Capless",
+      "name": "Pilot Vanishing Point Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "manufacturer": "Pilot Corporation",
+      "description": "Revolutionary retractable fountain pen with gold nib",
+      "details": "The Vanishing Point is one of the most innovative fountain pens ever created. Its unique retractable mechanism allows for one-handed operation, making it perfect for quick notes and on-the-go writing. The 18K gold nib retracts completely into the barrel, protected by a trap door mechanism.",
+      "history": "Introduced in 1963 as the Capless, the Vanishing Point revolutionized fountain pen design by combining the convenience of a retractable ballpoint with the writing experience of a fountain pen. It remains unique in the market.",
+      "specifications": {
+        "length": 140,
+        "lengthCapped": 140,
+        "lengthUncapped": 140,
+        "lengthPosted": null,
+        "diameter": 12.5,
+        "diameterBody": 12.5,
+        "diameterGrip": 10.5,
+        "diameterCap": null,
+        "weight": 30,
+        "weightBody": 30,
+        "weightCap": 0,
+        "material": [
+          "Brass",
+          "Resin"
+        ],
+        "finish": "Glossy or Matte",
+        "trim": "Gold-plated or Chrome-plated",
+        "clip": "Integrated clip on clicker",
+        "fillingSystem": "Converter",
+        "capacity": 0.6,
+        "capType": "Retractable",
+        "capRotation": null,
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "EF",
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M",
+          "engraving": "Pilot logo and size marking",
+          "flexibility": "Firm"
+        },
+        "section": "Brass body",
+        "threading": "Click mechanism",
+        "balance": "Slightly front-weighted due to clicker"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pilot+Vanishing+Point",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Pilot+Vanishing+Point+Side",
+          "https://via.placeholder.com/800x600?text=Pilot+Vanishing+Point+Mechanism"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/pilot-vanishing-point-fountain-pen",
+          "price": 156,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1963,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in multiple finishes. Clip position may affect grip comfort.",
+      "tags": [
+        "professional",
+        "retractable",
+        "convenient",
+        "japanese",
+        "innovative"
+      ],
+      "relatedPens": [
+        "pilot-decorative",
+        "pilot-fermo"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Pilot official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "montblanc-149",
+      "slug": "montblanc-149",
+      "brand": "Montblanc",
+      "model": "149",
+      "series": "Meisterstück",
+      "name": "Montblanc Meisterstück 149 Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "manufacturer": "Montblanc",
+      "description": "Legendary oversized pen with massive gold nib",
+      "details": "The 149 is Montblanc's flagship fountain pen, instantly recognizable by its size and iconic design. Its large 18K gold nib provides a smooth, luxurious writing experience, while the piston filling system offers substantial ink capacity. This pen represents the pinnacle of European penmaking tradition.",
+      "history": "Introduced in 1952, the 149 has become one of the most iconic fountain pens in the world. Its size, craftsmanship, and prestige have made it a symbol of success and sophistication for generations.",
+      "specifications": {
+        "length": 147,
+        "lengthCapped": 147,
+        "lengthUncapped": 132,
+        "lengthPosted": 175,
+        "diameter": 14.5,
+        "diameterBody": 14.5,
+        "diameterGrip": 12,
+        "diameterCap": 17,
+        "weight": 35,
+        "weightBody": 22,
+        "weightCap": 13,
+        "material": [
+          "Precious Resin",
+          "Brass"
+        ],
+        "finish": "Glossy black",
+        "trim": "Gold-plated",
+        "clip": "Montblanc star clip, gold-plated",
+        "fillingSystem": "Piston",
+        "capacity": 1.8,
+        "capType": "Screw-on",
+        "capRotation": 1.75,
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "EF",
+            "F",
+            "M",
+            "B",
+            "BB",
+            "OB",
+            "OM",
+            "OBB"
+          ],
+          "default": "M",
+          "engraving": "Montblanc star and 4810",
+          "flexibility": "Semi-flex"
+        },
+        "section": "Precious resin",
+        "threading": "Brass threads",
+        "balance": "Well-balanced despite size"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Montblanc+149",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Montblanc+149+Side",
+          "https://via.placeholder.com/800x600?text=Montblanc+149+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Montblanc Boutique",
+          "url": "https://www.montblanc.com/en-us/fountain-pens",
+          "price": 1050,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1952,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Lifetime warranty. Available with various nib options and limited editions.",
+      "tags": [
+        "luxury",
+        "prestige",
+        "professional",
+        "piston-filler",
+        "german",
+        "iconic"
+      ],
+      "relatedPens": [
+        "montblanc-146",
+        "montblanc-144"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Montblanc official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "waterman-expert",
+      "slug": "waterman-expert",
+      "brand": "Waterman",
+      "model": "Expert",
+      "series": "Expert",
+      "name": "Waterman Expert Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "France",
+      "manufacturer": "Waterman",
+      "description": "Elegant French design with reliable steel nib",
+      "details": "The Expert combines classic French elegance with modern functionality. Its lacquered finish and gold-plated trim create a sophisticated appearance, while the steel nib provides smooth, consistent writing performance suitable for daily use.",
+      "history": "The Expert series has been Waterman's flagship professional pen line for decades, offering a balance of style, quality, and accessibility.",
+      "specifications": {
+        "length": 140,
+        "lengthCapped": 140,
+        "lengthUncapped": 126,
+        "lengthPosted": 162,
+        "diameter": 12,
+        "diameterBody": 12,
+        "diameterGrip": 10,
+        "diameterCap": 14.5,
+        "weight": 28,
+        "weightBody": 18,
+        "weightCap": 10,
+        "material": [
+          "Lacquer",
+          "Brass"
+        ],
+        "finish": "Lacquered",
+        "trim": "Gold-plated",
+        "clip": "Waterman clip, gold-plated",
+        "fillingSystem": "Converter",
+        "capacity": 0.7,
+        "capType": "Snap-on",
+        "capRotation": null,
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M",
+          "engraving": "Waterman logo",
+          "flexibility": "Firm"
+        },
+        "section": "Lacquer",
+        "threading": "Snap fit",
+        "balance": "Well-balanced"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Waterman+Expert",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Waterman+Expert+Side",
+          "https://via.placeholder.com/800x600?text=Waterman+Expert+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/Waterman-Expert-Fountain-Pen",
+          "price": 85,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1987,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in multiple colors including black, blue, and burgundy",
+      "tags": [
+        "professional",
+        "elegant",
+        "french",
+        "converter",
+        "everyday"
+      ],
+      "relatedPens": [
+        "waterman-hemisphere",
+        "waterman-charcoal"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Waterman official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "kaweco-sport",
+      "slug": "kaweco-sport",
+      "brand": "Kaweco",
+      "model": "Sport",
+      "series": "Sport",
+      "name": "Kaweco Sport Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "manufacturer": "Kaweco",
+      "description": "Compact pocket pen with octagonal design",
+      "details": "The Sport is Kaweco's iconic pocket-sized fountain pen. Its compact design makes it perfect for carrying in a pocket or bag, while the octagonal cap prevents rolling. Despite its small size, it offers a surprisingly comfortable writing experience when posted.",
+      "history": "First introduced in the 1930s, the Sport has been a favorite for portable writing. The modern version maintains the classic design while incorporating contemporary materials and manufacturing techniques.",
+      "specifications": {
+        "length": 105,
+        "lengthCapped": 105,
+        "lengthUncapped": 103,
+        "lengthPosted": 133,
+        "diameter": 11,
+        "diameterBody": 11,
+        "diameterGrip": 9.5,
+        "diameterCap": 13,
+        "weight": 12,
+        "weightBody": 7,
+        "weightCap": 5,
+        "material": [
+          "Resin"
+        ],
+        "finish": "Matte or Glossy",
+        "trim": "Chrome-plated",
+        "clip": "Optional separate clip",
+        "fillingSystem": "Cartridge",
+        "capacity": 0.7,
+        "capType": "Screw-on",
+        "capRotation": 1.5,
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "EF",
+            "F",
+            "M",
+            "B",
+            "BB",
+            "1.1mm Stub",
+            "1.5mm Stub",
+            "1.9mm Stub"
+          ],
+          "default": "M",
+          "engraving": "Kaweco logo",
+          "flexibility": "Firm"
+        },
+        "section": "Resin",
+        "threading": "Metal threads",
+        "balance": "Well-balanced when posted"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Kaweco+Sport",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Kaweco+Sport+Side",
+          "https://via.placeholder.com/800x600?text=Kaweco+Sport+Compact"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/kaweco-sport-fountain-pen",
+          "price": 28,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1935,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Perfect pocket size. Available in many colors and materials including brass and aluminum.",
+      "tags": [
+        "pocket",
+        "compact",
+        "portable",
+        "german",
+        "everyday",
+        "colorful"
+      ],
+      "relatedPens": [
+        "kaweco-liliput",
+        "kaweco-supra"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Kaweco official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "parker-sonnet",
+      "slug": "parker-sonnet",
+      "brand": "Parker",
+      "model": "Sonnet",
+      "series": "Sonnet",
+      "name": "Parker Sonnet Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "France",
+      "manufacturer": "Parker",
+      "description": "Classic British design with modern French craftsmanship",
+      "details": "The Sonnet embodies Parker's heritage of elegant design combined with modern manufacturing. Its distinctive arrow clip and refined proportions create a pen that's both timeless and contemporary. Available with both steel and gold nib options.",
+      "history": "Introduced in the 1990s, the Sonnet continues Parker's tradition of creating pens that combine classic aesthetics with reliable performance, appealing to both pen enthusiasts and casual users.",
+      "specifications": {
+        "length": 137,
+        "lengthCapped": 137,
+        "lengthUncapped": 122,
+        "lengthPosted": 157,
+        "diameter": 12,
+        "diameterBody": 12,
+        "diameterGrip": 10,
+        "diameterCap": 14.5,
+        "weight": 26,
+        "weightBody": 16,
+        "weightCap": 10,
+        "material": [
+          "Lacquer",
+          "Brass"
+        ],
+        "finish": "Lacquered",
+        "trim": "Gold-plated",
+        "clip": "Parker arrow clip, gold-plated",
+        "fillingSystem": "Converter",
+        "capacity": 0.7,
+        "capType": "Snap-on",
+        "capRotation": null,
+        "nib": {
+          "type": "Steel or 18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M",
+          "engraving": "Parker logo",
+          "flexibility": "Firm"
+        },
+        "section": "Lacquer",
+        "threading": "Snap fit",
+        "balance": "Well-balanced"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Parker+Sonnet",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Parker+Sonnet+Side",
+          "https://via.placeholder.com/800x600?text=Parker+Sonnet+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/Parker-Sonnet-Fountain-Pen",
+          "price": 120,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1993,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in multiple finishes and with gold or steel nibs",
+      "tags": [
+        "professional",
+        "elegant",
+        "classic",
+        "converter",
+        "everyday"
+      ],
+      "relatedPens": [
+        "parker-duofold",
+        "parker-51"
+      ],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": [
+        "Parker official website"
+      ],
+      "verified": true
+    },
+    {
+      "id": "montblanc-149-montblanc-149",
+      "slug": "montblanc-149-montblanc-149",
+      "brand": "Montblanc",
+      "model": "149",
+      "name": "Montblanc 149",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc 149 fountain pen",
+      "specifications": {
+        "length": 140,
+        "weight": 17,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "platinum-sport-platinum-sport",
+      "slug": "platinum-sport-platinum-sport",
+      "brand": "Platinum",
+      "model": "Sport",
+      "name": "Platinum Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Platinum Sport fountain pen",
+      "specifications": {
+        "length": 136,
+        "weight": 27,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "platinum"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-expert-lamy-expert",
+      "slug": "lamy-expert-lamy-expert",
+      "brand": "Lamy",
+      "model": "Expert",
+      "name": "Lamy Expert",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy Expert fountain pen",
+      "specifications": {
+        "length": 152,
+        "weight": 37,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "sailor-sonnet-sailor-sonnet",
+      "slug": "sailor-sonnet-sailor-sonnet",
+      "brand": "Sailor",
+      "model": "Sonnet",
+      "name": "Sailor Sonnet",
+      "type": "Fountain Pen",
+      "description": "A classic Sailor Sonnet fountain pen",
+      "specifications": {
+        "length": 139,
+        "weight": 15,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "sailor"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pelikan-sport-pelikan-sport",
+      "slug": "pelikan-sport-pelikan-sport",
+      "brand": "Pelikan",
+      "model": "Sport",
+      "name": "Pelikan Sport",
+      "type": "Fountain Pen",
+      "description": "A classic Pelikan Sport fountain pen",
+      "specifications": {
+        "length": 139,
+        "weight": 31,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pelikan"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "twsbi-149-twsbi-149",
+      "slug": "twsbi-149-twsbi-149",
+      "brand": "TWSBI",
+      "model": "149",
+      "name": "TWSBI 149",
+      "type": "Fountain Pen",
+      "description": "A classic TWSBI 149 fountain pen",
+      "specifications": {
+        "length": 146,
+        "weight": 28,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "twsbi"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-2000-parker-2000",
+      "slug": "parker-2000-parker-2000",
+      "brand": "Parker",
+      "model": "2000",
+      "name": "Parker 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Parker 2000 fountain pen",
+      "specifications": {
+        "length": 151,
+        "weight": 34,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "pilot-1911-pilot-1911",
+      "slug": "pilot-1911-pilot-1911",
+      "brand": "Pilot",
+      "model": "1911",
+      "name": "Pilot 1911",
+      "type": "Fountain Pen",
+      "description": "A classic Pilot 1911 fountain pen",
+      "specifications": {
+        "length": 144,
+        "weight": 19,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Vacuum",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "pilot"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "montblanc-custom-montblanc-custom",
+      "slug": "montblanc-custom-montblanc-custom",
+      "brand": "Montblanc",
+      "model": "Custom",
+      "name": "Montblanc Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Montblanc Custom fountain pen",
+      "specifications": {
+        "length": 146,
+        "weight": 28,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "montblanc"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "lamy-2000-lamy-2000",
+      "slug": "lamy-2000-lamy-2000",
+      "brand": "Lamy",
+      "model": "2000",
+      "name": "Lamy 2000",
+      "type": "Fountain Pen",
+      "description": "A classic Lamy 2000 fountain pen",
+      "specifications": {
+        "length": 153,
+        "weight": 17,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Piston",
+        "nib": {
+          "type": "18K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "lamy"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-custom-parker-custom",
+      "slug": "parker-custom-parker-custom",
+      "brand": "Parker",
+      "model": "Custom",
+      "name": "Parker Custom",
+      "type": "Fountain Pen",
+      "description": "A classic Parker Custom fountain pen",
+      "specifications": {
+        "length": 140,
+        "weight": 31,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Converter",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "parker-m800-parker-m800",
+      "slug": "parker-m800-parker-m800",
+      "brand": "Parker",
+      "model": "M800",
+      "name": "Parker M800",
+      "type": "Fountain Pen",
+      "description": "A classic Parker M800 fountain pen",
+      "specifications": {
+        "length": 145,
+        "weight": 36,
+        "material": [
+          "Resin"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "14K Gold",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "parker"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    },
+    {
+      "id": "kaweco-diamond-580-kaweco-diamond-580",
+      "slug": "kaweco-diamond-580-kaweco-diamond-580",
+      "brand": "Kaweco",
+      "model": "Diamond 580",
+      "name": "Kaweco Diamond 580",
+      "type": "Fountain Pen",
+      "description": "A classic Kaweco Diamond 580 fountain pen",
+      "specifications": {
+        "length": 145,
+        "weight": 19,
+        "material": [
+          "Metal"
+        ],
+        "fillingSystem": "Cartridge",
+        "nib": {
+          "type": "Steel",
+          "sizes": [
+            "F",
+            "M",
+            "B"
+          ],
+          "default": "M"
+        }
+      },
+      "images": {
+        "main": null,
+        "gallery": []
+      },
+      "purchaseLinks": [],
+      "tags": [
+        "kaweco"
+      ],
+      "addedDate": "2025-12-28",
+      "lastUpdated": "2025-12-28",
+      "sources": [
+        "unknown"
+      ],
+      "verified": false,
+      "availability": "Unknown"
+    }
+  ]
+}
