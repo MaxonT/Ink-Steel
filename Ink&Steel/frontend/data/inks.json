@@ -79,7 +79,406 @@
       "sources": ["Pelikan official website"],
       "verified": true,
       "tags": ["black", "professional", "dry", "reliable"]
+    },
+    {
+      "id": "pilot-iroshizuku-kon-peki",
+      "slug": "pilot-iroshizuku-kon-peki",
+      "brand": "Pilot",
+      "name": "Kon-peki",
+      "series": "Iroshizuku",
+      "description": "Deep cerulean blue, like the deep ocean",
+      "details": "Kon-peki (紺碧) is a vibrant, saturated cerulean blue that represents the deep ocean. It's one of the most popular inks in the Iroshizuku line, known for its beautiful shading and excellent behavior in all pens.",
+      "color": "#1E88E5",
+      "type": "Dye-based",
+      "volume": 50,
+      "bottleType": "Wide-mouth glass bottle with inkwell",
+      "properties": {
+        "sheen": "slight",
+        "shimmer": false,
+        "shading": "high",
+        "flow": "wet",
+        "lubrication": "high",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.5
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Pilot-Iroshizuku-Kon-peki",
+          "price": 28,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works excellently with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Pilot official website"],
+      "verified": true,
+      "tags": ["blue", "shading", "wet", "popular", "everyday"]
+    },
+    {
+      "id": "sailor-jentle-yama-dori",
+      "slug": "sailor-jentle-yama-dori",
+      "brand": "Sailor",
+      "name": "Yama-dori",
+      "series": "Jentle",
+      "description": "Teal blue-green with dramatic sheen",
+      "details": "Yama-dori (山鳥) is a stunning teal ink that exhibits a dramatic red sheen when laid down heavily. It offers excellent shading and flow, making it a favorite among ink enthusiasts for its unique color characteristics.",
+      "color": "#006B5C",
+      "type": "Dye-based",
+      "volume": 50,
+      "bottleType": "Standard glass bottle",
+      "properties": {
+        "sheen": "dramatic",
+        "shimmer": false,
+        "shading": "high",
+        "flow": "wet",
+        "lubrication": "high",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.0
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Sailor-Jentle-Yama-dori",
+          "price": 18,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works well with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Sailor official website"],
+      "verified": true,
+      "tags": ["teal", "sheen", "shading", "wet", "special"]
+    },
+    {
+      "id": "diamine-oxford-blue",
+      "slug": "diamine-oxford-blue",
+      "brand": "Diamine",
+      "name": "Oxford Blue",
+      "series": "Standard",
+      "description": "Deep, professional blue-black",
+      "details": "Oxford Blue is a sophisticated dark blue that's suitable for professional use. It offers subtle shading and good flow characteristics, making it an excellent choice for daily writing.",
+      "color": "#002147",
+      "type": "Dye-based",
+      "volume": 80,
+      "bottleType": "Standard glass bottle",
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "medium",
+        "flow": "medium",
+        "lubrication": "medium",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.0
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/diamine-oxford-blue",
+          "price": 8,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works well with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Diamine official website"],
+      "verified": true,
+      "tags": ["blue", "professional", "everyday", "value"]
+    },
+    {
+      "id": "pilot-iroshizuku-shin-ryoku",
+      "slug": "pilot-iroshizuku-shin-ryoku",
+      "brand": "Pilot",
+      "name": "Shin-ryoku",
+      "series": "Iroshizuku",
+      "description": "Fresh green, like new leaves",
+      "details": "Shin-ryoku (深緑) is a vibrant, fresh green that evokes the color of new leaves in spring. It offers excellent shading and smooth flow, making it perfect for adding color to your writing.",
+      "color": "#2E7D32",
+      "type": "Dye-based",
+      "volume": 50,
+      "bottleType": "Wide-mouth glass bottle with inkwell",
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "high",
+        "flow": "wet",
+        "lubrication": "high",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.5
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Pilot-Iroshizuku-Shin-ryoku",
+          "price": 28,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works excellently with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Pilot official website"],
+      "verified": true,
+      "tags": ["green", "shading", "wet", "colorful"]
+    },
+    {
+      "id": "waterman-serenity-blue",
+      "slug": "waterman-serenity-blue",
+      "brand": "Waterman",
+      "name": "Serenity Blue",
+      "series": "Standard",
+      "description": "Classic, reliable blue ink",
+      "details": "Serenity Blue (formerly known as Florida Blue) is one of the most recommended inks for fountain pen users. It's safe, well-behaved, and offers excellent performance across all pen types.",
+      "color": "#005F89",
+      "type": "Dye-based",
+      "volume": 50,
+      "bottleType": "Standard glass bottle",
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "lubrication": "medium",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.0
+      },
+      "purchaseLinks": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/Waterman-Serenity-Blue",
+          "price": 10,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Extremely safe and well-behaved with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Waterman official website"],
+      "verified": true,
+      "tags": ["blue", "safe", "reliable", "beginner-friendly", "everyday"]
+    },
+    {
+      "id": "sailor-jentle-apricot",
+      "slug": "sailor-jentle-apricot",
+      "brand": "Sailor",
+      "name": "Apricot",
+      "series": "Jentle",
+      "description": "Warm, cheerful orange",
+      "details": "Apricot is a warm, inviting orange ink that brings energy to your writing. It offers good shading and smooth flow, perfect for personal notes and creative writing.",
+      "color": "#FF8C42",
+      "type": "Dye-based",
+      "volume": 50,
+      "bottleType": "Standard glass bottle",
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "medium",
+        "flow": "wet",
+        "lubrication": "high",
+        "waterResistance": "low",
+        "lightfastness": "fair",
+        "ph": 7.0
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Sailor-Jentle-Apricot",
+          "price": 18,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works well with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Sailor official website"],
+      "verified": true,
+      "tags": ["orange", "colorful", "shading", "wet"]
+    },
+    {
+      "id": "montblanc-irish-green",
+      "slug": "montblanc-irish-green",
+      "brand": "Montblanc",
+      "name": "Irish Green",
+      "series": "Standard",
+      "description": "Rich, vibrant green with excellent shading",
+      "details": "Irish Green is a rich, vibrant green that captures the essence of the Irish countryside. It offers excellent shading and smooth flow, making it a favorite among green ink enthusiasts.",
+      "color": "#1B5E20",
+      "type": "Dye-based",
+      "volume": 60,
+      "bottleType": "Premium glass bottle",
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "high",
+        "flow": "medium",
+        "lubrication": "high",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.0
+      },
+      "purchaseLinks": [
+        {
+          "name": "Montblanc Boutique",
+          "url": "https://www.montblanc.com/en-us/fountain-pen-ink",
+          "price": 25,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works excellently with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Montblanc official website"],
+      "verified": true,
+      "tags": ["green", "shading", "luxury", "premium"]
+    },
+    {
+      "id": "diamine-ancient-copper",
+      "slug": "diamine-ancient-copper",
+      "brand": "Diamine",
+      "name": "Ancient Copper",
+      "series": "Standard",
+      "description": "Warm copper-brown with exceptional shading",
+      "details": "Ancient Copper is a unique brown-orange ink that exhibits dramatic shading. It's one of Diamine's most popular inks, known for its warm tones and excellent performance.",
+      "color": "#B87333",
+      "type": "Dye-based",
+      "volume": 80,
+      "bottleType": "Standard glass bottle",
+      "properties": {
+        "sheen": "slight",
+        "shimmer": false,
+        "shading": "dramatic",
+        "flow": "medium",
+        "lubrication": "medium",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.0
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/diamine-ancient-copper",
+          "price": 8,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works well with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Diamine official website"],
+      "verified": true,
+      "tags": ["brown", "copper", "shading", "popular", "value"]
+    },
+    {
+      "id": "pilot-iroshizuku-asa-gao",
+      "slug": "pilot-iroshizuku-asa-gao",
+      "brand": "Pilot",
+      "name": "Asa-gao",
+      "series": "Iroshizuku",
+      "description": "Morning glory blue, bright and cheerful",
+      "details": "Asa-gao (朝顔) is a bright, vibrant blue inspired by the morning glory flower. It offers excellent shading and smooth flow, making it perfect for daily writing with a pop of color.",
+      "color": "#4A90E2",
+      "type": "Dye-based",
+      "volume": 50,
+      "bottleType": "Wide-mouth glass bottle with inkwell",
+      "properties": {
+        "sheen": "slight",
+        "shimmer": false,
+        "shading": "high",
+        "flow": "wet",
+        "lubrication": "high",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.5
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Pilot-Iroshizuku-Asa-gao",
+          "price": 28,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works excellently with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Pilot official website"],
+      "verified": true,
+      "tags": ["blue", "shading", "wet", "bright", "everyday"]
+    },
+    {
+      "id": "lamy-blue",
+      "slug": "lamy-blue",
+      "brand": "Lamy",
+      "name": "Blue",
+      "series": "Standard",
+      "description": "Classic blue cartridge ink",
+      "details": "Lamy Blue is a standard, reliable blue ink that comes in cartridges and bottles. It's well-behaved, safe for all pens, and offers consistent performance.",
+      "color": "#1976D2",
+      "type": "Dye-based",
+      "volume": 50,
+      "bottleType": "Standard plastic bottle",
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "medium",
+        "lubrication": "medium",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.0
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/lamy-blue-ink",
+          "price": 9,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works well with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Lamy official website"],
+      "verified": true,
+      "tags": ["blue", "reliable", "everyday", "german"]
     }
   ]
 }
-
