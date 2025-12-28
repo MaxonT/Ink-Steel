@@ -4,8 +4,8 @@
  */
 
 /* Import design tokens and state styles */
-@import url('./tokens.css');
-@import url('./states.css');
+@import url('tokens.css');
+@import url('states.css');
 
 /* Paper-like background */
 body {
