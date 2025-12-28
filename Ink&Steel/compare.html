@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Pens | Ink & Steel</title>
+    <meta name="description" content="Compare fountain pens side-by-side. View detailed specifications and size comparisons.">
+    <meta name="keywords" content="compare pens, pen comparison, fountain pen comparison">
+    <meta property="og:title" content="Compare Pens | Ink & Steel">
+    <meta property="og:description" content="Compare fountain pens side-by-side. View detailed specifications and size comparisons.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="Ink & Steel">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Compare Pens | Ink & Steel">
+    <meta name="twitter:description" content="Compare fountain pens side-by-side. View detailed specifications and size comparisons.">
+    <link rel="canonical" href="">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/pen-comparison.js"></script>
+    <script src="components/size-visualization.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-8">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-light tracking-tight mb-4">Compare Pens</h1>
+            <p class="text-xl italic max-w-2xl mx-auto">Side-by-side comparison of fountain pens</p>
+        </header>
+
+        <div id="comparisonContainer" class="max-w-7xl mx-auto mb-12">
+            <!-- Comparison will be loaded here -->
+        </div>
+
+        <div id="sizeVisualization" class="max-w-7xl mx-auto mb-12">
+            <!-- Size visualization will be loaded here -->
+        </div>
+
+        <div class="max-w-4xl mx-auto text-center py-12">
+            <p class="text-gray-600 mb-6">To compare pens, visit a pen's detail page and click "Add to Comparison"</p>
+            <a href="./" class="inline-block px-6 py-3 border border-gray-300 hover:border-gray-500 transition-colors">
+                Browse Pens →
+            </a>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/footer.js"></script>
+    <script src="utils/page-utils.js"></script>
+    <script src="utils/seo-utils.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const siteUrl = getSiteUrl();
+        const pageUrl = getPageUrl();
+        document.querySelector('meta[property="og:url"]').content = pageUrl;
+        document.querySelector('link[rel="canonical"]').href = pageUrl;
+    </script>
+    <script>
+        initPageTransition();
+
+        // Load comparison from localStorage
+        function loadComparison() {
+            const comparisonIds = JSON.parse(localStorage.getItem('pen-comparison') || '[]');
+            
+            if (comparisonIds.length === 0) {
+                document.getElementById('comparisonContainer').innerHTML = 
+                    '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">No pens in comparison. Visit pen detail pages to add pens for comparison.</p></div>';
+                document.getElementById('sizeVisualization').innerHTML = '';
+                return;
+            }
+
+            // Load all pens data
+            loadJSONData('./data/pens.json')
+                .then(result => {
+                    if (!result.success) {
+                        document.getElementById('comparisonContainer').innerHTML = 
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Error loading pen data.</p></div>';
+                        return;
+                    }
+
+                    const pens = result.data.pens.filter(p => comparisonIds.includes(p.id));
+                    
+                    if (pens.length === 0) {
+                        localStorage.removeItem('pen-comparison');
+                        loadComparison();
+                        return;
+                    }
+
+                    // Render comparison
+                    const comparisonEl = document.createElement('pen-comparison');
+                    comparisonEl.setAttribute('pens', JSON.stringify(pens));
+                    document.getElementById('comparisonContainer').innerHTML = '';
+                    document.getElementById('comparisonContainer').appendChild(comparisonEl);
+
+                    // Render size visualization
+                    const sizeVizEl = document.createElement('size-visualization');
+                    sizeVizEl.setAttribute('pens', JSON.stringify(pens));
+                    document.getElementById('sizeVisualization').innerHTML = '';
+                    document.getElementById('sizeVisualization').appendChild(sizeVizEl);
+
+                    // Event listeners
+                    comparisonEl.addEventListener('clear-comparison', () => {
+                        localStorage.removeItem('pen-comparison');
+                        loadComparison();
+                    });
+
+                    comparisonEl.addEventListener('remove-from-comparison', (e) => {
+                        const penId = e.detail.id;
+                        const currentIds = JSON.parse(localStorage.getItem('pen-comparison') || '[]');
+                        const newIds = currentIds.filter(id => id !== penId);
+                        localStorage.setItem('pen-comparison', JSON.stringify(newIds));
+                        loadComparison();
+                    });
+                });
+        }
+
+        loadComparison();
+    </script>
+</body>
+</html>
+

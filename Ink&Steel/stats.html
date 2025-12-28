@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics | Ink & Steel</title>
+    <meta name="description" content="Statistics and insights about our fountain pen collection.">
+    <meta property="og:title" content="Statistics | Ink & Steel">
+    <meta property="og:description" content="Statistics and insights about our fountain pen collection.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <link rel="canonical" href="">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="components/navbar.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body class="min-h-screen">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-12">
+        <header class="text-center mb-16">
+            <h1 class="text-4xl font-light tracking-tight mb-4">Collection Statistics</h1>
+            <p class="text-xl italic max-w-2xl mx-auto">Insights and analytics about our pen collection</p>
+        </header>
+
+        <div class="max-w-6xl mx-auto">
+            <!-- Overview Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+                <div class="bg-white p-6 shadow-sm text-center">
+                    <div class="text-3xl font-light mb-2" id="totalPens">-</div>
+                    <div class="text-gray-600">Total Pens</div>
+                </div>
+                <div class="bg-white p-6 shadow-sm text-center">
+                    <div class="text-3xl font-light mb-2" id="totalBrands">-</div>
+                    <div class="text-gray-600">Brands</div>
+                </div>
+                <div class="bg-white p-6 shadow-sm text-center">
+                    <div class="text-3xl font-light mb-2" id="avgPrice">-</div>
+                    <div class="text-gray-600">Avg Price</div>
+                </div>
+                <div class="bg-white p-6 shadow-sm text-center">
+                    <div class="text-3xl font-light mb-2" id="totalInks">-</div>
+                    <div class="text-gray-600">Total Inks</div>
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white p-6 shadow-sm">
+                    <h2 class="text-2xl font-light mb-4">Brand Distribution</h2>
+                    <canvas id="brandChart" height="300"></canvas>
+                </div>
+                <div class="bg-white p-6 shadow-sm">
+                    <h2 class="text-2xl font-light mb-4">Type Distribution</h2>
+                    <canvas id="typeChart" height="300"></canvas>
+                </div>
+                <div class="bg-white p-6 shadow-sm">
+                    <h2 class="text-2xl font-light mb-4">Price Range</h2>
+                    <canvas id="priceChart" height="300"></canvas>
+                </div>
+                <div class="bg-white p-6 shadow-sm">
+                    <h2 class="text-2xl font-light mb-4">Filling System</h2>
+                    <canvas id="fillingChart" height="300"></canvas>
+                </div>
+            </div>
+
+            <!-- Export Section -->
+            <div class="bg-white p-6 shadow-sm mb-12">
+                <h2 class="text-2xl font-light mb-4">Export Data</h2>
+                <div class="flex gap-4">
+                    <button id="exportJSON" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: 'Cormorant Garamond', serif;">
+                        Export as JSON
+                    </button>
+                    <button id="exportCSV" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: 'Cormorant Garamond', serif;">
+                        Export as CSV
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/footer.js"></script>
+    <script src="utils/page-utils.js"></script>
+    <script src="utils/seo-utils.js"></script>
+    <script src="script.js"></script>
+    <script>
+        initPageTransition();
+        
+        const siteUrl = getSiteUrl();
+        const pageUrl = getPageUrl();
+        document.querySelector('meta[property="og:url"]').content = pageUrl;
+        document.querySelector('link[rel="canonical"]').href = pageUrl;
+        
+        let allPens = [];
+        let allInks = [];
+        
+        // Load data and render statistics
+        async function loadStatistics() {
+            const pensResult = await loadJSONData('./data/pens.json');
+            const inksResult = await loadJSONData('./data/inks.json');
+            
+            if (pensResult.success) {
+                allPens = pensResult.data.pens || [];
+            }
+            if (inksResult.success) {
+                allInks = inksResult.data.inks || [];
+            }
+            
+            renderStatistics();
+        }
+        
+        function renderStatistics() {
+            // Overview stats
+            document.getElementById('totalPens').textContent = allPens.length;
+            const uniqueBrands = new Set(allPens.map(p => p.brand).filter(Boolean));
+            document.getElementById('totalBrands').textContent = uniqueBrands.size;
+            document.getElementById('totalInks').textContent = allInks.length;
+            
+            // Calculate average price
+            const prices = allPens
+                .map(p => p.purchaseLinks?.map(l => l.price).filter(p => p))
+                .flat()
+                .filter(p => p);
+            const avgPrice = prices.length > 0 
+                ? Math.round(prices.reduce((a, b) => a + b, 0) / prices.length)
+                : 0;
+            document.getElementById('avgPrice').textContent = avgPrice > 0 ? `$${avgPrice}` : 'N/A';
+            
+            // Brand distribution chart
+            const brandCounts = {};
+            allPens.forEach(pen => {
+                if (pen.brand) {
+                    brandCounts[pen.brand] = (brandCounts[pen.brand] || 0) + 1;
+                }
+            });
+            const sortedBrands = Object.entries(brandCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10);
+            
+            new Chart(document.getElementById('brandChart'), {
+                type: 'bar',
+                data: {
+                    labels: sortedBrands.map(b => b[0]),
+                    datasets: [{
+                        label: 'Number of Pens',
+                        data: sortedBrands.map(b => b[1]),
+                        backgroundColor: 'rgba(51, 51, 51, 0.8)',
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    }
+                }
+            });
+            
+            // Type distribution chart
+            const typeCounts = {};
+            allPens.forEach(pen => {
+                const type = pen.type || 'Other';
+                typeCounts[type] = (typeCounts[type] || 0) + 1;
+            });
+            
+            new Chart(document.getElementById('typeChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(typeCounts),
+                    datasets: [{
+                        data: Object.values(typeCounts),
+                        backgroundColor: [
+                            'rgba(51, 51, 51, 0.8)',
+                            'rgba(112, 36, 89, 0.8)',
+                            'rgba(6, 95, 70, 0.8)',
+                            'rgba(26, 54, 93, 0.8)',
+                            'rgba(153, 153, 153, 0.8)',
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                }
+            });
+            
+            // Price range chart
+            const priceRanges = {
+                '0-50': 0,
+                '50-100': 0,
+                '100-200': 0,
+                '200-500': 0,
+                '500+': 0
+            };
+            
+            allPens.forEach(pen => {
+                const minPrice = Math.min(...(pen.purchaseLinks || [])
+                    .map(l => l.price || Infinity)
+                    .filter(p => p !== Infinity));
+                if (minPrice !== Infinity) {
+                    if (minPrice < 50) priceRanges['0-50']++;
+                    else if (minPrice < 100) priceRanges['50-100']++;
+                    else if (minPrice < 200) priceRanges['100-200']++;
+                    else if (minPrice < 500) priceRanges['200-500']++;
+                    else priceRanges['500+']++;
+                }
+            });
+            
+            new Chart(document.getElementById('priceChart'), {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(priceRanges),
+                    datasets: [{
+                        label: 'Number of Pens',
+                        data: Object.values(priceRanges),
+                        backgroundColor: 'rgba(112, 36, 89, 0.8)',
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: { beginAtZero: true }
+                    }
+                }
+            });
+            
+            // Filling system chart
+            const fillingCounts = {};
+            allPens.forEach(pen => {
+                const filling = pen.specifications?.fillingSystem || 'Unknown';
+                fillingCounts[filling] = (fillingCounts[filling] || 0) + 1;
+            });
+            
+            new Chart(document.getElementById('fillingChart'), {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(fillingCounts),
+                    datasets: [{
+                        data: Object.values(fillingCounts),
+                        backgroundColor: [
+                            'rgba(51, 51, 51, 0.8)',
+                            'rgba(112, 36, 89, 0.8)',
+                            'rgba(6, 95, 70, 0.8)',
+                            'rgba(26, 54, 93, 0.8)',
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                }
+            });
+        }
+        
+        // Export functions
+        document.getElementById('exportJSON').addEventListener('click', () => {
+            const data = {
+                pens: allPens,
+                inks: allInks,
+                exported: new Date().toISOString()
+            };
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'ink-and-steel-data.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+        
+        document.getElementById('exportCSV').addEventListener('click', () => {
+            // Convert pens to CSV
+            const headers = ['Name', 'Brand', 'Model', 'Type', 'Price', 'Availability'];
+            const rows = allPens.map(pen => {
+                const minPrice = Math.min(...(pen.purchaseLinks || [])
+                    .map(l => l.price || Infinity)
+                    .filter(p => p !== Infinity));
+                const price = minPrice !== Infinity ? minPrice : '';
+                return [
+                    pen.name || '',
+                    pen.brand || '',
+                    pen.model || '',
+                    pen.type || '',
+                    price,
+                    pen.availability || ''
+                ].map(v => `"${String(v).replace(/"/g, '""')}"`).join(',');
+            });
+            
+            const csv = [headers.join(','), ...rows].join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'ink-and-steel-pens.csv';
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+        
+        loadStatistics();
+    </script>
+</body>
+</html>
+

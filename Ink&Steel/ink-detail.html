@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink Details | Ink & Steel</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="fountain pen ink, ink details, ink specifications">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Ink & Steel">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <link rel="canonical" href="">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/ink-detail.js"></script>
+    <script src="components/loading-spinner.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-8">
+        <ink-detail id="inkDetail"></ink-detail>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/footer.js"></script>
+    <script src="utils/page-utils.js"></script>
+    <script src="utils/seo-utils.js"></script>
+    <script src="script.js"></script>
+    <script>
+        initPageTransition();
+        
+        // Get ink ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const inkId = urlParams.get('id');
+        const siteUrl = getSiteUrl();
+        const pageUrl = getPageUrl();
+        
+        // Update meta URLs
+        document.querySelector('meta[property="og:url"]').content = pageUrl;
+        document.querySelector('link[rel="canonical"]').href = pageUrl;
+        
+        if (!inkId) {
+            document.getElementById('inkDetail').innerHTML = 
+                '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">No ink specified. <a href="./inks.html" class="underline">Browse our collection</a></p></div>';
+        } else {
+            // Show loading state
+            const inkDetail = document.getElementById('inkDetail');
+            inkDetail.innerHTML = '<div class="bg-white p-8 shadow-sm text-center"><loading-spinner></loading-spinner><p class="mt-4 text-gray-500">Loading ink details...</p></div>';
+            
+            // Fetch ink data
+            loadJSONData('./data/inks.json')
+                .then(result => {
+                    if (!result.success) {
+                        inkDetail.innerHTML = 
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Error loading ink data. Please try again later. <a href="./inks.html" class="underline">Return to collection</a></p></div>';
+                        return;
+                    }
+                    
+                    const ink = result.data.inks.find(i => i.id === inkId);
+                    if (ink) {
+                        inkDetail.setAttribute('ink-data', JSON.stringify(ink));
+                        
+                        // Update SEO meta tags
+                        const inkName = ink.name;
+                        const inkDescription = ink.description || `Detailed information about ${inkName}`;
+                        const inkImage = ink.swatches?.[0]?.color || '';
+                        
+                        document.title = `${inkName} | Ink & Steel`;
+                        document.querySelector('meta[name="description"]').content = inkDescription;
+                        document.querySelector('meta[property="og:title"]').content = `${inkName} | Ink & Steel`;
+                        document.querySelector('meta[property="og:description"]').content = inkDescription;
+                        document.querySelector('meta[name="twitter:title"]').content = `${inkName} | Ink & Steel`;
+                        document.querySelector('meta[name="twitter:description"]').content = inkDescription;
+                        
+                        // Insert breadcrumb
+                        insertStructuredData(generateBreadcrumbSchema([
+                            { name: 'Home', url: siteUrl + '/' },
+                            { name: 'Ink Collection', url: siteUrl + '/inks.html' },
+                            { name: inkName, url: pageUrl }
+                        ]));
+                    } else {
+                        inkDetail.innerHTML = 
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Ink not found. <a href="./inks.html" class="underline">Browse our collection</a></p></div>';
+                    }
+                });
+        }
+    </script>
+</body>
+</html>
+

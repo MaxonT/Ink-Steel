@@ -1,0 +1,85 @@
+{
+  "inks": [
+    {
+      "id": "pilot-iroshizuku-tsuki-yo",
+      "slug": "pilot-iroshizuku-tsuki-yo",
+      "brand": "Pilot",
+      "name": "Tsuki-yo",
+      "series": "Iroshizuku",
+      "description": "Deep blue-black, like the moonlit night",
+      "details": "Tsuki-yo (月夜) captures the deep blue of a moonlit night sky. This sophisticated ink offers subtle shading and excellent flow, making it perfect for both daily writing and special occasions.",
+      "color": "#0F4C75",
+      "type": "Dye-based",
+      "volume": 50,
+      "bottleType": "Wide-mouth glass bottle with inkwell",
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "medium",
+        "flow": "wet",
+        "lubrication": "high",
+        "waterResistance": "low",
+        "lightfastness": "good",
+        "ph": 7.5
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Pilot-Iroshizuku-Tsuki-yo",
+          "price": 28,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works well with all fountain pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Pilot official website"],
+      "verified": true,
+      "tags": ["blue", "shading", "wet", "everyday"]
+    },
+    {
+      "id": "pelikan-4001-brilliant-black",
+      "slug": "pelikan-4001-brilliant-black",
+      "brand": "Pelikan",
+      "name": "Brilliant Black",
+      "series": "4001",
+      "description": "Classic black ink with reliable performance",
+      "details": "Pelikan 4001 Brilliant Black is a time-tested ink known for its consistent performance and reliability. It dries relatively quickly and works well in all fountain pens.",
+      "color": "#000000",
+      "type": "Dye-based",
+      "volume": 62.5,
+      "bottleType": "Standard glass bottle",
+      "properties": {
+        "sheen": false,
+        "shimmer": false,
+        "shading": "low",
+        "flow": "dry",
+        "lubrication": "medium",
+        "waterResistance": "low",
+        "lightfastness": "excellent",
+        "ph": 7.0
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/pelikan-4001-brilliant-black",
+          "price": 8,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "compatibility": "Works well with all fountain pens, especially German pens",
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Pelikan official website"],
+      "verified": true,
+      "tags": ["black", "professional", "dry", "reliable"]
+    }
+  ]
+}
+

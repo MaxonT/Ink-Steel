@@ -1,0 +1,27 @@
+{
+  "name": "Ink & Steel - Fountain Pen Gallery",
+  "short_name": "Ink & Steel",
+  "description": "A gallery of writing's most elegant companions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f5f0",
+  "theme_color": "#333",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "education"],
+  "screenshots": []
+}
+

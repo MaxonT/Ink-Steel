@@ -1,0 +1,181 @@
+{
+  "pens": [
+    {
+      "id": "pelikan-m800-black",
+      "slug": "pelikan-m800-black",
+      "brand": "Pelikan",
+      "model": "M800",
+      "series": "Souverän",
+      "name": "Pelikan M800 Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Germany",
+      "manufacturer": "Pelikan",
+      "description": "Classic piston-filler with iconic striped barrel",
+      "details": "The M800 represents Pelikan's commitment to traditional German craftsmanship. With its distinctive striped barrel pattern and robust piston filling system, this pen has become an icon in the fountain pen world.",
+      "history": "Introduced in 1987, the M800 was designed to bridge the gap between the smaller M400 and larger M1000 models. It quickly gained popularity for its perfect balance and reliable performance.",
+      "specifications": {
+        "length": 140,
+        "lengthCapped": 140,
+        "lengthUncapped": 127,
+        "lengthPosted": 165,
+        "diameter": 13,
+        "diameterBody": 13,
+        "diameterGrip": 11,
+        "diameterCap": 15,
+        "weight": 28,
+        "weightBody": 18,
+        "weightCap": 10,
+        "material": ["Resin", "Brass"],
+        "finish": "Glossy",
+        "trim": "Gold-plated",
+        "clip": "Pelikan beak clip, gold-plated",
+        "fillingSystem": "Piston",
+        "capacity": 1.35,
+        "capType": "Screw-on",
+        "capRotation": 0.75,
+        "nib": {
+          "type": "18K Gold",
+          "sizes": ["EF", "F", "M", "B", "BB"],
+          "default": "M",
+          "engraving": "Pelikan logo and size marking",
+          "flexibility": "Semi-flex"
+        },
+        "section": "Resin with brass threads",
+        "threading": "Brass threads in section",
+        "balance": "Slightly rear-weighted when posted"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pelikan+M800",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Pelikan+M800+Side",
+          "https://via.placeholder.com/800x600?text=Pelikan+M800+Nib",
+          "https://via.placeholder.com/800x600?text=Pelikan+M800+Cap",
+          "https://via.placeholder.com/800x600?text=Pelikan+M800+Grip"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "Goulet Pens",
+          "url": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen",
+          "price": 450,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        },
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Pelikan-M800",
+          "price": 445,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1987,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in multiple barrel colors",
+      "tags": ["professional", "classic", "piston-filler", "luxury", "german"],
+      "relatedPens": ["pelikan-m600", "pelikan-m1000"],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Pelikan official website", "Goulet Pens"],
+      "verified": true
+    },
+    {
+      "id": "pilot-custom-74",
+      "slug": "pilot-custom-74",
+      "brand": "Pilot",
+      "model": "Custom 74",
+      "series": "Custom",
+      "name": "Pilot Custom 74 Fountain Pen",
+      "type": "Fountain Pen",
+      "country": "Japan",
+      "manufacturer": "Pilot Corporation",
+      "description": "Versatile Japanese workhorse with smooth gold nib",
+      "details": "The Custom 74 is one of Pilot's most popular fountain pens, known for its excellent writing experience and value proposition. It features Pilot's renowned gold nib and accepts both converters and cartridges.",
+      "history": "Part of Pilot's Custom series, the Custom 74 has been a staple in the Japanese fountain pen market since its introduction, offering exceptional quality at an accessible price point.",
+      "specifications": {
+        "length": 142,
+        "lengthCapped": 142,
+        "lengthUncapped": 126,
+        "lengthPosted": 158,
+        "diameter": 12,
+        "diameterBody": 12,
+        "diameterGrip": 10.5,
+        "diameterCap": 14,
+        "weight": 19,
+        "weightBody": 12,
+        "weightCap": 7,
+        "material": ["Resin"],
+        "finish": "Glossy",
+        "trim": "Gold-plated",
+        "clip": "Pilot arrow clip, gold-plated",
+        "fillingSystem": "Converter",
+        "capacity": 0.7,
+        "capType": "Snap-on",
+        "capRotation": null,
+        "nib": {
+          "type": "14K Gold",
+          "sizes": ["EF", "F", "FM", "M", "B", "SM", "SFM", "SF", "SB"],
+          "default": "M",
+          "engraving": "Pilot logo and size marking",
+          "flexibility": "Soft"
+        },
+        "section": "Resin with step",
+        "threading": "Plastic threads",
+        "balance": "Well-balanced"
+      },
+      "images": {
+        "main": "https://via.placeholder.com/800x600?text=Pilot+Custom+74",
+        "gallery": [
+          "https://via.placeholder.com/800x600?text=Pilot+Custom+74+Side",
+          "https://via.placeholder.com/800x600?text=Pilot+Custom+74+Nib"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
+      },
+      "purchaseLinks": [
+        {
+          "name": "JetPens",
+          "url": "https://www.jetpens.com/Pilot-Custom-74",
+          "price": 160,
+          "currency": "USD",
+          "region": "US",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        },
+        {
+          "name": "Amazon Japan",
+          "url": "https://www.amazon.co.jp/dp/B00XXXXXX",
+          "price": 18000,
+          "currency": "JPY",
+          "region": "JP",
+          "availability": "In Stock",
+          "lastChecked": "2024-01-15"
+        }
+      ],
+      "availability": "In Production",
+      "yearIntroduced": 1993,
+      "yearDiscontinued": null,
+      "limitedEdition": false,
+      "number": null,
+      "specialNotes": "Available in multiple colors and nib sizes",
+      "tags": ["professional", "japanese", "converter", "everyday", "value"],
+      "relatedPens": ["pilot-custom-91", "pilot-custom-823"],
+      "addedDate": "2024-01-01",
+      "lastUpdated": "2024-01-15",
+      "sources": ["Pilot official website", "JetPens"],
+      "verified": true
+    }
+  ]
+}
+
