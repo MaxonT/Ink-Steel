@@ -59,15 +59,16 @@ class CustomFooter extends HTMLElement {
         </div>
         <div class="footer-section">
           <h3>Explore</h3>
-          <a href="/">Pen Gallery</a>
-          <a href="/inks.html">Ink Collection</a>
-          <a href="/blog.html">Journal</a>
-          <a href="/about.html">Our Philosophy</a>
-          <a href="/donate.html">Support Us</a>
+          <a href="./">Pen Gallery</a>
+          <a href="./inks.html">Ink Collection</a>
+          <a href="./brands.html">Brands</a>
+          <a href="./blog.html">Journal</a>
+          <a href="./about.html">Our Philosophy</a>
+          <a href="./donate.html">Support Us</a>
         </div>
         <div class="footer-section">
-<h3>Connect</h3>
-          <a href="/contact.html">Visit Us</a>
+          <h3>Connect</h3>
+          <a href="./contact.html">Visit Us</a>
           <a href="mailto:contact@inkandsteel.com">Email</a>
           <a href="tel:+18005551234">Phone</a>
         </div>

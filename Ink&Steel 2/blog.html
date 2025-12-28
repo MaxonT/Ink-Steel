@@ -31,7 +31,7 @@
                 </div>
                 <h2 class="text-2xl font-light mb-4">The Weight of Words: Balance in Fountain Pens</h2>
                 <p class="mb-6">How the distribution of mass in a writing instrument affects not just comfort but the very character of one's script.</p>
-                <a href="/blog/the-weight-of-words.html" class="inline-block border-b border-gray-300 pb-1 hover:border-gray-500 transition-colors">Read Essay</a>
+                <a href="./blog/the-weight-of-words.html" class="inline-block border-b border-gray-300 pb-1 hover:border-gray-500 transition-colors">Read Essay</a>
             </article>
 
             <!-- Article 2 -->
@@ -46,7 +46,7 @@
                 </div>
                 <h2 class="text-2xl font-light mb-4">Chromatography of Desire: The Science Behind Ink Colors</h2>
                 <p class="mb-6">Exploring how chemical compositions create the subtle variations that make each ink unique to the discerning eye.</p>
-                <a href="/blog/chromatography-of-desire.html" class="inline-block border-b border-gray-300 pb-1 hover:border-gray-500 transition-colors">Read Essay</a>
+                <a href="./blog/chromatography-of-desire.html" class="inline-block border-b border-gray-300 pb-1 hover:border-gray-500 transition-colors">Read Essay</a>
             </article>
         </div>
 
@@ -62,17 +62,12 @@
     <custom-footer></custom-footer>
 
     <script src="components/footer.js"></script>
+    <script src="utils/page-utils.js"></script>
     <script src="script.js"></script>
     <script src="components/newsletter.js"></script>
     <script src="components/ink-swatch.js"></script>
-<script>
-        document.body.style.opacity = '0';
-        window.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                document.body.style.transition = 'opacity 1.5s ease';
-                document.body.style.opacity = '1';
-            }, 100);
-        });
+    <script>
+        initPageTransition();
     </script>
 </body>
 </html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen Details | Ink & Steel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/pen-detail.js"></script>
+    <script src="components/pen-gallery.js"></script>
+    <script src="components/purchase-links.js"></script>
+    <script src="components/loading-spinner.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-8">
+        <pen-detail id="penDetail"></pen-detail>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/footer.js"></script>
+    <script src="utils/page-utils.js"></script>
+    <script src="script.js"></script>
+    <script src="components/newsletter.js"></script>
+    <script src="components/ink-swatch.js"></script>
+    <script>
+        // Initialize page
+        initPageTransition();
+        
+        // Get pen ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const penId = urlParams.get('id');
+        
+        if (!penId) {
+            document.getElementById('penDetail').innerHTML = 
+                '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">No pen specified. <a href="./" class="underline">Browse our collection</a></p></div>';
+        } else {
+            // Show loading state
+            const penDetail = document.getElementById('penDetail');
+            penDetail.innerHTML = '<div class="bg-white p-8 shadow-sm text-center"><loading-spinner></loading-spinner><p class="mt-4 text-gray-500">Loading pen details...</p></div>';
+            
+            // Fetch pen data
+            loadJSONData('./data/pens.json')
+                .then(result => {
+                    if (!result.success) {
+                        penDetail.innerHTML = 
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Error loading pen data. Please try again later. <a href="./" class="underline">Return to gallery</a></p></div>';
+                        return;
+                    }
+                    
+                    const pen = result.data.pens.find(p => p.id === penId);
+                    if (pen) {
+                        penDetail.setAttribute('pen-data', JSON.stringify(pen));
+                        document.title = `${pen.name} | Ink & Steel`;
+                    } else {
+                        penDetail.innerHTML = 
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Pen not found. <a href="./" class="underline">Browse our collection</a></p></div>';
+                    }
+                });
+        }
+    </script>
+</body>
+</html>

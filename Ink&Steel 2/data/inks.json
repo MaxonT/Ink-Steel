@@ -1,8 +1,8 @@
-```json
 {
   "inks": [
     {
       "id": "midnight-sky",
+      "brand": "Ink & Steel",
       "name": "Midnight Sky",
       "description": "Permanent Blue-Black",
       "details": "The depth of night captured in every stroke, with subtle silver sheen.",
@@ -10,10 +10,13 @@
       "sheen": true,
       "shading": "medium",
       "flow": "wet",
+      "volume": 50,
+      "purchaseLinks": [],
       "tags": ["professional", "permanent", "versatile"]
     },
     {
       "id": "burgundy",
+      "brand": "Ink & Steel",
       "name": "Burgundy",
       "description": "Iron Gall Formula",
       "details": "Aged wine tones that darken over time, like memories settling.",
@@ -21,10 +24,9 @@
       "sheen": false,
       "shading": "high",
       "flow": "dry",
+      "volume": 50,
+      "purchaseLinks": [],
       "tags": ["vintage", "archival", "artistic"]
     }
   ]
 }
-```
-
-2. Now let's update the index.html to be data-driven:

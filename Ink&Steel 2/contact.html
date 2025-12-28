@@ -67,17 +67,12 @@
 <custom-footer></custom-footer>
 
     <script src="components/footer.js"></script>
+    <script src="utils/page-utils.js"></script>
     <script src="script.js"></script>
     <script src="components/newsletter.js"></script>
     <script src="components/ink-swatch.js"></script>
-<script>
-        document.body.style.opacity = '0';
-        window.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                document.body.style.transition = 'opacity 1.5s ease';
-                document.body.style.opacity = '1';
-            }, 100);
-        });
+    <script>
+        initPageTransition();
     </script>
 </body>
 </html>

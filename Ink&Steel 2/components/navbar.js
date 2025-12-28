@@ -66,14 +66,15 @@ class CustomNavbar extends HTMLElement {
         }
       </style>
       <nav>
-        <a href="/" class="logo">INK & STEEL</a>
+        <a href="./" class="logo">INK & STEEL</a>
         <div class="nav-links">
-          <a href="/" class="nav-link">Gallery</a>
-<a href="/inks.html" class="nav-link">Inks</a>
-          <a href="/blog.html" class="nav-link">Journal</a>
-          <a href="/about.html" class="nav-link">Manifesto</a>
-          <a href="/contact.html" class="nav-link">Contact</a>
-          <a href="/care.html" class="nav-link">Care</a>
+          <a href="./" class="nav-link">Gallery</a>
+          <a href="./inks.html" class="nav-link">Inks</a>
+          <a href="./brands.html" class="nav-link">Brands</a>
+          <a href="./blog.html" class="nav-link">Journal</a>
+          <a href="./about.html" class="nav-link">Manifesto</a>
+          <a href="./contact.html" class="nav-link">Contact</a>
+          <a href="./care.html" class="nav-link">Care</a>
           <donate-button></donate-button>
         </div>
       </nav>
