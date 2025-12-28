@@ -18,10 +18,27 @@ class PenComparison extends HTMLElement {
       this.attachShadow({ mode: 'open' });
     }
 
-    const pensData = this.getAttribute('pens') ? JSON.parse(this.getAttribute('pens')) : [];
-    const maxPens = 4;
+    try {
+      const pensDataAttr = this.getAttribute('pens');
+      let pensData = [];
+      
+      if (pensDataAttr) {
+        try {
+          pensData = JSON.parse(pensDataAttr);
+        } catch (e) {
+          handleError(e, 'PenComparison.render - JSON parse', false);
+          this.shadowRoot.innerHTML = '<div class="empty-state">Error loading comparison data.</div>';
+          return;
+        }
+      }
+      
+      if (!Array.isArray(pensData)) {
+        pensData = [];
+      }
+      
+      const maxPens = 4;
 
-    if (!pensData || pensData.length === 0) {
+      if (pensData.length === 0) {
       this.shadowRoot.innerHTML = `
         <style>
           :host {

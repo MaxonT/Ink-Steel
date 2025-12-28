@@ -1,4 +1,13 @@
 const CACHE_NAME = 'ink-and-steel-v1';
+// Use relative paths that work in different deployment environments
+const getBasePath = () => {
+  // Try to detect base path from scope
+  const scope = self.registration?.scope || self.location.pathname.replace(/\/[^/]*$/, '/');
+  return scope.endsWith('/') ? scope.slice(0, -1) : '';
+};
+
+const BASE_PATH = getBasePath();
+
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -18,6 +27,7 @@ const STATIC_ASSETS = [
   '/ink-detail.html',
   '/stats.html',
   '/404.html',
+  '/offline.html',
   '/components/navbar.js',
   '/components/footer.js',
   '/components/pen-detail.js',
@@ -34,9 +44,12 @@ const STATIC_ASSETS = [
   '/utils/seo-utils.js',
   '/utils/search-utils.js',
   '/utils/browsing-history.js',
+  '/utils/security.js',
+  '/utils/error-handler.js',
+  '/utils/validators.js',
   '/data/pens.json',
   '/data/inks.json'
-];
+].map(path => BASE_PATH + path);
 
 // Install event - cache static assets
 self.addEventListener('install', (event) => {
@@ -44,7 +57,15 @@ self.addEventListener('install', (event) => {
     caches.open(CACHE_NAME)
       .then((cache) => {
         console.log('Caching static assets');
-        return cache.addAll(STATIC_ASSETS);
+        // Cache assets one by one to handle failures gracefully
+        return Promise.allSettled(
+          STATIC_ASSETS.map(url => 
+            cache.add(url).catch(err => {
+              console.warn(`Failed to cache ${url}:`, err);
+              return null;
+            })
+          )
+        );
       })
       .catch((err) => {
         console.error('Error caching static assets:', err);
@@ -109,7 +130,9 @@ self.addEventListener('fetch', (event) => {
           .catch(() => {
             // If offline and page request, return offline page
             if (event.request.destination === 'document') {
-              return caches.match('/404.html');
+              return caches.match(BASE_PATH + '/offline.html') || 
+                     caches.match(BASE_PATH + '/404.html') ||
+                     new Response('Offline', { status: 503, headers: { 'Content-Type': 'text/plain' } });
             }
           });
       })

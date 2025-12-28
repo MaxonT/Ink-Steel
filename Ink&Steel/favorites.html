@@ -59,7 +59,13 @@
         
         // Load favorites
         function loadFavorites() {
-            const favoriteIds = JSON.parse(localStorage.getItem('pen-favorites') || '[]');
+            const favoriteIds = safeLocalStorageGet('pen-favorites', []);
+            if (!Array.isArray(favoriteIds)) {
+                safeLocalStorageSet('pen-favorites', []);
+                document.getElementById('favoritesGrid').classList.add('hidden');
+                document.getElementById('emptyState').classList.remove('hidden');
+                return;
+            }
             
             if (favoriteIds.length === 0) {
                 document.getElementById('favoritesGrid').classList.add('hidden');

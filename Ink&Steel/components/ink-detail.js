@@ -21,12 +21,24 @@ class InkDetail extends HTMLElement {
       this.attachShadow({ mode: 'open' });
     }
 
-    const inkData = this.getAttribute('ink-data') ? JSON.parse(this.getAttribute('ink-data')) : null;
-    
-    if (!inkData) {
-      this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Loading...</p>';
-      return;
-    }
+    try {
+      const inkDataAttr = this.getAttribute('ink-data');
+      let inkData = null;
+      
+      if (inkDataAttr) {
+        try {
+          inkData = JSON.parse(inkDataAttr);
+        } catch (e) {
+          handleError(e, 'InkDetail.render - JSON parse', false);
+          this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Error loading ink data.</p>';
+          return;
+        }
+      }
+      
+      if (!inkData) {
+        this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Loading...</p>';
+        return;
+      }
 
     const swatchColors = inkData.swatches || [];
     const purchaseLinks = inkData.purchaseLinks || [];

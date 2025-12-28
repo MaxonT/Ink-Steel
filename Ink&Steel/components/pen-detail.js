@@ -21,12 +21,24 @@ class PenDetail extends HTMLElement {
       this.attachShadow({ mode: 'open' });
     }
 
-    const penData = this.getAttribute('pen-data') ? JSON.parse(this.getAttribute('pen-data')) : null;
-    
-    if (!penData) {
-      this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Loading...</p>';
-      return;
-    }
+    try {
+      const penDataAttr = this.getAttribute('pen-data');
+      let penData = null;
+      
+      if (penDataAttr) {
+        try {
+          penData = JSON.parse(penDataAttr);
+        } catch (e) {
+          handleError(e, 'PenDetail.render - JSON parse', false);
+          this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Error loading pen data.</p>';
+          return;
+        }
+      }
+      
+      if (!penData) {
+        this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Loading...</p>';
+        return;
+      }
 
     const specs = penData.specifications || {};
     const nib = specs.nib || {};
@@ -166,15 +178,15 @@ class PenDetail extends HTMLElement {
       <div class="pen-detail-container">
         <pen-gallery images='${JSON.stringify(images)}'></pen-gallery>
         <div class="pen-info">
-          <h1>${penData.name || 'Pen Name'}</h1>
+          <h1>${escapeHtml(penData.name || 'Pen Name')}</h1>
           ${penData.brand || penData.model ? `
-            <div class="pen-brand-model">${penData.brand || ''} ${penData.model || ''}</div>
+            <div class="pen-brand-model">${escapeHtml(penData.brand || '')} ${escapeHtml(penData.model || '')}</div>
           ` : ''}
           ${penData.description ? `
-            <p class="pen-description">${penData.description}</p>
+            <p class="pen-description">${escapeHtml(penData.description)}</p>
           ` : ''}
           ${penData.details ? `
-            <p class="pen-details">${penData.details}</p>
+            <p class="pen-details">${escapeHtml(penData.details)}</p>
           ` : ''}
           
           <div class="pen-specs">

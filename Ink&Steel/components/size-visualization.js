@@ -18,19 +18,31 @@ class SizeVisualization extends HTMLElement {
       this.attachShadow({ mode: 'open' });
     }
 
-    const pensData = this.getAttribute('pens') ? JSON.parse(this.getAttribute('pens')) : [];
-
-    if (!pensData || pensData.length === 0) {
-      this.shadowRoot.innerHTML = `
-        <style>
-          :host {
-            display: block;
-          }
-        </style>
-        <div></div>
-      `;
-      return;
-    }
+    try {
+      const pensDataAttr = this.getAttribute('pens');
+      let pensData = [];
+      
+      if (pensDataAttr) {
+        try {
+          pensData = JSON.parse(pensDataAttr);
+        } catch (e) {
+          handleError(e, 'SizeVisualization.render - JSON parse', false);
+          this.shadowRoot.innerHTML = '<div></div>';
+          return;
+        }
+      }
+      
+      if (!Array.isArray(pensData) || pensData.length === 0) {
+        this.shadowRoot.innerHTML = `
+          <style>
+            :host {
+              display: block;
+            }
+          </style>
+          <div></div>
+        `;
+        return;
+      }
 
     // Get max dimensions for scaling
     const pens = pensData.map(pen => ({

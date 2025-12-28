@@ -18,27 +18,31 @@ class ShareButton extends HTMLElement {
       this.attachShadow({ mode: 'open' });
     }
 
-    let url = this.getAttribute('url');
-    let title = this.getAttribute('title');
-    let text = this.getAttribute('text');
-    
-    // If pen-id is provided, build URL and title from it
-    const penId = this.getAttribute('pen-id');
-    if (penId && !url) {
-      url = `${window.location.origin}/pen-detail.html?id=${penId}`;
-    }
-    if (!url) url = window.location.href;
-    
-    if (penId && !title) {
-      const penName = this.getAttribute('pen-name') || 'Pen';
-      title = `${penName} | Ink & Steel`;
-    }
-    if (!title) title = document.title;
-    
-    if (penId && !text) {
-      text = this.getAttribute('pen-description') || this.getAttribute('pen-name') || title;
-    }
-    if (!text) text = title;
+    try {
+      let url = this.getAttribute('url');
+      let title = this.getAttribute('title');
+      let text = this.getAttribute('text');
+      
+      // If pen-id is provided, build URL and title from it
+      const penId = this.getAttribute('pen-id');
+      if (penId && !url) {
+        const sanitizedId = sanitizeId(penId);
+        if (sanitizedId) {
+          url = `${window.location.origin}/pen-detail.html?id=${sanitizedId}`;
+        }
+      }
+      if (!url) url = window.location.href;
+      
+      if (penId && !title) {
+        const penName = this.getAttribute('pen-name') || 'Pen';
+        title = `${escapeHtml(penName)} | Ink & Steel`;
+      }
+      if (!title) title = document.title;
+      
+      if (penId && !text) {
+        text = this.getAttribute('pen-description') || this.getAttribute('pen-name') || title;
+      }
+      if (!text) text = title;
 
     this.shadowRoot.innerHTML = `
       <style>
@@ -146,25 +150,39 @@ class ShareButton extends HTMLElement {
   }
 
   copyToClipboard(text) {
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(text).then(() => {
-        this.showCopyFeedback();
-      });
-    } else {
-      // Fallback for older browsers
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          this.showCopyFeedback();
+        }).catch(err => {
+          handleError(err, 'copyToClipboard', false);
+          this.fallbackCopy(text);
+        });
+      } else {
+        this.fallbackCopy(text);
+      }
+    } catch (error) {
+      handleError(error, 'copyToClipboard', false);
+      this.fallbackCopy(text);
+    }
+  }
+
+  fallbackCopy(text) {
+    try {
       const textarea = document.createElement('textarea');
       textarea.value = text;
       textarea.style.position = 'fixed';
       textarea.style.opacity = '0';
+      textarea.style.left = '-9999px';
       document.body.appendChild(textarea);
       textarea.select();
-      try {
-        document.execCommand('copy');
-        this.showCopyFeedback();
-      } catch (err) {
-        console.error('Failed to copy:', err);
-      }
+      const success = document.execCommand('copy');
       document.body.removeChild(textarea);
+      if (success) {
+        this.showCopyFeedback();
+      }
+    } catch (err) {
+      handleError(err, 'fallbackCopy', false);
     }
   }
 

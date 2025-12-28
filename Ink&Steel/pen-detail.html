@@ -48,7 +48,15 @@
         
         // Get pen ID from URL
         const urlParams = new URLSearchParams(window.location.search);
-        const penId = urlParams.get('id');
+        const rawPenId = urlParams.get('id');
+        const penId = sanitizeId(rawPenId);
+        
+        if (!penId && rawPenId) {
+            // Invalid ID format
+            document.getElementById('penDetail').innerHTML = 
+                '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Invalid pen ID format. <a href="./" class="underline">Browse our collection</a></p></div>';
+            return;
+        }
         const siteUrl = getSiteUrl();
         const pageUrl = getPageUrl();
         
@@ -107,6 +115,18 @@
                         penDetail.innerHTML = 
                             '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Pen not found. <a href="./" class="underline">Browse our collection</a></p></div>';
                     }
+                })
+                .catch(error => {
+                    handleError(error, 'pen-detail loadWithRetry', true);
+                    penDetail.innerHTML = `
+                        <div class="bg-white p-8 shadow-sm text-center">
+                            <p class="text-gray-500 italic mb-4">Failed to load pen data after multiple attempts.</p>
+                            <button onclick="window.location.reload()" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: 'Cormorant Garamond', serif;">
+                                Retry
+                            </button>
+                            <p class="mt-4"><a href="./" class="underline">Return to gallery</a></p>
+                        </div>
+                    `;
                 });
         }
     </script>

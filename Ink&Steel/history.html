@@ -85,33 +85,43 @@
                         return;
                     }
                     
-                    const allPens = result.data.pens;
+                    const allPens = Array.isArray(result.data?.pens) ? result.data.pens : [];
                     const grid = document.getElementById('historyGrid');
                     
                     grid.innerHTML = history.map((item, index) => {
-                        const pen = allPens.find(p => p.id === item.id);
+                        if (!item || !item.id) return '';
+                        
+                        const pen = allPens.find(p => p && p.id === item.id);
                         if (!pen) return '';
                         
-                        const mainImage = pen.images?.main || item.image || 'https://via.placeholder.com/800x600?text=' + encodeURIComponent(pen.name);
+                        const mainImage = pen.images?.main || item.image || 'https://via.placeholder.com/800x600?text=' + encodeURIComponent(pen.name || 'Pen');
                         const minPrice = pen.purchaseLinks?.length > 0 
                             ? Math.min(...pen.purchaseLinks.map(l => l.price || Infinity).filter(p => p !== Infinity))
                             : null;
                         
+                        const penId = escapeHtml(pen.id);
+                        const penName = escapeHtml(pen.name || 'Unknown');
+                        const penBrand = pen.brand ? escapeHtml(pen.brand) : '';
+                        const penModel = pen.model ? escapeHtml(pen.model) : '';
+                        const penDescription = pen.description ? escapeHtml(pen.description) : '';
+                        const safeImageUrl = sanitizeUrl(mainImage) || mainImage;
+                        
                         return `
                             <div class="pen-card bg-white p-6 rounded-sm shadow-sm transition-all duration-500 hover:shadow-md relative block"
                                  style="animation-delay: ${index * 0.05}s">
-                                <a href="./pen-detail.html?id=${pen.id}" class="block">
+                                <a href="./pen-detail.html?id=${penId}" class="block">
                                     <div class="relative h-64 overflow-hidden mb-4">
-                                        <img src="${mainImage}" 
-                                             alt="${pen.name}" 
+                                        <img src="${safeImageUrl}" 
+                                             alt="${penName}" 
                                              class="pen-image w-full h-full object-contain transition-transform duration-700"
-                                             loading="lazy">
+                                             loading="lazy"
+                                             onerror="this.src='https://via.placeholder.com/800x600?text=Image+Not+Available'">
                                         <div class="ink-drop absolute bottom-0 right-0 w-16 h-16 bg-blue-900 rounded-full opacity-70"></div>
                                     </div>
-                                    <h2 class="text-2xl font-light mb-1">${pen.name}</h2>
-                                    ${pen.brand ? `<p class="text-sm text-gray-500 mb-2">${pen.brand} ${pen.model || ''}</p>` : ''}
-                                    <p class="italic text-gray-600 mb-3">${pen.description || ''}</p>
-                                    ${minPrice ? `<p class="text-sm font-medium text-gray-700">From $${minPrice}</p>` : ''}
+                                    <h2 class="text-2xl font-light mb-1">${penName}</h2>
+                                    ${penBrand ? `<p class="text-sm text-gray-500 mb-2">${penBrand} ${penModel}</p>` : ''}
+                                    <p class="italic text-gray-600 mb-3">${penDescription}</p>
+                                    ${minPrice !== null && minPrice !== Infinity ? `<p class="text-sm font-medium text-gray-700">From $${escapeHtml(String(minPrice))}</p>` : ''}
                                 </a>
                             </div>
                         `;

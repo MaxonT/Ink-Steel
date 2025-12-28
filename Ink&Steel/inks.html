@@ -77,17 +77,46 @@
         // Initialize page
         initPageTransition();
         
-        // Load inks data
+        // Load inks data with retry
         async function loadInks() {
-            const result = await loadJSONData('./data/inks.json');
-            if (!result.success) {
-                document.getElementById('inksGrid').innerHTML = 
-                    '<div class="col-span-full text-center py-20 text-gray-500 italic">Error loading inks. Please try again later.</div>';
-                return;
-            }
+            const loadWithRetry = withRetry(async () => {
+                return await loadJSONData('./data/inks.json');
+            }, 3, 1000);
             
-            const inks = result.data.inks || [];
-            renderInks(inks);
+            try {
+                const result = await loadWithRetry();
+                if (!result.success) {
+                    const errorDiv = document.getElementById('inksGrid');
+                    if (errorDiv) {
+                        errorDiv.innerHTML = `
+                            <div class="col-span-full text-center py-20">
+                                <p class="text-gray-500 italic mb-4">Error loading inks. Please try again.</p>
+                                <button onclick="loadInks()" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: 'Cormorant Garamond', serif;">
+                                    Retry
+                                </button>
+                            </div>
+                        `;
+                    }
+                    handleError(result.error || 'Failed to load inks', 'loadInks', true);
+                    return;
+                }
+                
+                const inks = Array.isArray(result.data?.inks) ? result.data.inks : [];
+                renderInks(inks);
+            } catch (error) {
+                handleError(error, 'loadInks', true);
+                const errorDiv = document.getElementById('inksGrid');
+                if (errorDiv) {
+                    errorDiv.innerHTML = `
+                        <div class="col-span-full text-center py-20">
+                            <p class="text-gray-500 italic mb-4">Failed to load inks after multiple attempts.</p>
+                            <button onclick="loadInks()" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: 'Cormorant Garamond', serif;">
+                                Retry
+                            </button>
+                        </div>
+                    `;
+                }
+            }
         }
         
         // Render inks

@@ -37,21 +37,24 @@ async function loadJSONData(url, timeout = 10000) {
 
 // Search function for pens
 function searchPens(pens, query) {
-  if (!query || query.trim() === '') {
+  if (!Array.isArray(pens)) return [];
+  if (!query || typeof query !== 'string' || query.trim() === '') {
     return pens;
   }
   
   const searchTerm = query.toLowerCase().trim();
   return pens.filter(pen => {
+    if (!pen) return false;
+    
     const searchableText = [
-      pen.name,
-      pen.brand,
-      pen.model,
-      pen.series,
-      pen.description,
-      pen.details,
-      ...(pen.tags || [])
-    ].join(' ').toLowerCase();
+      pen.name || '',
+      pen.brand || '',
+      pen.model || '',
+      pen.series || '',
+      pen.description || '',
+      pen.details || '',
+      ...(Array.isArray(pen.tags) ? pen.tags : [])
+    ].filter(Boolean).join(' ').toLowerCase();
     
     return searchableText.includes(searchTerm);
   });
@@ -59,7 +62,10 @@ function searchPens(pens, query) {
 
 // Filter pens by multiple criteria
 function filterPens(pens, filters) {
-  let filtered = pens;
+  if (!Array.isArray(pens)) return [];
+  if (!filters || typeof filters !== 'object') return pens;
+  
+  let filtered = pens.filter(p => p != null); // Remove null/undefined entries
   
   if (filters.brand && filters.brand.length > 0) {
     filtered = filtered.filter(pen => filters.brand.includes(pen.brand));
@@ -150,7 +156,11 @@ function getUniqueValues(array, key) {
 
 // Get all unique tags from pens
 function getAllTags(pens) {
-  const allTags = pens.flatMap(pen => pen.tags || []);
+  if (!Array.isArray(pens)) return [];
+  const allTags = pens
+    .filter(pen => pen != null)
+    .flatMap(pen => Array.isArray(pen.tags) ? pen.tags : [])
+    .filter(tag => tag != null && tag !== '');
   return [...new Set(allTags)].sort();
 }
 
