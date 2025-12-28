@@ -347,23 +347,32 @@ class PenDetail extends HTMLElement {
     const addToComparisonBtn = this.shadowRoot.getElementById('addToComparison');
     if (addToComparisonBtn) {
       addToComparisonBtn.addEventListener('click', () => {
-        const comparisonIds = JSON.parse(localStorage.getItem('pen-comparison') || '[]');
-        if (comparisonIds.includes(penData.id)) {
-          alert('This pen is already in the comparison list.');
-          return;
+        try {
+          const comparisonIds = safeLocalStorageGet('pen-comparison', []);
+          if (!Array.isArray(comparisonIds)) {
+            safeLocalStorageSet('pen-comparison', []);
+            return;
+          }
+          
+          if (comparisonIds.includes(penData.id)) {
+            showUserError('This pen is already in the comparison list.', 2000);
+            return;
+          }
+          if (comparisonIds.length >= 4) {
+            showUserError('You can compare up to 4 pens at once. Please remove one from the comparison page first.', 3000);
+            return;
+          }
+          comparisonIds.push(penData.id);
+          safeLocalStorageSet('pen-comparison', comparisonIds);
+          addToComparisonBtn.textContent = 'Added to Comparison ✓';
+          addToComparisonBtn.style.background = '#065f46';
+          setTimeout(() => {
+            addToComparisonBtn.textContent = 'Add to Comparison';
+            addToComparisonBtn.style.background = '#333';
+          }, 2000);
+        } catch (e) {
+          handleError(e, 'addToComparison', true);
         }
-        if (comparisonIds.length >= 4) {
-          alert('You can compare up to 4 pens at once. Please remove one from the comparison page first.');
-          return;
-        }
-        comparisonIds.push(penData.id);
-        localStorage.setItem('pen-comparison', JSON.stringify(comparisonIds));
-        addToComparisonBtn.textContent = 'Added to Comparison ✓';
-        addToComparisonBtn.style.background = '#065f46';
-        setTimeout(() => {
-          addToComparisonBtn.textContent = 'Add to Comparison';
-          addToComparisonBtn.style.background = '#333';
-        }, 2000);
       });
     }
   }

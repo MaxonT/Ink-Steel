@@ -7,7 +7,7 @@
 const MAX_SEARCH_HISTORY = 10;
 
 function getSearchHistory() {
-  return JSON.parse(localStorage.getItem('search-history') || '[]');
+  return safeLocalStorageGet('search-history', []);
 }
 
 function addToSearchHistory(query) {
@@ -21,11 +21,15 @@ function addToSearchHistory(query) {
   // Limit size
   history = history.slice(0, MAX_SEARCH_HISTORY);
   
-  localStorage.setItem('search-history', JSON.stringify(history));
+  safeLocalStorageSet('search-history', history);
 }
 
 function clearSearchHistory() {
-  localStorage.removeItem('search-history');
+  try {
+    localStorage.removeItem('search-history');
+  } catch (e) {
+    handleError(e, 'clearSearchHistory', false);
+  }
 }
 
 // URL parameter management for search/filters
@@ -76,9 +80,13 @@ function buildShareableURL(baseUrl, params) {
 
 // Search suggestions (simple implementation)
 function getSearchSuggestions(pens, query) {
-  if (!query || query.length < 2) return [];
+  if (!query || typeof query !== 'string' || query.length < 2) return [];
+  if (!Array.isArray(pens)) return [];
   
-  const queryLower = query.toLowerCase();
+  const sanitizedQuery = sanitizeSearchQuery(query);
+  if (!sanitizedQuery) return [];
+  
+  const queryLower = sanitizedQuery.toLowerCase();
   const suggestions = new Set();
   
   pens.forEach(pen => {

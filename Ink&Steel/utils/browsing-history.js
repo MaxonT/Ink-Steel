@@ -6,32 +6,43 @@
 const MAX_HISTORY_ITEMS = 50;
 
 function addToBrowsingHistory(penId, penData) {
-  let history = getBrowsingHistory();
+  if (!penId || !penData) return;
   
-  // Remove if already exists
-  history = history.filter(item => item.id !== penId);
-  
-  // Add to beginning
-  history.unshift({
-    id: penId,
-    name: penData.name || 'Unknown',
-    brand: penData.brand || '',
-    image: penData.images?.main || '',
-    viewedAt: new Date().toISOString()
-  });
-  
-  // Limit size
-  history = history.slice(0, MAX_HISTORY_ITEMS);
-  
-  localStorage.setItem('pen-browsing-history', JSON.stringify(history));
+  try {
+    let history = getBrowsingHistory();
+    if (!Array.isArray(history)) history = [];
+    
+    // Remove if already exists
+    history = history.filter(item => item.id !== penId);
+    
+    // Add to beginning
+    history.unshift({
+      id: String(penId),
+      name: String(penData.name || 'Unknown'),
+      brand: String(penData.brand || ''),
+      image: String(penData.images?.main || ''),
+      viewedAt: new Date().toISOString()
+    });
+    
+    // Limit size
+    history = history.slice(0, MAX_HISTORY_ITEMS);
+    
+    safeLocalStorageSet('pen-browsing-history', history);
+  } catch (e) {
+    handleError(e, 'addToBrowsingHistory', false);
+  }
 }
 
 function getBrowsingHistory() {
-  return JSON.parse(localStorage.getItem('pen-browsing-history') || '[]');
+  return safeLocalStorageGet('pen-browsing-history', []);
 }
 
 function clearBrowsingHistory() {
-  localStorage.removeItem('pen-browsing-history');
+  try {
+    localStorage.removeItem('pen-browsing-history');
+  } catch (e) {
+    handleError(e, 'clearBrowsingHistory', false);
+  }
 }
 
 function getRecentPens(count = 5) {

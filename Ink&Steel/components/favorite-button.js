@@ -19,8 +19,13 @@ class FavoriteButton extends HTMLElement {
     }
 
     const penId = this.getAttribute('pen-id');
-    const favorites = JSON.parse(localStorage.getItem('pen-favorites') || '[]');
-    const isFavorited = favorites.includes(penId);
+    if (!penId) {
+      this.shadowRoot.innerHTML = '<div></div>';
+      return;
+    }
+    
+    const favorites = safeLocalStorageGet('pen-favorites', []);
+    const isFavorited = Array.isArray(favorites) && favorites.includes(penId);
 
     this.shadowRoot.innerHTML = `
       <style>
@@ -79,22 +84,30 @@ class FavoriteButton extends HTMLElement {
   }
 
   toggleFavorite(penId) {
-    let favorites = JSON.parse(localStorage.getItem('pen-favorites') || '[]');
-    const index = favorites.indexOf(penId);
+    if (!penId) return;
     
-    if (index > -1) {
-      favorites.splice(index, 1);
-    } else {
-      favorites.push(penId);
+    try {
+      let favorites = safeLocalStorageGet('pen-favorites', []);
+      if (!Array.isArray(favorites)) favorites = [];
+      
+      const index = favorites.indexOf(penId);
+      
+      if (index > -1) {
+        favorites.splice(index, 1);
+      } else {
+        favorites.push(penId);
+      }
+      
+      safeLocalStorageSet('pen-favorites', favorites);
+      this.render();
+      
+      // Dispatch event for other components
+      document.dispatchEvent(new CustomEvent('favorites-updated', {
+        detail: { penId, isFavorited: index === -1 }
+      }));
+    } catch (e) {
+      handleError(e, 'toggleFavorite', true);
     }
-    
-    localStorage.setItem('pen-favorites', JSON.stringify(favorites));
-    this.render();
-    
-    // Dispatch event for other components
-    document.dispatchEvent(new CustomEvent('favorites-updated', {
-      detail: { penId, isFavorited: index === -1 }
-    }));
   }
 }
 

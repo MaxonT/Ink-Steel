@@ -64,7 +64,14 @@
 
         // Load comparison from localStorage
         function loadComparison() {
-            const comparisonIds = JSON.parse(localStorage.getItem('pen-comparison') || '[]');
+            const comparisonIds = safeLocalStorageGet('pen-comparison', []);
+            if (!Array.isArray(comparisonIds)) {
+                safeLocalStorageSet('pen-comparison', []);
+                document.getElementById('comparisonContainer').innerHTML = 
+                    '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">No pens in comparison. Visit pen detail pages to add pens for comparison.</p></div>';
+                document.getElementById('sizeVisualization').innerHTML = '';
+                return;
+            }
             
             if (comparisonIds.length === 0) {
                 document.getElementById('comparisonContainer').innerHTML = 
@@ -104,16 +111,32 @@
 
                     // Event listeners
                     comparisonEl.addEventListener('clear-comparison', () => {
-                        localStorage.removeItem('pen-comparison');
+                        try {
+                            localStorage.removeItem('pen-comparison');
+                        } catch (e) {
+                            handleError(e, 'clearComparison', false);
+                        }
                         loadComparison();
                     });
 
                     comparisonEl.addEventListener('remove-from-comparison', (e) => {
-                        const penId = e.detail.id;
-                        const currentIds = JSON.parse(localStorage.getItem('pen-comparison') || '[]');
-                        const newIds = currentIds.filter(id => id !== penId);
-                        localStorage.setItem('pen-comparison', JSON.stringify(newIds));
-                        loadComparison();
+                        try {
+                            const penId = e.detail?.id;
+                            if (!penId) return;
+                            
+                            const currentIds = safeLocalStorageGet('pen-comparison', []);
+                            if (!Array.isArray(currentIds)) {
+                                safeLocalStorageSet('pen-comparison', []);
+                                loadComparison();
+                                return;
+                            }
+                            
+                            const newIds = currentIds.filter(id => id !== penId);
+                            safeLocalStorageSet('pen-comparison', newIds);
+                            loadComparison();
+                        } catch (error) {
+                            handleError(error, 'removeFromComparison', true);
+                        }
                     });
                 });
         }

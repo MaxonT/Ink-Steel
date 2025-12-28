@@ -541,27 +541,38 @@
         document.addEventListener('click', (e) => {
             if (e.target.classList.contains('add-to-compare')) {
                 e.preventDefault();
-                const penId = e.target.getAttribute('data-id');
-                const comparisonIds = JSON.parse(localStorage.getItem('pen-comparison') || '[]');
-                if (comparisonIds.includes(penId)) {
-                    e.target.textContent = 'Already added ✓';
+                try {
+                    const penId = e.target.getAttribute('data-id');
+                    if (!penId) return;
+                    
+                    const comparisonIds = safeLocalStorageGet('pen-comparison', []);
+                    if (!Array.isArray(comparisonIds)) {
+                        safeLocalStorageSet('pen-comparison', []);
+                        return;
+                    }
+                    
+                    if (comparisonIds.includes(penId)) {
+                        e.target.textContent = 'Already added ✓';
+                        setTimeout(() => {
+                            e.target.textContent = '+ Compare';
+                        }, 2000);
+                        return;
+                    }
+                    if (comparisonIds.length >= 4) {
+                        showUserError('You can compare up to 4 pens at once. Visit the comparison page to remove one first.', 3000);
+                        return;
+                    }
+                    comparisonIds.push(penId);
+                    safeLocalStorageSet('pen-comparison', comparisonIds);
+                    e.target.textContent = 'Added ✓';
+                    e.target.style.color = '#065f46';
                     setTimeout(() => {
                         e.target.textContent = '+ Compare';
+                        e.target.style.color = '';
                     }, 2000);
-                    return;
+                } catch (error) {
+                    handleError(error, 'addToComparison', true);
                 }
-                if (comparisonIds.length >= 4) {
-                    alert('You can compare up to 4 pens at once. Visit the comparison page to remove one first.');
-                    return;
-                }
-                comparisonIds.push(penId);
-                localStorage.setItem('pen-comparison', JSON.stringify(comparisonIds));
-                e.target.textContent = 'Added ✓';
-                e.target.style.color = '#065f46';
-                setTimeout(() => {
-                    e.target.textContent = '+ Compare';
-                    e.target.style.color = '';
-                }, 2000);
             }
         });
         

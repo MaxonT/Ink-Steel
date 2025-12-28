@@ -121,12 +121,18 @@ class CustomNavbar extends HTMLElement {
   }
   
   updateFavoritesCount() {
-    const favorites = JSON.parse(localStorage.getItem('pen-favorites') || '[]');
-    const countEl = this.shadowRoot.getElementById('favoritesCount');
-    if (countEl && favorites.length > 0) {
-      countEl.textContent = `(${favorites.length})`;
-    } else if (countEl) {
-      countEl.textContent = '';
+    try {
+      const favorites = safeLocalStorageGet('pen-favorites', []);
+      const countEl = this.shadowRoot?.getElementById('favoritesCount');
+      if (countEl) {
+        if (Array.isArray(favorites) && favorites.length > 0) {
+          countEl.textContent = `(${favorites.length})`;
+        } else {
+          countEl.textContent = '';
+        }
+      }
+    } catch (e) {
+      handleError(e, 'updateFavoritesCount', false);
     }
   }
 }

@@ -11,17 +11,26 @@ function initPageTransition() {
   });
 }
 
-// Load JSON data with error handling
-async function loadJSONData(url) {
+// Load JSON data with error handling and timeout
+async function loadJSONData(url, timeout = 10000) {
   try {
-    const response = await fetch(url);
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), timeout);
+    
+    const response = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeoutId);
+    
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
+    
     const data = await response.json();
     return { success: true, data };
   } catch (error) {
-    console.error('Error loading JSON data:', error);
+    if (error.name === 'AbortError') {
+      return { success: false, error: 'Request timeout' };
+    }
+    handleError(error, `loadJSONData(${url})`, false);
     return { success: false, error: error.message };
   }
 }
