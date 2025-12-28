@@ -291,11 +291,12 @@
             if (!Array.isArray(pens) || pens.length === 0) {
                 grid.classList.add('hidden');
                 noResults.classList.remove('hidden');
-                document.getElementById('resultsCount').textContent = 'No pens found';
+                setTextContent(document.getElementById('resultsCount'), 'No pens found');
                 return;
             }
             
-            grid.innerHTML = pens.map((pen, index) => {
+            // Use DocumentFragment for better performance
+            const penCards = pens.map((pen, index) => {
                 const mainImage = pen.images?.main || 'https://via.placeholder.com/800x600?text=' + encodeURIComponent(pen.name);
                 const minPrice = pen.purchaseLinks?.length > 0 
                     ? Math.min(...pen.purchaseLinks.map(l => l.price || Infinity).filter(p => p !== Infinity))
@@ -500,13 +501,22 @@
         
         // Event listeners
         const searchInput = document.getElementById('searchInput');
+        // Debounce search input for better performance
+        const debouncedShowSuggestions = debounce((query) => {
+            showSearchSuggestions(query);
+        }, 300);
+        
+        const debouncedApplyFilters = debounce(() => {
+            applyFilters();
+        }, 300);
+        
         searchInput.addEventListener('input', (e) => {
             const sanitized = sanitizeSearchQuery(e.target.value);
             if (sanitized !== e.target.value) {
                 e.target.value = sanitized;
             }
-            showSearchSuggestions(sanitized);
-            applyFilters();
+            debouncedShowSuggestions(sanitized);
+            debouncedApplyFilters();
         });
         searchInput.addEventListener('focus', () => {
             if (!searchInput.value) {

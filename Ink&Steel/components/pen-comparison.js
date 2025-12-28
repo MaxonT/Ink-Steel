@@ -51,7 +51,14 @@ class PenComparison extends HTMLElement {
             font-style: italic;
           }
         </style>
-        <div class="empty-state">No pens selected for comparison. Select up to ${maxPens} pens to compare.</div>
+        <div class="empty-state">
+          <svg class="empty-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+          </svg>
+          <p>No pens selected for comparison.</p>
+          <p style="font-size: 0.9rem; margin-top: 0.5rem;">Select up to ${maxPens} pens to compare.</p>
+          <a href="./" style="display: inline-block; margin-top: 1rem; color: #333; text-decoration: underline;">Browse Collection</a>
+        </div>
       `;
       return;
     }

@@ -88,7 +88,7 @@
                     const allPens = Array.isArray(result.data?.pens) ? result.data.pens : [];
                     const grid = document.getElementById('historyGrid');
                     
-                    grid.innerHTML = history.map((item, index) => {
+                    const historyCards = history.map((item, index) => {
                         if (!item || !item.id) return '';
                         
                         const pen = allPens.find(p => p && p.id === item.id);

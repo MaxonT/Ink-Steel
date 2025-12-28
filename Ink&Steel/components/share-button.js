@@ -2,9 +2,26 @@ class ShareButton extends HTMLElement {
   static get observedAttributes() {
     return ['url', 'title', 'text', 'pen-id', 'pen-name', 'pen-description'];
   }
+  
+  constructor() {
+    super();
+    this._boundHandlers = new Map();
+  }
 
   connectedCallback() {
     this.render();
+  }
+  
+  disconnectedCallback() {
+    // Clean up event listeners
+    if (this.shadowRoot) {
+      this._boundHandlers.forEach((handler, element) => {
+        if (element && element.removeEventListener) {
+          element.removeEventListener('click', handler);
+        }
+      });
+      this._boundHandlers.clear();
+    }
   }
 
   attributeChangedCallback(name, oldValue, newValue) {

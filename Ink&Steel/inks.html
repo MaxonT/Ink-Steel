@@ -77,45 +77,25 @@
         // Initialize page
         initPageTransition();
         
-        // Load inks data with retry
+        // Load inks data with unified loading states
         async function loadInks() {
-            const loadWithRetry = withRetry(async () => {
-                return await loadJSONData('./data/inks.json');
-            }, 3, 1000);
+            const gridElement = document.getElementById('inksGrid');
             
-            try {
-                const result = await loadWithRetry();
-                if (!result.success) {
-                    const errorDiv = document.getElementById('inksGrid');
-                    if (errorDiv) {
-                        errorDiv.innerHTML = `
-                            <div class="col-span-full text-center py-20">
-                                <p class="text-gray-500 italic mb-4">Error loading inks. Please try again.</p>
-                                <button onclick="loadInks()" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: 'Cormorant Garamond', serif;">
-                                    Retry
-                                </button>
-                            </div>
-                        `;
-                    }
-                    handleError(result.error || 'Failed to load inks', 'loadInks', true);
-                    return;
+            const result = await loadWithStates(
+                () => loadJSONData('./data/inks.json'),
+                gridElement,
+                {
+                    skeletonType: 'grid',
+                    loadingMessage: 'Loading inks...',
+                    errorMessage: 'Failed to load inks. Please try again.',
+                    maxRetries: 3,
+                    retryDelay: 1000
                 }
-                
+            );
+            
+            if (result && result.success) {
                 const inks = Array.isArray(result.data?.inks) ? result.data.inks : [];
                 renderInks(inks);
-            } catch (error) {
-                handleError(error, 'loadInks', true);
-                const errorDiv = document.getElementById('inksGrid');
-                if (errorDiv) {
-                    errorDiv.innerHTML = `
-                        <div class="col-span-full text-center py-20">
-                            <p class="text-gray-500 italic mb-4">Failed to load inks after multiple attempts.</p>
-                            <button onclick="loadInks()" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: 'Cormorant Garamond', serif;">
-                                Retry
-                            </button>
-                        </div>
-                    `;
-                }
             }
         }
         
@@ -133,7 +113,7 @@
             grid.classList.remove('hidden');
             noResults.classList.add('hidden');
             
-            grid.innerHTML = inks.map((ink, index) => {
+            const inkCards = inks.map((ink, index) => {
                 return `
                     <div class="ink-card bg-white p-6 rounded-sm shadow-sm transition-all duration-300 hover:shadow-md"
                          style="animation-delay: ${index * 0.1}s">
