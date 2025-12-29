@@ -40,8 +40,8 @@
 
     <custom-footer></custom-footer>
 
-    <script src="assets/scripts/components/footer.js"></script>
     <script src="assets/scripts/utils/security.js"></script>
+    <script src="assets/scripts/components/footer.js"></script>
     <script src="assets/scripts/utils/page-utils.js"></script>
     <script src="assets/scripts/utils/seo-utils.js"></script>
     <script src="assets/scripts/utils/browsing-history.js"></script>
@@ -106,6 +106,7 @@
                     // Use String comparison to ensure type consistency
                     const pen = pens.find(p => String(p.id) === String(penId));
                     if (pen) {
+                        // 直接设置属性，组件会通过attributeChangedCallback响应
                         penDetail.setAttribute('pen-data', JSON.stringify(pen));
                         
                         // Add to browsing history

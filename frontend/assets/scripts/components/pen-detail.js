@@ -21,6 +21,17 @@ class PenDetail extends HTMLElement {
       this.attachShadow({ mode: 'open' });
     }
 
+    // Safe escapeHtml function for use in this component
+    const escapeHtmlSafe = (text) => {
+      if (typeof escapeHtml !== 'undefined') {
+        return escapeHtml(text);
+      }
+      if (text == null) return '';
+      const div = document.createElement('div');
+      div.textContent = String(text);
+      return div.innerHTML;
+    };
+
     try {
       const penDataAttr = this.getAttribute('pen-data');
       let penData = null;
@@ -29,7 +40,9 @@ class PenDetail extends HTMLElement {
         try {
           penData = JSON.parse(penDataAttr);
         } catch (e) {
-          handleError(e, 'PenDetail.render - JSON parse', false);
+          if (typeof handleError !== 'undefined') {
+            handleError(e, 'PenDetail.render - JSON parse', false);
+          }
           this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Error loading pen data.</p>';
           return;
         }
@@ -57,7 +70,7 @@ class PenDetail extends HTMLElement {
     
     // 确保至少有一个占位图片
     if (!images.main) {
-      images.main = `https://dummyimage.com/800x600/F9F5F0/1A365D.png&text=${encodeURIComponent(penData.name)}`;
+      images.main = `https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=${encodeURIComponent(penData.name)}`;
     }
     
     const formatSpecValue = (value) => {
@@ -194,15 +207,15 @@ class PenDetail extends HTMLElement {
       <div class="pen-detail-container">
         <pen-gallery images='${JSON.stringify(images)}'></pen-gallery>
         <div class="pen-info">
-          <h1>${escapeHtml(penData.name || 'Pen Name')}</h1>
+          <h1>${escapeHtmlSafe(penData.name || 'Pen Name')}</h1>
           ${penData.brand || penData.model ? `
-            <div class="pen-brand-model">${escapeHtml(penData.brand || '')} ${escapeHtml(penData.model || '')}</div>
+            <div class="pen-brand-model">${escapeHtmlSafe(penData.brand || '')} ${escapeHtmlSafe(penData.model || '')}</div>
           ` : ''}
           ${penData.description ? `
-            <p class="pen-description">${escapeHtml(penData.description)}</p>
+            <p class="pen-description">${escapeHtmlSafe(penData.description)}</p>
           ` : ''}
           ${penData.details ? `
-            <p class="pen-details">${escapeHtml(penData.details)}</p>
+            <p class="pen-details">${escapeHtmlSafe(penData.details)}</p>
           ` : ''}
           
           <div class="pen-specs">
@@ -343,23 +356,23 @@ class PenDetail extends HTMLElement {
 
           ${penData.tags && penData.tags.length > 0 ? `
             <div class="tags">
-              ${penData.tags.map(tag => `<span class="tag">${escapeHtml(String(tag))}</span>`).join('')}
+              ${penData.tags.map(tag => `<span class="tag">${escapeHtmlSafe(String(tag))}</span>`).join('')}
             </div>
           ` : ''}
 
           ${penData.yearIntroduced || penData.availability || penData.country ? `
             <div class="meta-info">
-              ${penData.country ? `<div class="meta-info-row"><strong>Country:</strong> ${escapeHtml(String(penData.country))}</div>` : ''}
-              ${penData.yearIntroduced ? `<div class="meta-info-row"><strong>Introduced:</strong> ${escapeHtml(String(penData.yearIntroduced))}</div>` : ''}
-              ${penData.availability ? `<div class="meta-info-row"><strong>Status:</strong> ${escapeHtml(String(penData.availability))}</div>` : ''}
+              ${penData.country ? `<div class="meta-info-row"><strong>Country:</strong> ${escapeHtmlSafe(String(penData.country))}</div>` : ''}
+              ${penData.yearIntroduced ? `<div class="meta-info-row"><strong>Introduced:</strong> ${escapeHtmlSafe(String(penData.yearIntroduced))}</div>` : ''}
+              ${penData.availability ? `<div class="meta-info-row"><strong>Status:</strong> ${escapeHtmlSafe(String(penData.availability))}</div>` : ''}
             </div>
           ` : ''}
 
           <purchase-links links='${JSON.stringify(penData.purchaseLinks || [])}'></purchase-links>
           
           <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #eee; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
-            <favorite-button pen-id="${penData.id}"></favorite-button>
-            <share-button url="${window.location.href}" title="${penData.name} | Ink & Steel" text="${penData.description || penData.name}"></share-button>
+            <favorite-button pen-id="${escapeHtmlSafe(String(penData.id))}"></favorite-button>
+            <share-button url="${window.location.href}" title="${escapeHtmlSafe(penData.name)} | Ink & Steel" text="${escapeHtmlSafe(penData.description || penData.name)}"></share-button>
             <button id="addToComparison" style="padding: 0.75rem 1.5rem; background: #333; color: white; border: none; cursor: pointer; font-family: 'Cormorant Garamond', serif; font-size: 1rem; transition: background 0.3s ease;">
               Add to Comparison
             </button>
@@ -376,22 +389,54 @@ class PenDetail extends HTMLElement {
     if (addToComparisonBtn) {
       addToComparisonBtn.addEventListener('click', () => {
         try {
-          const comparisonIds = safeLocalStorageGet('pen-comparison', []);
+          let comparisonIds = [];
+          if (typeof safeLocalStorageGet !== 'undefined') {
+            comparisonIds = safeLocalStorageGet('pen-comparison', []);
+          } else if (typeof localStorage !== 'undefined') {
+            try {
+              const stored = localStorage.getItem('pen-comparison');
+              comparisonIds = stored ? JSON.parse(stored) : [];
+            } catch (e) {
+              comparisonIds = [];
+            }
+          }
+          
           if (!Array.isArray(comparisonIds)) {
-            safeLocalStorageSet('pen-comparison', []);
+            comparisonIds = [];
+            if (typeof safeLocalStorageSet !== 'undefined') {
+              safeLocalStorageSet('pen-comparison', []);
+            } else if (typeof localStorage !== 'undefined') {
+              try {
+                localStorage.setItem('pen-comparison', JSON.stringify([]));
+              } catch (e) {
+                // Ignore
+              }
+            }
             return;
           }
           
           if (comparisonIds.includes(penData.id)) {
-            showUserError('This pen is already in the comparison list.', 2000);
+            if (typeof showUserError !== 'undefined') {
+              showUserError('This pen is already in the comparison list.', 2000);
+            }
             return;
           }
           if (comparisonIds.length >= 4) {
-            showUserError('You can compare up to 4 pens at once. Please remove one from the comparison page first.', 3000);
+            if (typeof showUserError !== 'undefined') {
+              showUserError('You can compare up to 4 pens at once. Please remove one from the comparison page first.', 3000);
+            }
             return;
           }
           comparisonIds.push(penData.id);
-          safeLocalStorageSet('pen-comparison', comparisonIds);
+          if (typeof safeLocalStorageSet !== 'undefined') {
+            safeLocalStorageSet('pen-comparison', comparisonIds);
+          } else if (typeof localStorage !== 'undefined') {
+            try {
+              localStorage.setItem('pen-comparison', JSON.stringify(comparisonIds));
+            } catch (e) {
+              // Ignore localStorage errors
+            }
+          }
           addToComparisonBtn.textContent = 'Added to Comparison ✓';
           addToComparisonBtn.style.background = '#065f46';
           setTimeout(() => {
@@ -399,7 +444,9 @@ class PenDetail extends HTMLElement {
             addToComparisonBtn.style.background = '#333';
           }, 2000);
         } catch (e) {
-          handleError(e, 'addToComparison', true);
+          if (typeof handleError !== 'undefined') {
+            handleError(e, 'addToComparison', true);
+          }
         }
       });
     }
