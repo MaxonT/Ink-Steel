@@ -37,6 +37,7 @@
     <custom-footer></custom-footer>
 
     <script src="assets/scripts/components/footer.js"></script>
+    <script src="assets/scripts/utils/security.js"></script>
     <script src="assets/scripts/utils/page-utils.js"></script>
     <script src="assets/scripts/utils/seo-utils.js"></script>
     <script src="assets/scripts/main.js"></script>
@@ -46,27 +47,38 @@
         // Get ink ID from URL
         const urlParams = new URLSearchParams(window.location.search);
         const rawInkId = urlParams.get('id');
-        const inkId = sanitizeId(rawInkId);
+        
+        const inkDetail = document.getElementById('inkDetail');
+        if (!inkDetail) {
+            if (typeof console !== "undefined" && console.error) console.error('Required DOM element inkDetail not found.');
+            return;
+        }
+        
+        // Decode and sanitize ID
+        const decodedId = rawInkId ? decodeURIComponent(rawInkId) : null;
+        const inkId = decodedId ? sanitizeId(decodedId) : null;
         
         if (!inkId && rawInkId) {
             // Invalid ID format
-            document.getElementById('inkDetail').innerHTML = 
+            inkDetail.innerHTML = 
                 '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Invalid ink ID format. <a href="./inks.html" class="underline">Browse our collection</a></p></div>';
             return;
         }
+        
         const siteUrl = getSiteUrl();
         const pageUrl = getPageUrl();
         
         // Update meta URLs
-        document.querySelector('meta[property="og:url"]').content = pageUrl;
-        document.querySelector('link[rel="canonical"]').href = pageUrl;
+        const ogUrlMeta = document.querySelector('meta[property="og:url"]');
+        if (ogUrlMeta) ogUrlMeta.content = pageUrl;
+        const canonicalLink = document.querySelector('link[rel="canonical"]');
+        if (canonicalLink) canonicalLink.href = pageUrl;
         
         if (!inkId) {
-            document.getElementById('inkDetail').innerHTML = 
+            inkDetail.innerHTML = 
                 '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">No ink specified. <a href="./inks.html" class="underline">Browse our collection</a></p></div>';
         } else {
             // Show loading state
-            const inkDetail = document.getElementById('inkDetail');
             inkDetail.innerHTML = '<div class="bg-white p-8 shadow-sm text-center"><loading-spinner></loading-spinner><p class="mt-4 text-gray-500">Loading ink details...</p></div>';
             
             // Fetch ink data
@@ -74,11 +86,25 @@
                 .then(result => {
                     if (!result.success) {
                         inkDetail.innerHTML = 
-                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Error loading ink data. Please try again later. <a href="./inks.html" class="underline">Return to collection</a></p></div>';
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic mb-4">Error loading ink data. Please try again later.</p><button onclick="window.location.reload()" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: \'Cormorant Garamond\', serif;">Retry</button><p class="mt-4"><a href="./inks.html" class="underline">Return to collection</a></p></div>';
                         return;
                     }
                     
-                    const ink = result.data.inks.find(i => i.id === inkId);
+                    if (!result.data || !result.data.inks) {
+                        inkDetail.innerHTML = 
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Invalid data format. <a href="./inks.html" class="underline">Return to collection</a></p></div>';
+                        return;
+                    }
+                    
+                    const inks = result.data.inks || [];
+                    if (!Array.isArray(inks) || inks.length === 0) {
+                        inkDetail.innerHTML = 
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">No inks data available. <a href="./inks.html" class="underline">Return to collection</a></p></div>';
+                        return;
+                    }
+                    
+                    // Use String comparison to ensure type consistency
+                    const ink = inks.find(i => String(i.id) === String(inkId));
                     if (ink) {
                         inkDetail.setAttribute('ink-data', JSON.stringify(ink));
                         

@@ -102,7 +102,8 @@
                             ? Math.min(...pen.purchaseLinks.map(l => l.price || Infinity).filter(p => p !== Infinity))
                             : null;
                         
-                        const penId = escapeHtml(pen.id);
+                        const penId = String(pen.id || '');
+                        const safePenId = encodeURIComponent(penId);
                         const penName = escapeHtml(pen.name || 'Unknown');
                         const penBrand = pen.brand ? escapeHtml(pen.brand) : '';
                         const penModel = pen.model ? escapeHtml(pen.model) : '';
@@ -112,7 +113,7 @@
                         return `
                             <div class="pen-card bg-white p-4 rounded-sm shadow-sm transition-all duration-500 hover:shadow-md relative block"
                                  style="animation-delay: ${index * 0.05}s">
-                                <a href="./pen-detail.html?id=${penId}" class="block">
+                                <a href="./pen-detail.html?id=${safePenId}" class="block">
                                     <div class="relative h-64 overflow-hidden mb-4">
                                         <img src="${safeImageUrl}" 
                                              alt="${penName}" 

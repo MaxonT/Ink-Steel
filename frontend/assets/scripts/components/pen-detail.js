@@ -327,15 +327,15 @@ class PenDetail extends HTMLElement {
 
           ${penData.tags && penData.tags.length > 0 ? `
             <div class="tags">
-              ${penData.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+              ${penData.tags.map(tag => `<span class="tag">${escapeHtml(String(tag))}</span>`).join('')}
             </div>
           ` : ''}
 
           ${penData.yearIntroduced || penData.availability || penData.country ? `
             <div class="meta-info">
-              ${penData.country ? `<div class="meta-info-row"><strong>Country:</strong> ${penData.country}</div>` : ''}
-              ${penData.yearIntroduced ? `<div class="meta-info-row"><strong>Introduced:</strong> ${penData.yearIntroduced}</div>` : ''}
-              ${penData.availability ? `<div class="meta-info-row"><strong>Status:</strong> ${penData.availability}</div>` : ''}
+              ${penData.country ? `<div class="meta-info-row"><strong>Country:</strong> ${escapeHtml(String(penData.country))}</div>` : ''}
+              ${penData.yearIntroduced ? `<div class="meta-info-row"><strong>Introduced:</strong> ${escapeHtml(String(penData.yearIntroduced))}</div>` : ''}
+              ${penData.availability ? `<div class="meta-info-row"><strong>Status:</strong> ${escapeHtml(String(penData.availability))}</div>` : ''}
             </div>
           ` : ''}
 

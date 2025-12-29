@@ -53,23 +53,32 @@
         // Get pen ID from URL
         const urlParams = new URLSearchParams(window.location.search);
         const rawPenId = urlParams.get('id');
-        const penId = sanitizeId(rawPenId);
+        
+        const penDetail = document.getElementById('penDetail');
+        if (!penDetail) {
+            if (typeof console !== "undefined" && console.error) console.error('Required DOM element penDetail not found.');
+            return;
+        }
+        
+        // Decode and sanitize ID
+        const decodedId = rawPenId ? decodeURIComponent(rawPenId) : null;
+        const penId = decodedId ? sanitizeId(decodedId) : null;
         
         if (!penId && rawPenId) {
             // Invalid ID format
-            document.getElementById('penDetail').innerHTML = 
+            penDetail.innerHTML = 
                 '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Invalid pen ID format. <a href="./" class="underline">Browse our collection</a></p></div>';
             return;
         }
+        
         const siteUrl = getSiteUrl();
         const pageUrl = getPageUrl();
         
         if (!penId) {
-            document.getElementById('penDetail').innerHTML = 
+            penDetail.innerHTML = 
                 '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">No pen specified. <a href="./" class="underline">Browse our collection</a></p></div>';
         } else {
             // Show loading state
-            const penDetail = document.getElementById('penDetail');
             penDetail.innerHTML = '<div class="bg-white p-8 shadow-sm text-center"><loading-spinner></loading-spinner><p class="mt-4 text-gray-500">Loading pen details...</p></div>';
             
             // Fetch pen data
@@ -77,16 +86,30 @@
                 .then(result => {
                     if (!result.success) {
                         penDetail.innerHTML = 
-                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Error loading pen data. Please try again later. <a href="./" class="underline">Return to gallery</a></p></div>';
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic mb-4">Error loading pen data. Please try again later.</p><button onclick="window.location.reload()" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: \'Cormorant Garamond\', serif;">Retry</button><p class="mt-4"><a href="./" class="underline">Return to gallery</a></p></div>';
                         return;
                     }
                     
-                    const pen = result.data.pens.find(p => p.id === penId);
+                    if (!result.data || !result.data.pens) {
+                        penDetail.innerHTML = 
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Invalid data format. <a href="./" class="underline">Return to gallery</a></p></div>';
+                        return;
+                    }
+                    
+                    const pens = result.data.pens || [];
+                    if (!Array.isArray(pens) || pens.length === 0) {
+                        penDetail.innerHTML = 
+                            '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">No pens data available. <a href="./" class="underline">Return to gallery</a></p></div>';
+                        return;
+                    }
+                    
+                    // Use String comparison to ensure type consistency
+                    const pen = pens.find(p => String(p.id) === String(penId));
                     if (pen) {
                         penDetail.setAttribute('pen-data', JSON.stringify(pen));
                         
                         // Add to browsing history
-                        addToBrowsingHistory(penId, pen);
+                        addToBrowsingHistory(String(penId), pen);
                         
                         // Update SEO meta tags - 使用textContent避免XSS（虽然风险较低，但为了安全）
                         const penName = String(pen.name || '').replace(/[<>]/g, '');
@@ -128,6 +151,13 @@
                         penDetail.innerHTML = 
                             '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic">Pen not found. <a href="./" class="underline">Browse our collection</a></p></div>';
                     }
+                })
+                .catch(error => {
+                    if (typeof handleError !== 'undefined') {
+                        handleError(error, 'pen-detail load', true);
+                    }
+                    penDetail.innerHTML = 
+                        '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500 italic mb-4">Failed to load pen data.</p><button onclick="window.location.reload()" class="px-4 py-2 border border-gray-300 hover:border-gray-500 transition-colors" style="font-family: \'Cormorant Garamond\', serif;">Retry</button><p class="mt-4"><a href="./" class="underline">Return to gallery</a></p></div>';
                 });
         }
     </script>

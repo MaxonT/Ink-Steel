@@ -164,21 +164,24 @@ class InkDetail extends HTMLElement {
       </style>
       <div class="ink-detail-container">
         <div class="ink-header">
-          <p class="ink-brand">${inkData.brand || 'Unknown Brand'}</p>
-          <h1 class="ink-name">${inkData.name || 'Ink Name'}</h1>
-          ${inkData.description ? `<p class="ink-description">${inkData.description}</p>` : ''}
+          <p class="ink-brand">${escapeHtml(inkData.brand || 'Unknown Brand')}</p>
+          <h1 class="ink-name">${escapeHtml(inkData.name || 'Ink Name')}</h1>
+          ${inkData.description ? `<p class="ink-description">${escapeHtml(inkData.description)}</p>` : ''}
         </div>
 
         ${swatchColors.length > 0 ? `
           <div class="swatches-section">
             <h2 class="swatches-title">Color Swatches</h2>
             <div class="swatches-grid">
-              ${swatchColors.map(swatch => `
+              ${swatchColors.map(swatch => {
+                const safeColor = (swatch.color || '#000').replace(/[<>"']/g, '');
+                return `
                 <div class="swatch-item">
-                  <div class="swatch-color" style="background-color: ${swatch.color || '#000'}"></div>
-                  <div class="swatch-label">${swatch.label || ''}</div>
+                  <div class="swatch-color" style="background-color: ${safeColor}"></div>
+                  <div class="swatch-label">${escapeHtml(swatch.label || '')}</div>
                 </div>
-              `).join('')}
+              `;
+              }).join('')}
             </div>
           </div>
         ` : ''}
@@ -190,37 +193,37 @@ class InkDetail extends HTMLElement {
               ${inkData.properties.color ? `
                 <div class="info-item">
                   <span class="info-label">Color:</span>
-                  <span class="info-value">${inkData.properties.color}</span>
+                  <span class="info-value">${escapeHtml(String(inkData.properties.color))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.flow ? `
                 <div class="info-item">
                   <span class="info-label">Flow:</span>
-                  <span class="info-value">${inkData.properties.flow}</span>
+                  <span class="info-value">${escapeHtml(String(inkData.properties.flow))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.lubrication ? `
                 <div class="info-item">
                   <span class="info-label">Lubrication:</span>
-                  <span class="info-value">${inkData.properties.lubrication}</span>
+                  <span class="info-value">${escapeHtml(String(inkData.properties.lubrication))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.waterResistance ? `
                 <div class="info-item">
                   <span class="info-label">Water Resistance:</span>
-                  <span class="info-value">${inkData.properties.waterResistance}</span>
+                  <span class="info-value">${escapeHtml(String(inkData.properties.waterResistance))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.feathering ? `
                 <div class="info-item">
                   <span class="info-label">Feathering:</span>
-                  <span class="info-value">${inkData.properties.feathering}</span>
+                  <span class="info-value">${escapeHtml(String(inkData.properties.feathering))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.bleedThrough ? `
                 <div class="info-item">
                   <span class="info-label">Bleed Through:</span>
-                  <span class="info-value">${inkData.properties.bleedThrough}</span>
+                  <span class="info-value">${escapeHtml(String(inkData.properties.bleedThrough))}</span>
                 </div>
               ` : ''}
             </div>
@@ -232,13 +235,13 @@ class InkDetail extends HTMLElement {
               ${inkData.volume ? `
                 <div class="info-item">
                   <span class="info-label">Volume:</span>
-                  <span class="info-value">${inkData.volume}ml</span>
+                  <span class="info-value">${escapeHtml(String(inkData.volume))}ml</span>
                 </div>
               ` : ''}
               ${inkData.bottleSize ? `
                 <div class="info-item">
                   <span class="info-label">Bottle Size:</span>
-                  <span class="info-value">${inkData.bottleSize}</span>
+                  <span class="info-value">${escapeHtml(String(inkData.bottleSize))}</span>
                 </div>
               ` : ''}
             </div>
@@ -248,14 +251,19 @@ class InkDetail extends HTMLElement {
         ${purchaseLinks.length > 0 ? `
           <div class="purchase-links-section">
             <h3 class="info-title">Where to Acquire</h3>
-            ${purchaseLinks.map(link => `
+            ${purchaseLinks.map(link => {
+              const safeUrl = sanitizeUrl(link.url) || link.url || '#';
+              const safeName = escapeHtml(link.name || '');
+              const safePrice = link.price ? escapeHtml(String(link.price)) : null;
+              return `
               <div style="margin: 1rem 0;">
-                <a href="${link.url}" target="_blank" rel="noopener noreferrer" 
+                <a href="${safeUrl}" target="_blank" rel="noopener noreferrer" 
                    style="color: #333; text-decoration: none; font-family: 'Cormorant Garamond', serif; font-size: 1.1rem;">
-                  ${link.name} ${link.price ? `($${link.price})` : ''} →
+                  ${safeName} ${safePrice ? `($${safePrice})` : ''} →
                 </a>
               </div>
-            `).join('')}
+            `;
+            }).join('')}
           </div>
         ` : ''}
 
