@@ -169,10 +169,14 @@
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('public/service-worker.js')
             .then((registration) => {
-              console.log('Service Worker registered:', registration.scope);
+              if (typeof console !== 'undefined' && console.log) {
+                console.log('Service Worker registered:', registration.scope);
+              }
             })
             .catch((error) => {
-              console.error('Service Worker registration failed:', error);
+              if (typeof console !== 'undefined' && console.error) {
+                console.error('Service Worker registration failed:', error);
+              }
             });
         });
       }

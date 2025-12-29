@@ -114,16 +114,22 @@ function safeLocalStorageSet(key, value) {
  */
 async function registerServiceWorker(swPath) {
   if (!isFeatureSupported('serviceWorker')) {
-    console.log('Service Workers are not supported');
+    if (typeof console !== 'undefined' && console.log) {
+      console.log('Service Workers are not supported');
+    }
     return null;
   }
   
   try {
     const registration = await navigator.serviceWorker.register(swPath);
-    console.log('Service Worker registered:', registration);
+    if (typeof console !== 'undefined' && console.log) {
+      console.log('Service Worker registered:', registration);
+    }
     return registration;
   } catch (error) {
-    console.warn('Service Worker registration failed:', error);
+    if (typeof console !== 'undefined' && console.warn) {
+      console.warn('Service Worker registration failed:', error);
+    }
     return null;
   }
 }
