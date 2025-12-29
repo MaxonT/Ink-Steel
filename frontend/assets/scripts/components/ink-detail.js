@@ -212,31 +212,31 @@ class InkDetail extends HTMLElement {
               ${inkData.properties.flow ? `
                 <div class="info-item">
                   <span class="info-label">Flow:</span>
-                  <span class="info-value">${escapeHtml(String(inkData.properties.flow))}</span>
+                  <span class="info-value">${escapeHtmlSafe(String(inkData.properties.flow))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.lubrication ? `
                 <div class="info-item">
                   <span class="info-label">Lubrication:</span>
-                  <span class="info-value">${escapeHtml(String(inkData.properties.lubrication))}</span>
+                  <span class="info-value">${escapeHtmlSafe(String(inkData.properties.lubrication))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.waterResistance ? `
                 <div class="info-item">
                   <span class="info-label">Water Resistance:</span>
-                  <span class="info-value">${escapeHtml(String(inkData.properties.waterResistance))}</span>
+                  <span class="info-value">${escapeHtmlSafe(String(inkData.properties.waterResistance))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.feathering ? `
                 <div class="info-item">
                   <span class="info-label">Feathering:</span>
-                  <span class="info-value">${escapeHtml(String(inkData.properties.feathering))}</span>
+                  <span class="info-value">${escapeHtmlSafe(String(inkData.properties.feathering))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.bleedThrough ? `
                 <div class="info-item">
                   <span class="info-label">Bleed Through:</span>
-                  <span class="info-value">${escapeHtml(String(inkData.properties.bleedThrough))}</span>
+                  <span class="info-value">${escapeHtmlSafe(String(inkData.properties.bleedThrough))}</span>
                 </div>
               ` : ''}
             </div>
@@ -248,13 +248,13 @@ class InkDetail extends HTMLElement {
               ${inkData.volume ? `
                 <div class="info-item">
                   <span class="info-label">Volume:</span>
-                  <span class="info-value">${escapeHtml(String(inkData.volume))}ml</span>
+                  <span class="info-value">${escapeHtmlSafe(String(inkData.volume))}ml</span>
                 </div>
               ` : ''}
               ${inkData.bottleSize ? `
                 <div class="info-item">
                   <span class="info-label">Bottle Size:</span>
-                  <span class="info-value">${escapeHtml(String(inkData.bottleSize))}</span>
+                  <span class="info-value">${escapeHtmlSafe(String(inkData.bottleSize))}</span>
                 </div>
               ` : ''}
             </div>
