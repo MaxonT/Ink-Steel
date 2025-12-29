@@ -85,16 +85,47 @@
                 return;
             }
             
+            const grid = document.getElementById('favoritesGrid');
+            if (!grid) return;
+            
+            // Show loading state
+            grid.innerHTML = `
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            `.repeat(3);
+            
             loadJSONData("data/pens.json")
                 .then(result => {
                     if (!result.success) {
-                        document.getElementById('favoritesGrid').innerHTML = 
-                            '<div class="col-span-full text-center py-20 text-gray-500 italic">Error loading favorites.</div>';
+                        grid.innerHTML = `
+                            <div class="state-error" style="grid-column: 1 / -1;">
+                                <div class="state-error-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+                                    </svg>
+                                </div>
+                                <h2 class="state-error-title">Unable to Load Favorites</h2>
+                                <p class="state-error-message">We encountered an issue loading your favorites. Please try again.</p>
+                                <div class="state-error-actions">
+                                    <button class="state-error-button" onclick="loadFavorites()">Try Again</button>
+                                    <a href="./" class="state-error-button state-error-button-secondary">Return Home</a>
+                                </div>
+                            </div>
+                        `;
                         return;
                     }
                     
                     const pens = result.data.pens.filter(p => favoriteIds.includes(p.id));
-                    const grid = document.getElementById('favoritesGrid');
+                    
+                    if (pens.length === 0) {
+                        grid.classList.add('hidden');
+                        document.getElementById('emptyState')?.classList.remove('hidden');
+                        return;
+                    }
+                    
+                    grid.classList.remove('hidden');
+                    document.getElementById('emptyState')?.classList.add('hidden');
                     
                     grid.innerHTML = pens.map((pen, index) => {
                         const mainImage = pen.images?.main || 'https://via.placeholder.com/800x600?text=' + encodeURIComponent(pen.name);
@@ -109,25 +140,26 @@
                         const penId = escapeHtml(String(pen.id || ''));
                         
                         return `
-                            <div class="pen-card bg-white p-4 rounded-sm shadow-sm transition-all duration-500 hover:shadow-md relative block"
-                                 style="animation-delay: ${index * 0.05}s">
-                                <a href="./pen-detail.html?id=${encodeURIComponent(penId)}" class="block">
-                                    <div class="relative h-64 overflow-hidden mb-4">
-                                        <img src="${mainImage}" 
-                                             alt="${penName}" 
-                                             class="pen-image w-full h-full object-contain transition-transform duration-700"
-                                             loading="lazy">
-                                        <div class="ink-drop absolute bottom-0 right-0 w-16 h-16 bg-blue-900 rounded-full opacity-70"></div>
-                                    </div>
-                                    <h2 class="text-2xl font-light mb-1">${penName}</h2>
-                                    ${pen.brand ? `<p class="text-sm text-gray-500 mb-2">${penBrand} ${penModel}</p>` : ''}
-                                    <p class="italic text-gray-600 mb-3">${penDescription}</p>
-                                    ${minPrice ? `<p class="text-sm font-medium text-gray-700">From $${minPrice}</p>` : ''}
+                            <article class="pen-card" style="animation-delay: ${index * 0.05}s">
+                                <a href="./pen-detail.html?id=${encodeURIComponent(penId)}" class="pen-card-link" style="text-decoration: none;">
+                                    <img src="${mainImage}" 
+                                         alt="${penName}" 
+                                         class="pen-card-image"
+                                         loading="lazy">
                                 </a>
-                                <div class="mt-3">
-                                    <favorite-button pen-id="${penId}"></favorite-button>
+                                <div class="pen-card-content">
+                                    <h2 class="pen-card-title">${penName}</h2>
+                                    ${pen.brand ? `<p class="pen-card-brand">${penBrand}${penModel ? ' ' + penModel : ''}</p>` : ''}
+                                    <p class="pen-card-description">${penDescription}</p>
+                                    <div class="pen-card-footer">
+                                        ${minPrice ? `<span class="pen-card-price">From $${minPrice}</span>` : '<span class="pen-card-price">Price on request</span>'}
+                                        <a href="./pen-detail.html?id=${encodeURIComponent(penId)}" class="pen-card-link">View Details →</a>
+                                    </div>
+                                    <div style="margin-top: var(--spacing-3);">
+                                        <favorite-button pen-id="${penId}"></favorite-button>
+                                    </div>
                                 </div>
-                            </div>
+                            </article>
                         `;
                     }).join('');
                 });
