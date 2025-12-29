@@ -122,20 +122,28 @@
 
         <!-- Search and Filter Section -->
         <div class="filter-panel">
-            <div class="mb-6 relative">
+            <div class="filter-panel-header">
+                <h2 class="filter-panel-title">Search & Filter</h2>
+                <button class="filter-panel-toggle" id="filterToggle" aria-label="Toggle filters">
+                    <span id="filterToggleText">Show Filters</span>
+                </button>
+            </div>
+            <div class="filter-panel-content" id="filterContent">
+            <div style="margin-bottom: var(--spacing-6); position: relative;">
                 <input type="text" 
                        id="searchInput" 
                        placeholder="Search by name, brand, model, or tags..." 
-                       class="search-input w-full"
+                       class="search-input"
+                       style="width: 100%;"
                        autocomplete="off"
                        aria-label="Search pens"
                        aria-describedby="searchDescription">
                 <span id="searchDescription" class="sr-only">Search for fountain pens by name, brand, model, or tags</span>
-                <div id="searchSuggestions" class="hidden absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-b shadow-lg z-50 mt-1 max-h-60 overflow-y-auto"></div>
-                <div id="searchHistory" class="hidden absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-b shadow-lg z-50 mt-1"></div>
+                <div id="searchSuggestions" class="hidden" style="position: absolute; top: 100%; left: 0; right: 0; background: white; border: 1px solid var(--border-color-base); border-radius: 0 0 var(--radius-sm) var(--radius-sm); box-shadow: var(--shadow-lg); z-index: var(--z-dropdown); margin-top: var(--spacing-1); max-height: 240px; overflow-y: auto;"></div>
+                <div id="searchHistory" class="hidden" style="position: absolute; top: 100%; left: 0; right: 0; background: white; border: 1px solid var(--border-color-base); border-radius: 0 0 var(--radius-sm) var(--radius-sm); box-shadow: var(--shadow-lg); z-index: var(--z-dropdown); margin-top: var(--spacing-1);"></div>
             </div>
             
-            <div class="filter-row">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-4); margin-bottom: var(--spacing-4);">
                 <div>
                     <label class="block text-sm mb-2 text-gray-600">Brand</label>
                     <select id="brandFilter" class="filter-select w-full">
