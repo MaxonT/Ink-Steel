@@ -103,11 +103,21 @@
   --button-height: 44px;
 
   /* ========================================
-     TRANSITIONS
+     TRANSITIONS & ANIMATIONS
      ======================================== */
   --transition-fast: 0.15s ease;
   --transition-base: 0.3s ease;
   --transition-slow: 0.5s ease;
+  
+  /* Animation durations */
+  --animation-fast: 0.2s;
+  --animation-base: 0.3s;
+  --animation-slow: 0.5s;
+  
+  /* Animation easing */
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
 
   /* ========================================
      Z-INDEX SCALE

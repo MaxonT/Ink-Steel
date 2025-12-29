@@ -21,9 +21,25 @@ function handleError(error, context = 'Unknown', showToUser = true) {
     }
   }
   
+  // Determine error type for user-friendly message
+  let userMessage = 'An error occurred. Please try again later.';
+  const errorLower = errorMessage.toLowerCase();
+  
+  if (errorLower.includes('network') || errorLower.includes('fetch') || errorLower.includes('failed to fetch')) {
+    userMessage = 'Unable to connect. Please check your internet connection and try again.';
+  } else if (errorLower.includes('404') || errorLower.includes('not found')) {
+    userMessage = 'The item you\'re looking for could not be found.';
+  } else if (errorLower.includes('timeout')) {
+    userMessage = 'The request took too long. Please try again.';
+  } else if (errorLower.includes('load') || errorLower.includes('loading')) {
+    userMessage = 'Unable to load data. Please try again in a moment.';
+  } else if (errorLower.includes('invalid')) {
+    userMessage = 'The information provided is invalid. Please check and try again.';
+  }
+  
   // Show user-friendly error message if needed
   if (showToUser) {
-    showUserError('An error occurred. Please try again later.');
+    showUserError(userMessage);
   }
   
   return {

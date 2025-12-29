@@ -195,7 +195,10 @@
             allBrandsView.classList.add('hidden');
             selectedBrandEl.classList.remove('hidden');
             
-            brandTitle.textContent = brandName;
+            const brandTitleHeader = document.getElementById('brandTitleHeader');
+            if (brandTitleHeader) brandTitleHeader.textContent = brandName;
+            const brandTitleBreadcrumb = document.getElementById('brandTitle');
+            if (brandTitleBreadcrumb) brandTitleBreadcrumb.textContent = brandName;
             const brandPens = allPens.filter(pen => pen.brand === brandName);
             const grid = document.getElementById('brandPensGrid');
             
