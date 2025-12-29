@@ -21,6 +21,17 @@ class InkDetail extends HTMLElement {
       this.attachShadow({ mode: 'open' });
     }
 
+    // Safe escapeHtml function for use in this component
+    const escapeHtmlSafe = (text) => {
+      if (typeof escapeHtml !== 'undefined') {
+        return escapeHtml(text);
+      }
+      if (text == null) return '';
+      const div = document.createElement('div');
+      div.textContent = String(text);
+      return div.innerHTML;
+    };
+
     try {
       const inkDataAttr = this.getAttribute('ink-data');
       let inkData = null;
@@ -29,7 +40,9 @@ class InkDetail extends HTMLElement {
         try {
           inkData = JSON.parse(inkDataAttr);
         } catch (e) {
-          handleError(e, 'InkDetail.render - JSON parse', false);
+          if (typeof handleError !== 'undefined') {
+            handleError(e, 'InkDetail.render - JSON parse', false);
+          }
           this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Error loading ink data.</p>';
           return;
         }
@@ -164,9 +177,9 @@ class InkDetail extends HTMLElement {
       </style>
       <div class="ink-detail-container">
         <div class="ink-header">
-          <p class="ink-brand">${escapeHtml(inkData.brand || 'Unknown Brand')}</p>
-          <h1 class="ink-name">${escapeHtml(inkData.name || 'Ink Name')}</h1>
-          ${inkData.description ? `<p class="ink-description">${escapeHtml(inkData.description)}</p>` : ''}
+          <p class="ink-brand">${escapeHtmlSafe(inkData.brand || 'Unknown Brand')}</p>
+          <h1 class="ink-name">${escapeHtmlSafe(inkData.name || 'Ink Name')}</h1>
+          ${inkData.description ? `<p class="ink-description">${escapeHtmlSafe(inkData.description)}</p>` : ''}
         </div>
 
         ${swatchColors.length > 0 ? `
@@ -178,7 +191,7 @@ class InkDetail extends HTMLElement {
                 return `
                 <div class="swatch-item">
                   <div class="swatch-color" style="background-color: ${safeColor}"></div>
-                  <div class="swatch-label">${escapeHtml(swatch.label || '')}</div>
+                  <div class="swatch-label">${escapeHtmlSafe(swatch.label || '')}</div>
                 </div>
               `;
               }).join('')}
@@ -193,7 +206,7 @@ class InkDetail extends HTMLElement {
               ${inkData.properties.color ? `
                 <div class="info-item">
                   <span class="info-label">Color:</span>
-                  <span class="info-value">${escapeHtml(String(inkData.properties.color))}</span>
+                  <span class="info-value">${escapeHtmlSafe(String(inkData.properties.color))}</span>
                 </div>
               ` : ''}
               ${inkData.properties.flow ? `
@@ -252,9 +265,9 @@ class InkDetail extends HTMLElement {
           <div class="purchase-links-section">
             <h3 class="info-title">Where to Acquire</h3>
             ${purchaseLinks.map(link => {
-              const safeUrl = sanitizeUrl(link.url) || link.url || '#';
-              const safeName = escapeHtml(link.name || '');
-              const safePrice = link.price ? escapeHtml(String(link.price)) : null;
+              const safeUrl = typeof sanitizeUrl !== 'undefined' ? (sanitizeUrl(link.url) || link.url || '#') : (link.url || '#');
+              const safeName = escapeHtmlSafe(link.name || '');
+              const safePrice = link.price ? escapeHtmlSafe(String(link.price)) : null;
               return `
               <div style="margin: 1rem 0;">
                 <a href="${safeUrl}" target="_blank" rel="noopener noreferrer" 
