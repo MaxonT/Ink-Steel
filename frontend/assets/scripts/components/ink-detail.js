@@ -270,6 +270,13 @@ class InkDetail extends HTMLElement {
         <a href="./inks.html" class="back-link">← Back to Ink Collection</a>
       </div>
     `;
+    } catch (e) {
+      if (typeof handleError !== 'undefined') {
+        handleError(e, 'InkDetail.render', false);
+      }
+      this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Error rendering ink details.</p>';
+      return;
+    }
   }
 }
 

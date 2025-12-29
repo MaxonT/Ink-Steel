@@ -383,6 +383,13 @@ class PenDetail extends HTMLElement {
         </div>
       </div>
     `;
+    } catch (e) {
+      if (typeof handleError !== 'undefined') {
+        handleError(e, 'PenDetail.render', false);
+      }
+      this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Error rendering pen details.</p>';
+      return;
+    }
 
     // Add to comparison button
     const addToComparisonBtn = this.shadowRoot.getElementById('addToComparison');
