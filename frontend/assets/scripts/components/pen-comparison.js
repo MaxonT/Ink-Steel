@@ -249,6 +249,13 @@ class PenComparison extends HTMLElement {
         }));
       });
     });
+    } catch (e) {
+      if (typeof handleError !== 'undefined') {
+        handleError(e, 'PenComparison.render', false);
+      }
+      this.shadowRoot.innerHTML = '<div class="empty-state" style="padding: 2rem; text-align: center; color: #666;">Error rendering comparison.</div>';
+      return;
+    }
   }
 }
 
