@@ -205,19 +205,24 @@ class CustomNavbar extends HTMLElement {
     });
     
     // Mobile menu toggle
-    const menuToggle = this.shadowRoot.getElementById('mobileMenuToggle');
-    const navLinks = this.shadowRoot.getElementById('navLinks');
-    if (menuToggle && navLinks) {
+    const menuToggle = this.shadowRoot.getElementById('menuToggle');
+    const mobileMenu = this.shadowRoot.getElementById('mobileMenu');
+    if (menuToggle && mobileMenu) {
       menuToggle.addEventListener('click', () => {
-        const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
-        navLinks.classList.toggle('active');
-        menuToggle.setAttribute('aria-expanded', !isExpanded);
+        const isOpen = mobileMenu.classList.toggle('open');
+        const icon = menuToggle.querySelector('.menu-icon');
+        if (icon) {
+          icon.classList.toggle('open');
+        }
+        menuToggle.setAttribute('aria-expanded', isOpen);
       });
       
       // Close menu when clicking outside
       document.addEventListener('click', (e) => {
-        if (!this.shadowRoot.contains(e.target)) {
-          navLinks.classList.remove('active');
+        if (!this.shadowRoot.contains(e.target) && mobileMenu.classList.contains('open')) {
+          mobileMenu.classList.remove('open');
+          const icon = menuToggle.querySelector('.menu-icon');
+          if (icon) icon.classList.remove('open');
           menuToggle.setAttribute('aria-expanded', 'false');
         }
       });
