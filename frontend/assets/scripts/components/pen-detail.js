@@ -98,6 +98,12 @@ class PenDetail extends HTMLElement {
           grid-template-columns: 1fr 1fr;
           gap: var(--spacing-8);
         }
+        @media (max-width: 968px) {
+          .pen-detail-container {
+            grid-template-columns: 1fr;
+            gap: var(--spacing-6);
+          }
+        }
         .pen-info h1 {
           font-size: var(--font-size-2xl);
           font-weight: var(--font-weight-light);

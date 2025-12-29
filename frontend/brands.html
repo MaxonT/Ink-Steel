@@ -41,8 +41,15 @@
 
             <!-- Selected Brand Pens -->
             <div id="selectedBrand" class="hidden page-section">
+                <nav style="margin-bottom: var(--spacing-6); padding-bottom: var(--spacing-4); border-bottom: 1px solid var(--border-color-light);">
+                    <a href="./brands.html" style="color: var(--text-light); text-decoration: none; font-size: var(--font-size-sm);">Home</a>
+                    <span style="color: var(--text-light); margin: 0 var(--spacing-2);">/</span>
+                    <a href="./brands.html" style="color: var(--text-light); text-decoration: none; font-size: var(--font-size-sm);">Brands</a>
+                    <span style="color: var(--text-light); margin: 0 var(--spacing-2);">/</span>
+                    <span id="brandTitle" style="color: var(--text-color); font-size: var(--font-size-sm); font-weight: var(--font-weight-medium);"></span>
+                </nav>
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-6);">
-                    <h2 id="brandTitle" style="font-size: var(--font-size-2xl); font-weight: var(--font-weight-light);"></h2>
+                    <h2 id="brandTitleHeader" style="font-size: var(--font-size-2xl); font-weight: var(--font-weight-light);"></h2>
                     <button id="backToBrands" class="state-empty-action" style="background: transparent; color: var(--text-color); border: 1px solid var(--border-color-base);">← Back to all brands</button>
                 </div>
                 <div id="brandPensGrid" class="cards-grid">
