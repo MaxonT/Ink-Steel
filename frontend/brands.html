@@ -26,34 +26,37 @@
 <body class="min-h-screen">
     <custom-navbar></custom-navbar>
 
-    <main class="container mx-auto px-4 py-12">
-        <header class="text-center mb-16">
-            <h1 class="text-4xl font-light tracking-tight mb-4">Pen Brands</h1>
-            <p class="text-xl italic max-w-2xl mx-auto">Explore our collection by manufacturer</p>
+    <main class="page-container">
+        <header class="page-header">
+            <h1>Pen Brands</h1>
+            <p>Explore our collection by manufacturer</p>
         </header>
 
-        <!-- Brand List -->
-        <div id="brandsList" class="max-w-6xl mx-auto mb-16">
-            <!-- Brands will be loaded here -->
-        </div>
+        <section class="page-content">
 
-        <!-- Selected Brand Pens -->
-        <div id="selectedBrand" class="hidden mb-12">
-            <div class="flex justify-between items-center mb-8">
-                <h2 id="brandTitle" class="text-3xl font-light"></h2>
-                <button id="backToBrands" class="text-gray-600 hover:text-gray-800 underline cursor-pointer">← Back to all brands</button>
-            </div>
-            <div id="brandPensGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-                <!-- Pens will be loaded here -->
-            </div>
-        </div>
-
-        <!-- All Brands View -->
-        <div id="allBrandsView">
-            <div id="brandsGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Brand List -->
+            <div id="brandsList" class="page-section">
                 <!-- Brands will be loaded here -->
             </div>
-        </div>
+
+            <!-- Selected Brand Pens -->
+            <div id="selectedBrand" class="hidden page-section">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-6);">
+                    <h2 id="brandTitle" style="font-size: var(--font-size-2xl); font-weight: var(--font-weight-light);"></h2>
+                    <button id="backToBrands" class="state-empty-action" style="background: transparent; color: var(--text-color); border: 1px solid var(--border-color-base);">← Back to all brands</button>
+                </div>
+                <div id="brandPensGrid" class="cards-grid">
+                    <!-- Pens will be loaded here -->
+                </div>
+            </div>
+
+            <!-- All Brands View -->
+            <div id="allBrandsView">
+                <div id="brandsGrid" class="cards-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));">
+                    <!-- Brands will be loaded here -->
+                </div>
+            </div>
+        </section>
     </main>
 
     <custom-footer></custom-footer>
@@ -83,10 +86,29 @@
         
         // Load pens data
         async function loadPens() {
+            const brandsList = document.getElementById('brandsList');
+            if (!brandsList) return;
+            
+            // Show loading state
+            brandsList.innerHTML = '<div class="state-loading"><div class="state-loading-spinner"></div><p class="state-loading-text">Loading brands...</p></div>';
+            
             const result = await loadJSONData("data/pens.json");
             if (!result.success) {
-                document.getElementById('brandsList').innerHTML = 
-                    '<div class="text-center py-20 text-gray-500 italic">Error loading brands. Please try again later.</div>';
+                brandsList.innerHTML = `
+                    <div class="state-error">
+                        <div class="state-error-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+                            </svg>
+                        </div>
+                        <h2 class="state-error-title">Unable to Load Brands</h2>
+                        <p class="state-error-message">We encountered an issue loading the brand list. Please check your connection and try again.</p>
+                        <div class="state-error-actions">
+                            <button class="state-error-button" onclick="loadPens()">Try Again</button>
+                            <a href="./" class="state-error-button state-error-button-secondary">Return Home</a>
+                        </div>
+                    </div>
+                `;
                 return;
             }
             
@@ -121,18 +143,31 @@
             const brands = getUniqueValues(allPens, 'brand');
             
             if (!Array.isArray(brands) || brands.length === 0) {
-                grid.innerHTML = '<div class="col-span-full text-center py-20 text-gray-500 italic">No brands found.</div>';
+                grid.innerHTML = `
+                    <div class="state-empty" style="grid-column: 1 / -1;">
+                        <div class="state-empty-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                            </svg>
+                        </div>
+                        <h2 class="state-empty-title">No Brands Found</h2>
+                        <p class="state-empty-description">No brands available at this time.</p>
+                    </div>
+                `;
                 return;
             }
             
+            brandsList.innerHTML = '';
             grid.innerHTML = brands.map(brand => {
                 const brandPens = allPens.filter(pen => pen && pen.brand === brand);
                 const safeBrand = escapeHtml(brand || '');
                 return `
                     <a href="?brand=${encodeURIComponent(brand)}" 
-                       class="bg-white p-6 rounded-sm shadow-sm transition-all duration-300 hover:shadow-md block text-center">
-                        <h3 class="text-xl font-light mb-2">${safeBrand}</h3>
-                        <p class="text-sm text-gray-600">${brandPens.length} pen${brandPens.length !== 1 ? 's' : ''}</p>
+                       class="pen-card" style="text-decoration: none; text-align: center;">
+                        <div class="pen-card-content">
+                            <h3 class="pen-card-title">${safeBrand}</h3>
+                            <p class="pen-card-brand">${brandPens.length} pen${brandPens.length !== 1 ? 's' : ''}</p>
+                        </div>
                     </a>
                 `;
             }).join('');
@@ -157,27 +192,52 @@
             const brandPens = allPens.filter(pen => pen.brand === brandName);
             const grid = document.getElementById('brandPensGrid');
             
+            if (!grid) return;
+            
+            if (brandPens.length === 0) {
+                grid.innerHTML = `
+                    <div class="state-empty" style="grid-column: 1 / -1;">
+                        <div class="state-empty-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                            </svg>
+                        </div>
+                        <h2 class="state-empty-title">No Pens Found</h2>
+                        <p class="state-empty-description">No pens found for this brand.</p>
+                        <button class="state-empty-action" onclick="showAllBrands()">Browse All Brands</button>
+                    </div>
+                `;
+                return;
+            }
+            
             grid.innerHTML = brandPens.map((pen, index) => {
                 const penName = escapeHtml(pen.name || '');
+                const penBrand = escapeHtml(pen.brand || '');
                 const penModel = escapeHtml(pen.model || '');
                 const penDescription = escapeHtml(pen.description || '');
                 const penId = escapeHtml(String(pen.id || ''));
                 const mainImage = pen.images?.main || 'https://via.placeholder.com/800x600?text=' + encodeURIComponent(penName);
+                const minPrice = pen.purchaseLinks?.length > 0 
+                    ? Math.min(...pen.purchaseLinks.map(l => l.price || Infinity).filter(p => p !== Infinity))
+                    : null;
                 return `
-                    <a href="./pen-detail.html?id=${encodeURIComponent(penId)}" 
-                       class="pen-card bg-white p-4 rounded-sm shadow-sm transition-all duration-500 hover:shadow-md relative block"
-                       style="animation-delay: ${index * 0.1}s">
-                        <div class="relative h-64 overflow-hidden mb-4">
+                    <article class="pen-card" style="animation-delay: ${index * 0.05}s">
+                        <a href="./pen-detail.html?id=${encodeURIComponent(penId)}" class="pen-card-link" style="text-decoration: none;">
                             <img src="${mainImage}" 
                                  alt="${penName}" 
-                                 class="pen-image w-full h-full object-contain transition-transform duration-700"
+                                 class="pen-card-image"
                                  loading="lazy">
-                            <div class="ink-drop absolute bottom-0 right-0 w-16 h-16 bg-blue-900 rounded-full opacity-70"></div>
+                        </a>
+                        <div class="pen-card-content">
+                            <h2 class="pen-card-title">${penName}</h2>
+                            ${pen.brand ? `<p class="pen-card-brand">${penBrand}${penModel ? ' ' + penModel : ''}</p>` : ''}
+                            <p class="pen-card-description">${penDescription}</p>
+                            <div class="pen-card-footer">
+                                ${minPrice ? `<span class="pen-card-price">From $${minPrice}</span>` : '<span class="pen-card-price">Price on request</span>'}
+                                <a href="./pen-detail.html?id=${encodeURIComponent(penId)}" class="pen-card-link">View Details →</a>
+                            </div>
                         </div>
-                        <h2 class="text-2xl font-light mb-1">${penName}</h2>
-                        ${pen.model ? `<p class="text-sm text-gray-500 mb-2">${penModel}</p>` : ''}
-                        <p class="italic text-gray-600 mb-3">${penDescription}</p>
-                    </a>
+                    </article>
                 `;
             }).join('');
         }

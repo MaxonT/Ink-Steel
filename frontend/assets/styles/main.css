@@ -76,12 +76,55 @@ p {
 }
 
 /* ========================================
-   PAGE CONTAINER
+   PAGE CONTAINER & LAYOUT SYSTEM
    ======================================== */
 .page-container {
   max-width: var(--max-width-page);
   margin: 0 auto;
-  padding: 0 var(--spacing-4);
+  padding: var(--spacing-6) var(--spacing-4);
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: var(--spacing-4) var(--spacing-3);
+  }
+}
+
+/* Page header - for page titles and descriptions */
+.page-header {
+  text-align: center;
+  margin-bottom: var(--spacing-8);
+  padding-bottom: var(--spacing-6);
+  border-bottom: 1px solid var(--border-color-light);
+}
+
+.page-header h1 {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-light);
+  margin-bottom: var(--spacing-3);
+  line-height: var(--line-height-tight);
+}
+
+.page-header p {
+  font-size: var(--font-size-lg);
+  font-style: italic;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Page content - main content area */
+.page-content {
+  width: 100%;
+}
+
+/* Section spacing */
+.page-section {
+  margin-bottom: var(--spacing-8);
+}
+
+.page-section:last-child {
+  margin-bottom: 0;
 }
 
 /* ========================================
@@ -193,6 +236,124 @@ article:hover {
 
 .spec-table td:last-child {
   color: var(--text-color);
+}
+
+/* ========================================
+   CARD COMPONENT SYSTEM
+   ======================================== */
+.pen-card,
+.ink-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pen-card:hover,
+.ink-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.pen-card-image,
+.ink-card-image {
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+  background: var(--bg-gray-50);
+  padding: var(--spacing-4);
+}
+
+.pen-card-content,
+.ink-card-content {
+  padding: var(--spacing-5);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pen-card-title,
+.ink-card-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--spacing-2);
+  color: var(--text-color);
+  line-height: var(--line-height-tight);
+}
+
+.pen-card-brand,
+.ink-card-brand {
+  font-size: var(--font-size-sm);
+  color: var(--text-light);
+  margin-bottom: var(--spacing-3);
+}
+
+.pen-card-description,
+.ink-card-description {
+  font-size: var(--font-size-base);
+  color: var(--text-light);
+  line-height: var(--line-height-normal);
+  margin-bottom: var(--spacing-4);
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.pen-card-footer,
+.ink-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: var(--spacing-4);
+  border-top: 1px solid var(--border-color-light);
+}
+
+.pen-card-price,
+.ink-card-price {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-color);
+}
+
+.pen-card-link,
+.ink-card-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  transition: opacity var(--transition-fast);
+}
+
+.pen-card-link:hover,
+.ink-card-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* Card grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-6);
+  margin-bottom: var(--spacing-8);
+}
+
+@media (max-width: 768px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-5);
+  }
+  
+  .pen-card-image,
+  .ink-card-image {
+    height: 200px;
+  }
 }
 
 /* ========================================
