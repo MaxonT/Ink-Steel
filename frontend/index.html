@@ -107,34 +107,6 @@
             white-space: nowrap;
             border-width: 0;
         }
-        .filter-panel {
-            background: white;
-        }
-        .filter-row {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-bottom: 1rem;
-        }
-        .range-inputs {
-            display: flex;
-            gap: 0.5rem;
-            align-items: center;
-        }
-        .range-inputs input[type="number"] {
-            width: 80px;
-            height: 44px;
-            padding: 0 var(--spacing-4);
-            border: 1px solid var(--border-color-base);
-            font-family: 'Cormorant Garamond', serif;
-            border-radius: var(--radius-sm);
-            transition: border-color var(--transition-base), outline var(--transition-base);
-        }
-        .range-inputs input[type="number"]:focus {
-            outline: 2px solid var(--primary-color);
-            outline-offset: 2px;
-            border-color: var(--primary-color);
-        }
     </style>
 </head>
 <body class="min-h-screen">
