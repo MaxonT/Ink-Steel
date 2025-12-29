@@ -26,36 +26,44 @@
 <body class="min-h-screen">
     <custom-navbar></custom-navbar>
 
-    <main class="container mx-auto px-4 py-12">
-        <header class="text-center mb-16">
-            <h1 class="text-4xl font-light tracking-tight mb-4">The Alchemy of Ink</h1>
-            <p class="text-xl italic max-w-2xl mx-auto">Colors that dance between permanence and poetry</p>
+    <main class="page-container">
+        <header class="page-header">
+            <h1>The Alchemy of Ink</h1>
+            <p>Colors that dance between permanence and poetry</p>
         </header>
 
-        <div id="inksGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
-            <!-- Inks will be loaded here -->
-        </div>
+        <section class="page-content">
+            <div id="inksGrid" class="cards-grid">
+                <!-- Inks will be loaded here -->
+            </div>
 
-        <!-- No Results Message -->
-        <div id="noResults" class="hidden text-center py-20">
-            <p class="text-xl text-gray-500 italic">No inks found.</p>
-        </div>
+            <!-- No Results Message -->
+            <div id="noResults" class="hidden state-empty">
+                <div class="state-empty-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                    </svg>
+                </div>
+                <h2 class="state-empty-title">No Inks Found</h2>
+                <p class="state-empty-description">No inks match your search criteria.</p>
+            </div>
+        </section>
 
-        <section class="py-16 border-t border-gray-200">
-            <div class="max-w-3xl mx-auto">
-                <h2 class="text-3xl font-light mb-8 text-center">Ink Properties</h2>
-                <div class="grid grid-cols-3 gap-6">
-                    <div class="text-center p-4 border border-gray-100">
-                        <h3 class="font-medium mb-2">Shading</h3>
-                        <p class="text-sm">Variation from light to dark within a single stroke</p>
+        <section class="page-section" style="border-top: 1px solid var(--border-color-light); padding-top: var(--spacing-8);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h2 style="font-size: var(--font-size-2xl); font-weight: var(--font-weight-light); margin-bottom: var(--spacing-6); text-align: center;">Ink Properties</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-5);">
+                    <div style="text-align: center; padding: var(--spacing-4); border: 1px solid var(--border-color-light); border-radius: var(--radius-sm);">
+                        <h3 style="font-weight: var(--font-weight-medium); margin-bottom: var(--spacing-2);">Shading</h3>
+                        <p style="font-size: var(--font-size-sm);">Variation from light to dark within a single stroke</p>
                     </div>
-                    <div class="text-center p-4 border border-gray-100">
-                        <h3 class="font-medium mb-2">Sheen</h3>
-                        <p class="text-sm">Metallic reflection when light hits saturated areas</p>
+                    <div style="text-align: center; padding: var(--spacing-4); border: 1px solid var(--border-color-light); border-radius: var(--radius-sm);">
+                        <h3 style="font-weight: var(--font-weight-medium); margin-bottom: var(--spacing-2);">Sheen</h3>
+                        <p style="font-size: var(--font-size-sm);">Metallic reflection when light hits saturated areas</p>
                     </div>
-                    <div class="text-center p-4 border border-gray-100">
-                        <h3 class="font-medium mb-2">Flow</h3>
-                        <p class="text-sm">How freely the ink moves from nib to paper</p>
+                    <div style="text-align: center; padding: var(--spacing-4); border: 1px solid var(--border-color-light); border-radius: var(--radius-sm);">
+                        <h3 style="font-weight: var(--font-weight-medium); margin-bottom: var(--spacing-2);">Flow</h3>
+                        <p style="font-size: var(--font-size-sm);">How freely the ink moves from nib to paper</p>
                     </div>
                 </div>
             </div>
