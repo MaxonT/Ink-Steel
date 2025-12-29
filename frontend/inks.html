@@ -125,6 +125,17 @@
             if (!Array.isArray(inks) || inks.length === 0) {
                 grid.classList.add('hidden');
                 noResults.classList.remove('hidden');
+                noResults.innerHTML = `
+                    <div class="state-empty">
+                        <div class="state-empty-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                            </svg>
+                        </div>
+                        <h2 class="state-empty-title">No Inks Found</h2>
+                        <p class="state-empty-description">No inks match your search criteria. Try adjusting your filters.</p>
+                    </div>
+                `;
                 return;
             }
             
@@ -136,18 +147,25 @@
                 const inkBrand = ink.brand ? escapeHtml(ink.brand) : '';
                 const inkDescription = escapeHtml(ink.description || '');
                 const inkDetails = escapeHtml(ink.details || '');
+                const inkId = escapeHtml(String(ink.id || ''));
                 // inkColor是CSS颜色值，需要验证但不转义HTML（因为它是属性值）
                 const inkColor = (ink.color || '#1a365d').replace(/[<>"']/g, '');
                 
                 return `
-                    <div class="ink-card bg-white p-4 rounded-sm shadow-sm transition-all duration-300 hover:shadow-md"
-                         style="animation-delay: ${index * 0.1}s">
-                        <ink-swatch color="${inkColor}" name="${inkName}"></ink-swatch>
-                        <h2 class="text-2xl font-light mb-2">${inkName}</h2>
-                        ${inkBrand ? `<p class="text-sm text-gray-500 mb-2">${inkBrand}</p>` : ''}
-                        <p class="italic text-gray-600 mb-3">${inkDescription}</p>
-                        <p class="text-sm">${inkDetails}</p>
-                    </div>
+                    <article class="ink-card" style="animation-delay: ${index * 0.05}s">
+                        <div style="padding: var(--spacing-4); background: var(--bg-gray-50); border-radius: var(--radius-sm) var(--radius-sm) 0 0;">
+                            <ink-swatch color="${inkColor}" name="${inkName}"></ink-swatch>
+                        </div>
+                        <div class="ink-card-content">
+                            <h2 class="ink-card-title">${inkName}</h2>
+                            ${inkBrand ? `<p class="ink-card-brand">${inkBrand}</p>` : ''}
+                            <p class="ink-card-description">${inkDescription}</p>
+                            ${inkDetails ? `<p style="font-size: var(--font-size-sm); color: var(--text-light); margin-top: var(--spacing-3);">${inkDetails}</p>` : ''}
+                            <div class="ink-card-footer" style="margin-top: auto;">
+                                <a href="./ink-detail.html?id=${encodeURIComponent(inkId)}" class="ink-card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </article>
                 `;
             }).join('');
             

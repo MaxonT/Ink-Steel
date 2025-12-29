@@ -83,17 +83,39 @@
             document.getElementById('historyGrid').classList.remove('hidden');
             document.getElementById('emptyState').classList.add('hidden');
             
+            const grid = document.getElementById('historyGrid');
+            if (!grid) return;
+            
+            // Show loading state
+            grid.innerHTML = `
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            `.repeat(3);
+            
             // Load pen details
             loadJSONData("data/pens.json")
                 .then(result => {
                     if (!result.success) {
-                        document.getElementById('historyGrid').innerHTML = 
-                            '<div class="col-span-full text-center py-20 text-gray-500 italic">Error loading history.</div>';
+                        grid.innerHTML = `
+                            <div class="state-error" style="grid-column: 1 / -1;">
+                                <div class="state-error-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+                                    </svg>
+                                </div>
+                                <h2 class="state-error-title">Unable to Load History</h2>
+                                <p class="state-error-message">We encountered an issue loading your browsing history. Please try again.</p>
+                                <div class="state-error-actions">
+                                    <button class="state-error-button" onclick="loadHistory()">Try Again</button>
+                                    <a href="./" class="state-error-button state-error-button-secondary">Return Home</a>
+                                </div>
+                            </div>
+                        `;
                         return;
                     }
                     
                     const allPens = Array.isArray(result.data?.pens) ? result.data.pens : [];
-                    const grid = document.getElementById('historyGrid');
                     
                     const historyCards = history.map((item, index) => {
                         if (!item || !item.id) return '';
@@ -115,25 +137,42 @@
                         const safeImageUrl = sanitizeUrl(mainImage) || mainImage;
                         
                         return `
-                            <div class="pen-card bg-white p-4 rounded-sm shadow-sm transition-all duration-500 hover:shadow-md relative block"
-                                 style="animation-delay: ${index * 0.05}s">
-                                <a href="./pen-detail.html?id=${safePenId}" class="block">
-                                    <div class="relative h-64 overflow-hidden mb-4">
-                                        <img src="${safeImageUrl}" 
-                                             alt="${penName}" 
-                                             class="pen-image w-full h-full object-contain transition-transform duration-700"
-                                             loading="lazy"
-                                             onerror="this.src='https://via.placeholder.com/800x600?text=Image+Not+Available'">
-                                        <div class="ink-drop absolute bottom-0 right-0 w-16 h-16 bg-blue-900 rounded-full opacity-70"></div>
-                                    </div>
-                                    <h2 class="text-2xl font-light mb-1">${penName}</h2>
-                                    ${penBrand ? `<p class="text-sm text-gray-500 mb-2">${penBrand} ${penModel}</p>` : ''}
-                                    <p class="italic text-gray-600 mb-3">${penDescription}</p>
-                                    ${minPrice !== null && minPrice !== Infinity ? `<p class="text-sm font-medium text-gray-700">From $${escapeHtml(String(minPrice))}</p>` : ''}
+                            <article class="pen-card" style="animation-delay: ${index * 0.05}s">
+                                <a href="./pen-detail.html?id=${safePenId}" class="pen-card-link" style="text-decoration: none;">
+                                    <img src="${safeImageUrl}" 
+                                         alt="${penName}" 
+                                         class="pen-card-image"
+                                         loading="lazy"
+                                         onerror="this.src='https://via.placeholder.com/800x600?text=Image+Not+Available'">
                                 </a>
+                                <div class="pen-card-content">
+                                    <h2 class="pen-card-title">${penName}</h2>
+                                    ${penBrand ? `<p class="pen-card-brand">${penBrand}${penModel ? ' ' + penModel : ''}</p>` : ''}
+                                    <p class="pen-card-description">${penDescription}</p>
+                                    <div class="pen-card-footer">
+                                        ${minPrice !== null && minPrice !== Infinity ? `<span class="pen-card-price">From $${escapeHtml(String(minPrice))}</span>` : '<span class="pen-card-price">Price on request</span>'}
+                                        <a href="./pen-detail.html?id=${safePenId}" class="pen-card-link">View Details →</a>
+                                    </div>
+                                </div>
+                            </article>
+                        `;
+                    }).filter(html => html !== '');
+                    
+                    if (historyCards.length === 0) {
+                        grid.innerHTML = `
+                            <div class="state-empty" style="grid-column: 1 / -1;">
+                                <div class="state-empty-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                                    </svg>
+                                </div>
+                                <h2 class="state-empty-title">No Matching Pens</h2>
+                                <p class="state-empty-description">Some pens in your history may no longer be available.</p>
                             </div>
                         `;
-                    }).filter(html => html !== '').join('');
+                    } else {
+                        grid.innerHTML = historyCards.join('');
+                    }
                 });
         }
         
