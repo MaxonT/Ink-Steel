@@ -154,6 +154,13 @@ class SizeVisualization extends HTMLElement {
         </div>
       </div>
     `;
+    } catch (e) {
+      if (typeof handleError !== 'undefined') {
+        handleError(e, 'SizeVisualization.render', false);
+      }
+      this.shadowRoot.innerHTML = '<div style="padding: 2rem; text-align: center; color: #666;">Error rendering size visualization.</div>';
+      return;
+    }
   }
 }
 

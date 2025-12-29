@@ -164,6 +164,13 @@ class ShareButton extends HTMLElement {
     copyBtn.addEventListener('click', () => {
       this.copyToClipboard(url);
     });
+    } catch (e) {
+      if (typeof handleError !== 'undefined') {
+        handleError(e, 'ShareButton.render', false);
+      }
+      this.shadowRoot.innerHTML = '<div style="padding: 1rem; text-align: center; color: #666;">Error rendering share button.</div>';
+      return;
+    }
   }
 
   copyToClipboard(text) {
