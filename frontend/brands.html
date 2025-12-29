@@ -106,11 +106,19 @@
         // Show all brands
         function showAllBrands() {
             selectedBrand = null;
-            document.getElementById('allBrandsView').classList.remove('hidden');
-            document.getElementById('selectedBrand').classList.add('hidden');
+            const allBrandsView = document.getElementById('allBrandsView');
+            const selectedBrandEl = document.getElementById('selectedBrand');
+            const grid = document.getElementById('brandsGrid');
+            
+            if (!allBrandsView || !selectedBrandEl || !grid) {
+                if (typeof console !== "undefined" && console.error) console.error('Required elements not found');
+                return;
+            }
+            
+            allBrandsView.classList.remove('hidden');
+            selectedBrandEl.classList.add('hidden');
             
             const brands = getUniqueValues(allPens, 'brand');
-            const grid = document.getElementById('brandsGrid');
             
             if (!Array.isArray(brands) || brands.length === 0) {
                 grid.innerHTML = '<div class="col-span-full text-center py-20 text-gray-500 italic">No brands found.</div>';
@@ -119,10 +127,11 @@
             
             grid.innerHTML = brands.map(brand => {
                 const brandPens = allPens.filter(pen => pen && pen.brand === brand);
+                const safeBrand = escapeHtml(brand || '');
                 return `
                     <a href="?brand=${encodeURIComponent(brand)}" 
                        class="bg-white p-6 rounded-sm shadow-sm transition-all duration-300 hover:shadow-md block text-center">
-                        <h3 class="text-xl font-light mb-2">${brand}</h3>
+                        <h3 class="text-xl font-light mb-2">${safeBrand}</h3>
                         <p class="text-sm text-gray-600">${brandPens.length} pen${brandPens.length !== 1 ? 's' : ''}</p>
                     </a>
                 `;
@@ -132,39 +141,55 @@
         // Show pens for a specific brand
         function showBrand(brandName) {
             selectedBrand = brandName;
-            document.getElementById('allBrandsView').classList.add('hidden');
-            document.getElementById('selectedBrand').classList.remove('hidden');
+            const allBrandsView = document.getElementById('allBrandsView');
+            const selectedBrandEl = document.getElementById('selectedBrand');
+            const brandTitle = document.getElementById('brandTitle');
             
-            document.getElementById('brandTitle').textContent = brandName;
+            if (!allBrandsView || !selectedBrandEl || !brandTitle) {
+                if (typeof console !== "undefined" && console.error) console.error('Required elements not found');
+                return;
+            }
+            
+            allBrandsView.classList.add('hidden');
+            selectedBrandEl.classList.remove('hidden');
+            
+            brandTitle.textContent = brandName;
             const brandPens = allPens.filter(pen => pen.brand === brandName);
             const grid = document.getElementById('brandPensGrid');
             
             grid.innerHTML = brandPens.map((pen, index) => {
-                const mainImage = pen.images?.main || 'https://via.placeholder.com/800x600?text=' + encodeURIComponent(pen.name);
+                const penName = escapeHtml(pen.name || '');
+                const penModel = escapeHtml(pen.model || '');
+                const penDescription = escapeHtml(pen.description || '');
+                const penId = escapeHtml(String(pen.id || ''));
+                const mainImage = pen.images?.main || 'https://via.placeholder.com/800x600?text=' + encodeURIComponent(penName);
                 return `
-                    <a href="./pen-detail.html?id=${pen.id}" 
+                    <a href="./pen-detail.html?id=${encodeURIComponent(penId)}" 
                        class="pen-card bg-white p-4 rounded-sm shadow-sm transition-all duration-500 hover:shadow-md relative block"
                        style="animation-delay: ${index * 0.1}s">
                         <div class="relative h-64 overflow-hidden mb-4">
                             <img src="${mainImage}" 
-                                 alt="${pen.name}" 
+                                 alt="${penName}" 
                                  class="pen-image w-full h-full object-contain transition-transform duration-700"
                                  loading="lazy">
                             <div class="ink-drop absolute bottom-0 right-0 w-16 h-16 bg-blue-900 rounded-full opacity-70"></div>
                         </div>
-                        <h2 class="text-2xl font-light mb-1">${pen.name}</h2>
-                        ${pen.model ? `<p class="text-sm text-gray-500 mb-2">${pen.model}</p>` : ''}
-                        <p class="italic text-gray-600 mb-3">${pen.description || ''}</p>
+                        <h2 class="text-2xl font-light mb-1">${penName}</h2>
+                        ${pen.model ? `<p class="text-sm text-gray-500 mb-2">${penModel}</p>` : ''}
+                        <p class="italic text-gray-600 mb-3">${penDescription}</p>
                     </a>
                 `;
             }).join('');
         }
         
         // Back to brands button
-        document.getElementById('backToBrands').addEventListener('click', () => {
-            window.history.pushState({}, '', './brands.html');
-            showAllBrands();
-        });
+        const backToBrandsBtn = document.getElementById('backToBrands');
+        if (backToBrandsBtn) {
+            backToBrandsBtn.addEventListener('click', () => {
+                window.history.pushState({}, '', './brands.html');
+                showAllBrands();
+            });
+        }
         
         // Handle browser back button
         window.addEventListener('popstate', () => {

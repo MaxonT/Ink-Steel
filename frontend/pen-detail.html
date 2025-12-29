@@ -88,23 +88,32 @@
                         // Add to browsing history
                         addToBrowsingHistory(penId, pen);
                         
-                        // Update SEO meta tags
-                        const penName = pen.name;
-                        const penDescription = pen.description || pen.details || `Detailed information about ${penName}`;
+                        // Update SEO meta tags - 使用textContent避免XSS（虽然风险较低，但为了安全）
+                        const penName = String(pen.name || '').replace(/[<>]/g, '');
+                        const penDescription = String(pen.description || pen.details || `Detailed information about ${penName}`).replace(/[<>]/g, '');
                         const penImage = pen.images?.main || '';
                         
                         document.title = `${penName} | Ink & Steel`;
-                        document.querySelector('meta[name="description"]').content = penDescription;
-                        document.querySelector('meta[property="og:title"]').content = `${penName} | Ink & Steel`;
-                        document.querySelector('meta[property="og:description"]').content = penDescription;
-                        document.querySelector('meta[property="og:url"]').content = pageUrl;
+                        const descMeta = document.querySelector('meta[name="description"]');
+                        if (descMeta) descMeta.content = penDescription;
+                        const ogTitleMeta = document.querySelector('meta[property="og:title"]');
+                        if (ogTitleMeta) ogTitleMeta.content = `${penName} | Ink & Steel`;
+                        const ogDescMeta = document.querySelector('meta[property="og:description"]');
+                        if (ogDescMeta) ogDescMeta.content = penDescription;
+                        const ogUrlMeta = document.querySelector('meta[property="og:url"]');
+                        if (ogUrlMeta) ogUrlMeta.content = pageUrl;
                         if (penImage) {
-                            document.querySelector('meta[property="og:image"]').content = penImage;
-                            document.querySelector('meta[name="twitter:image"]').content = penImage;
+                            const ogImgMeta = document.querySelector('meta[property="og:image"]');
+                            if (ogImgMeta) ogImgMeta.content = penImage;
+                            const twImgMeta = document.querySelector('meta[name="twitter:image"]');
+                            if (twImgMeta) twImgMeta.content = penImage;
                         }
-                        document.querySelector('meta[name="twitter:title"]').content = `${penName} | Ink & Steel`;
-                        document.querySelector('meta[name="twitter:description"]').content = penDescription;
-                        document.querySelector('link[rel="canonical"]').href = pageUrl;
+                        const twTitleMeta = document.querySelector('meta[name="twitter:title"]');
+                        if (twTitleMeta) twTitleMeta.content = `${penName} | Ink & Steel`;
+                        const twDescMeta = document.querySelector('meta[name="twitter:description"]');
+                        if (twDescMeta) twDescMeta.content = penDescription;
+                        const canonicalLink = document.querySelector('link[rel="canonical"]');
+                        if (canonicalLink) canonicalLink.href = pageUrl;
                         
                         // Insert structured data
                         insertStructuredData(generateProductSchema(pen));
@@ -129,9 +138,10 @@
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('public/service-worker.js')
             .then((registration) => {
-})
+              console.log('Service Worker registered:', registration.scope);
+            })
             .catch((error) => {
-              if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
+              console.error('Service Worker registration failed:', error);
             });
         });
       }

@@ -264,6 +264,9 @@
     </main>
     
     <script src="assets/scripts/components/footer.js"></script>
+    <script src="assets/scripts/utils/security.js"></script>
+    <script src="assets/scripts/utils/dom-utils.js"></script>
+    <script src="assets/scripts/utils/search-utils.js"></script>
     <script src="assets/scripts/utils/page-utils.js"></script>
     <script src="assets/scripts/utils/seo-utils.js"></script>
     <script src="assets/scripts/main.js"></script>
@@ -282,12 +285,22 @@
         // Initialize page
         initPageTransition();
         
+        // Utility function: Escape HTML to prevent XSS
+        function escapeHtml(text) {
+            if (text == null) return '';
+            const div = document.createElement('div');
+            div.textContent = String(text);
+            return div.innerHTML;
+        }
+        
         // Load pens data
         async function loadPens() {
             const result = await loadJSONData('data/pens.json');
             if (!result.success) {
-                document.getElementById('pensGrid').innerHTML = 
-                    '<div class="col-span-full text-center py-20 text-gray-500 italic">Error loading pens. Please try again later.</div>';
+                const grid = document.getElementById('pensGrid');
+                if (grid) {
+                    grid.innerHTML = '<div class="col-span-full text-center py-20 text-gray-500 italic">Error loading pens. Please try again later.</div>';
+                }
                 return;
             }
             
@@ -300,27 +313,32 @@
         function renderPens(pens) {
             const grid = document.getElementById('pensGrid');
             const noResults = document.getElementById('noResults');
+            const resultsCount = document.getElementById('resultsCount');
             
-            if (pens.length === 0) {
+            if (!grid || !noResults || !resultsCount) {
+                if (typeof console !== "undefined" && console.error) console.error('Required DOM elements not found in renderPens');
+                return;
+            }
+            
+            if (!Array.isArray(pens) || pens.length === 0) {
                 grid.classList.add('hidden');
                 noResults.classList.remove('hidden');
-                document.getElementById('resultsCount').textContent = 'No pens found';
+                setTextContent(resultsCount, 'No pens found');
                 return;
             }
             
             grid.classList.remove('hidden');
             noResults.classList.add('hidden');
             
-            if (!Array.isArray(pens) || pens.length === 0) {
-                grid.classList.add('hidden');
-                noResults.classList.remove('hidden');
-                setTextContent(document.getElementById('resultsCount'), 'No pens found');
-                return;
-            }
-            
             // Use DocumentFragment for better performance
             const penCards = pens.map((pen, index) => {
-                const mainImage = pen.images?.main || 'https://via.placeholder.com/800x600?text=' + encodeURIComponent(pen.name);
+                const penName = escapeHtml(pen.name || '');
+                const penBrand = escapeHtml(pen.brand || '');
+                const penModel = escapeHtml(pen.model || '');
+                const penDescription = escapeHtml(pen.description || '');
+                const penId = escapeHtml(String(pen.id || ''));
+                
+                const mainImage = pen.images?.main || 'https://via.placeholder.com/800x600?text=' + encodeURIComponent(penName);
                 const minPrice = pen.purchaseLinks?.length > 0 
                     ? Math.min(...pen.purchaseLinks.map(l => l.price || Infinity).filter(p => p !== Infinity))
                     : null;
@@ -328,21 +346,21 @@
                 return `
                     <div class="pen-card bg-white p-4 rounded-sm shadow-sm transition-all duration-500 hover:shadow-md relative block"
                          style="animation-delay: ${index * 0.05}s">
-                        <a href="./pen-detail.html?id=${pen.id}" class="block">
+                        <a href="./pen-detail.html?id=${encodeURIComponent(penId)}" class="block">
                             <div class="relative h-64 overflow-hidden mb-4">
                                 <img src="${mainImage}" 
-                                     alt="${pen.name}" 
+                                     alt="${penName}" 
                                      class="pen-image w-full h-full object-contain transition-transform duration-700"
                                      loading="lazy">
                                 <div class="ink-drop absolute bottom-0 right-0 w-16 h-16 bg-blue-900 rounded-full opacity-70"></div>
                             </div>
-                            <h2 class="text-2xl font-light mb-1">${pen.name}</h2>
-                            ${pen.brand ? `<p class="text-sm text-gray-500 mb-2">${pen.brand} ${pen.model || ''}</p>` : ''}
-                            <p class="italic text-gray-600 mb-3">${pen.description || ''}</p>
+                            <h2 class="text-2xl font-light mb-1">${penName}</h2>
+                            ${pen.brand ? `<p class="text-sm text-gray-500 mb-2">${penBrand} ${penModel}</p>` : ''}
+                            <p class="italic text-gray-600 mb-3">${penDescription}</p>
                             ${minPrice ? `<p class="text-sm font-medium text-gray-700">From $${minPrice}</p>` : ''}
                         </a>
                         <button class="mt-3 text-sm text-gray-600 hover:text-gray-800 underline add-to-compare" 
-                                data-id="${pen.id}"
+                                data-id="${penId}"
                                 style="font-family: 'Cormorant Garamond', serif;">
                             + Compare
                         </button>
@@ -351,11 +369,15 @@
             }).join('');
             
             grid.innerHTML = penCards;
-            document.getElementById('resultsCount').textContent = `Showing ${pens.length} of ${allPens.length} pens`;
+            setTextContent(resultsCount, `Showing ${pens.length} of ${allPens.length} pens`);
         }
         
         // Populate filter dropdowns
         function populateFilters() {
+            if (!Array.isArray(allPens) || allPens.length === 0) {
+                return;
+            }
+            
             const brands = getUniqueValues(allPens, 'brand');
             const types = getUniqueValues(allPens, 'type');
             const fillingSystems = allPens
@@ -364,44 +386,63 @@
             const uniqueFillingSystems = [...new Set(fillingSystems)].sort();
             
             const brandSelect = document.getElementById('brandFilter');
-            brands.forEach(brand => {
-                const option = document.createElement('option');
-                option.value = brand;
-                option.textContent = brand;
-                brandSelect.appendChild(option);
-            });
+            if (brandSelect && Array.isArray(brands)) {
+                brands.forEach(brand => {
+                    const option = document.createElement('option');
+                    option.value = brand;
+                    option.textContent = brand;
+                    brandSelect.appendChild(option);
+                });
+            }
             
             const typeSelect = document.getElementById('typeFilter');
-            types.forEach(type => {
-                const option = document.createElement('option');
-                option.value = type;
-                option.textContent = type;
-                typeSelect.appendChild(option);
-            });
+            if (typeSelect && Array.isArray(types)) {
+                types.forEach(type => {
+                    const option = document.createElement('option');
+                    option.value = type;
+                    option.textContent = type;
+                    typeSelect.appendChild(option);
+                });
+            }
 
             const fillingSystemSelect = document.getElementById('fillingSystemFilter');
-            uniqueFillingSystems.forEach(fs => {
-                const option = document.createElement('option');
-                option.value = fs;
-                option.textContent = fs;
-                fillingSystemSelect.appendChild(option);
-            });
+            if (fillingSystemSelect && Array.isArray(uniqueFillingSystems)) {
+                uniqueFillingSystems.forEach(fs => {
+                    const option = document.createElement('option');
+                    option.value = fs;
+                    option.textContent = fs;
+                    fillingSystemSelect.appendChild(option);
+                });
+            }
         }
         
         // Apply filters
         function applyFilters() {
-            const searchQuery = document.getElementById('searchInput').value;
-            const brandFilter = document.getElementById('brandFilter').value;
-            const typeFilter = document.getElementById('typeFilter').value;
-            const fillingSystemFilter = document.getElementById('fillingSystemFilter').value;
-            const availabilityFilter = document.getElementById('availabilityFilter').value;
-            const priceMin = document.getElementById('priceMin').value;
-            const priceMax = document.getElementById('priceMax').value;
-            const lengthMin = document.getElementById('lengthMin').value;
-            const lengthMax = document.getElementById('lengthMax').value;
-            const weightMin = document.getElementById('weightMin').value;
-            const weightMax = document.getElementById('weightMax').value;
-            const sortBy = document.getElementById('sortBy').value;
+            const searchInputEl = document.getElementById('searchInput');
+            const brandFilterEl = document.getElementById('brandFilter');
+            const typeFilterEl = document.getElementById('typeFilter');
+            const fillingSystemFilterEl = document.getElementById('fillingSystemFilter');
+            const availabilityFilterEl = document.getElementById('availabilityFilter');
+            const priceMinEl = document.getElementById('priceMin');
+            const priceMaxEl = document.getElementById('priceMax');
+            const lengthMinEl = document.getElementById('lengthMin');
+            const lengthMaxEl = document.getElementById('lengthMax');
+            const weightMinEl = document.getElementById('weightMin');
+            const weightMaxEl = document.getElementById('weightMax');
+            const sortByEl = document.getElementById('sortBy');
+            
+            const searchQuery = searchInputEl ? searchInputEl.value : '';
+            const brandFilter = brandFilterEl ? brandFilterEl.value : '';
+            const typeFilter = typeFilterEl ? typeFilterEl.value : '';
+            const fillingSystemFilter = fillingSystemFilterEl ? fillingSystemFilterEl.value : '';
+            const availabilityFilter = availabilityFilterEl ? availabilityFilterEl.value : '';
+            const priceMin = priceMinEl ? priceMinEl.value : '';
+            const priceMax = priceMaxEl ? priceMaxEl.value : '';
+            const lengthMin = lengthMinEl ? lengthMinEl.value : '';
+            const lengthMax = lengthMaxEl ? lengthMaxEl.value : '';
+            const weightMin = weightMinEl ? weightMinEl.value : '';
+            const weightMax = weightMaxEl ? weightMaxEl.value : '';
+            const sortBy = sortByEl ? sortByEl.value : '';
             
             // Update URL
             updateURLWithSearchParams({
@@ -529,36 +570,47 @@
             if (historyDiv) historyDiv.classList.add('hidden');
         }
         
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
+        // Debounce utility function
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
         }
         
         // Event listeners
         const searchInput = document.getElementById('searchInput');
-        // Debounce search input for better performance
-        const debouncedShowSuggestions = debounce((query) => {
-            showSearchSuggestions(query);
-        }, 300);
-        
-        const debouncedApplyFilters = debounce(() => {
-            applyFilters();
-        }, 300);
-        
-        searchInput.addEventListener('input', (e) => {
-            const sanitized = sanitizeSearchQuery(e.target.value);
-            if (sanitized !== e.target.value) {
-                e.target.value = sanitized;
-            }
-            debouncedShowSuggestions(sanitized);
-            debouncedApplyFilters();
-        });
-        searchInput.addEventListener('focus', () => {
-            if (!searchInput.value) {
-                showSearchSuggestions('');
-            }
-        });
+        if (!searchInput) {
+            if (typeof console !== "undefined" && console.error) console.error('searchInput element not found');
+        } else {
+            // Debounce search input for better performance
+            const debouncedShowSuggestions = debounce((query) => {
+                showSearchSuggestions(query);
+            }, 300);
+            
+            const debouncedApplyFilters = debounce(() => {
+                applyFilters();
+            }, 300);
+            
+            searchInput.addEventListener('input', (e) => {
+                const sanitized = sanitizeSearchQuery(e.target.value);
+                if (sanitized !== e.target.value) {
+                    e.target.value = sanitized;
+                }
+                debouncedShowSuggestions(sanitized);
+                debouncedApplyFilters();
+            });
+            searchInput.addEventListener('focus', () => {
+                if (!searchInput.value) {
+                    showSearchSuggestions('');
+                }
+            });
+        }
         
         // Hide suggestions when clicking outside
         document.addEventListener('click', (e) => {
@@ -566,33 +618,59 @@
                 hideSuggestions();
             }
         });
-        document.getElementById('brandFilter').addEventListener('change', applyFilters);
-        document.getElementById('typeFilter').addEventListener('change', applyFilters);
-        document.getElementById('fillingSystemFilter').addEventListener('change', applyFilters);
-        document.getElementById('availabilityFilter').addEventListener('change', applyFilters);
-        document.getElementById('priceMin').addEventListener('input', applyFilters);
-        document.getElementById('priceMax').addEventListener('input', applyFilters);
-        document.getElementById('lengthMin').addEventListener('input', applyFilters);
-        document.getElementById('lengthMax').addEventListener('input', applyFilters);
-        document.getElementById('weightMin').addEventListener('input', applyFilters);
-        document.getElementById('weightMax').addEventListener('input', applyFilters);
-        document.getElementById('sortBy').addEventListener('change', applyFilters);
         
-        document.getElementById('clearFilters').addEventListener('click', () => {
-            document.getElementById('searchInput').value = '';
-            document.getElementById('brandFilter').value = '';
-            document.getElementById('typeFilter').value = '';
-            document.getElementById('fillingSystemFilter').value = '';
-            document.getElementById('availabilityFilter').value = '';
-            document.getElementById('priceMin').value = '';
-            document.getElementById('priceMax').value = '';
-            document.getElementById('lengthMin').value = '';
-            document.getElementById('lengthMax').value = '';
-            document.getElementById('weightMin').value = '';
-            document.getElementById('weightMax').value = '';
-            document.getElementById('sortBy').value = '';
-            renderPens(allPens);
-        });
+        // Filter event listeners with null checks
+        const brandFilter = document.getElementById('brandFilter');
+        if (brandFilter) brandFilter.addEventListener('change', applyFilters);
+        
+        const typeFilter = document.getElementById('typeFilter');
+        if (typeFilter) typeFilter.addEventListener('change', applyFilters);
+        
+        const fillingSystemFilter = document.getElementById('fillingSystemFilter');
+        if (fillingSystemFilter) fillingSystemFilter.addEventListener('change', applyFilters);
+        
+        const availabilityFilter = document.getElementById('availabilityFilter');
+        if (availabilityFilter) availabilityFilter.addEventListener('change', applyFilters);
+        
+        const priceMin = document.getElementById('priceMin');
+        if (priceMin) priceMin.addEventListener('input', applyFilters);
+        
+        const priceMax = document.getElementById('priceMax');
+        if (priceMax) priceMax.addEventListener('input', applyFilters);
+        
+        const lengthMin = document.getElementById('lengthMin');
+        if (lengthMin) lengthMin.addEventListener('input', applyFilters);
+        
+        const lengthMax = document.getElementById('lengthMax');
+        if (lengthMax) lengthMax.addEventListener('input', applyFilters);
+        
+        const weightMin = document.getElementById('weightMin');
+        if (weightMin) weightMin.addEventListener('input', applyFilters);
+        
+        const weightMax = document.getElementById('weightMax');
+        if (weightMax) weightMax.addEventListener('input', applyFilters);
+        
+        const sortBy = document.getElementById('sortBy');
+        if (sortBy) sortBy.addEventListener('change', applyFilters);
+        
+        const clearFilters = document.getElementById('clearFilters');
+        if (clearFilters) {
+            clearFilters.addEventListener('click', () => {
+                if (searchInput) searchInput.value = '';
+                if (brandFilter) brandFilter.value = '';
+                if (typeFilter) typeFilter.value = '';
+                if (fillingSystemFilter) fillingSystemFilter.value = '';
+                if (availabilityFilter) availabilityFilter.value = '';
+                if (priceMin) priceMin.value = '';
+                if (priceMax) priceMax.value = '';
+                if (lengthMin) lengthMin.value = '';
+                if (lengthMax) lengthMax.value = '';
+                if (weightMin) weightMin.value = '';
+                if (weightMax) weightMax.value = '';
+                if (sortBy) sortBy.value = '';
+                renderPens(allPens);
+            });
+        }
         
         // Add to comparison handlers
         document.addEventListener('click', (e) => {
@@ -643,7 +721,8 @@
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('public/service-worker.js')
             .then((registration) => {
-})
+              if (typeof console !== "undefined" && console.log) console.log('Service Worker registered:', registration.scope);
+            })
             .catch((error) => {
               if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
             });

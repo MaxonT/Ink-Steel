@@ -47,6 +47,7 @@
     <custom-footer></custom-footer>
 
     <script src="assets/scripts/components/footer.js"></script>
+    <script src="assets/scripts/utils/security.js"></script>
     <script src="assets/scripts/utils/page-utils.js"></script>
     <script src="assets/scripts/utils/seo-utils.js"></script>
     <script src="assets/scripts/main.js"></script>
@@ -96,24 +97,30 @@
                             ? Math.min(...pen.purchaseLinks.map(l => l.price || Infinity).filter(p => p !== Infinity))
                             : null;
                         
+                        const penName = escapeHtml(pen.name || '');
+                        const penBrand = escapeHtml(pen.brand || '');
+                        const penModel = escapeHtml(pen.model || '');
+                        const penDescription = escapeHtml(pen.description || '');
+                        const penId = escapeHtml(String(pen.id || ''));
+                        
                         return `
                             <div class="pen-card bg-white p-4 rounded-sm shadow-sm transition-all duration-500 hover:shadow-md relative block"
                                  style="animation-delay: ${index * 0.05}s">
-                                <a href="./pen-detail.html?id=${pen.id}" class="block">
+                                <a href="./pen-detail.html?id=${encodeURIComponent(penId)}" class="block">
                                     <div class="relative h-64 overflow-hidden mb-4">
                                         <img src="${mainImage}" 
-                                             alt="${pen.name}" 
+                                             alt="${penName}" 
                                              class="pen-image w-full h-full object-contain transition-transform duration-700"
                                              loading="lazy">
                                         <div class="ink-drop absolute bottom-0 right-0 w-16 h-16 bg-blue-900 rounded-full opacity-70"></div>
                                     </div>
-                                    <h2 class="text-2xl font-light mb-1">${pen.name}</h2>
-                                    ${pen.brand ? `<p class="text-sm text-gray-500 mb-2">${pen.brand} ${pen.model || ''}</p>` : ''}
-                                    <p class="italic text-gray-600 mb-3">${pen.description || ''}</p>
+                                    <h2 class="text-2xl font-light mb-1">${penName}</h2>
+                                    ${pen.brand ? `<p class="text-sm text-gray-500 mb-2">${penBrand} ${penModel}</p>` : ''}
+                                    <p class="italic text-gray-600 mb-3">${penDescription}</p>
                                     ${minPrice ? `<p class="text-sm font-medium text-gray-700">From $${minPrice}</p>` : ''}
                                 </a>
                                 <div class="mt-3">
-                                    <favorite-button pen-id="${pen.id}"></favorite-button>
+                                    <favorite-button pen-id="${penId}"></favorite-button>
                                 </div>
                             </div>
                         `;

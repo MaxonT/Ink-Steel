@@ -82,17 +82,22 @@
                     if (ink) {
                         inkDetail.setAttribute('ink-data', JSON.stringify(ink));
                         
-                        // Update SEO meta tags
-                        const inkName = ink.name;
-                        const inkDescription = ink.description || `Detailed information about ${inkName}`;
+                        // Update SEO meta tags - 使用textContent避免XSS（虽然风险较低，但为了安全）
+                        const inkName = String(ink.name || '').replace(/[<>]/g, '');
+                        const inkDescription = String(ink.description || `Detailed information about ${inkName}`).replace(/[<>]/g, '');
                         const inkImage = ink.swatches?.[0]?.color || '';
                         
                         document.title = `${inkName} | Ink & Steel`;
-                        document.querySelector('meta[name="description"]').content = inkDescription;
-                        document.querySelector('meta[property="og:title"]').content = `${inkName} | Ink & Steel`;
-                        document.querySelector('meta[property="og:description"]').content = inkDescription;
-                        document.querySelector('meta[name="twitter:title"]').content = `${inkName} | Ink & Steel`;
-                        document.querySelector('meta[name="twitter:description"]').content = inkDescription;
+                        const descMeta = document.querySelector('meta[name="description"]');
+                        if (descMeta) descMeta.content = inkDescription;
+                        const ogTitleMeta = document.querySelector('meta[property="og:title"]');
+                        if (ogTitleMeta) ogTitleMeta.content = `${inkName} | Ink & Steel`;
+                        const ogDescMeta = document.querySelector('meta[property="og:description"]');
+                        if (ogDescMeta) ogDescMeta.content = inkDescription;
+                        const twTitleMeta = document.querySelector('meta[name="twitter:title"]');
+                        if (twTitleMeta) twTitleMeta.content = `${inkName} | Ink & Steel`;
+                        const twDescMeta = document.querySelector('meta[name="twitter:description"]');
+                        if (twDescMeta) twDescMeta.content = inkDescription;
                         
                         // Insert breadcrumb
                         insertStructuredData(generateBreadcrumbSchema([
