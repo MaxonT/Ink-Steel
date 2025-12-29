@@ -40,9 +40,25 @@ class PenDetail extends HTMLElement {
         return;
       }
 
+    // 确保必要字段有默认值，防止页面空白
+    if (!penData.name || penData.name.trim() === '') {
+      penData.name = 'Fountain Pen';
+    }
+    if (!penData.description && !penData.details) {
+      penData.description = `Detailed information about ${penData.name}.`;
+    }
+    if (!penData.brand) {
+      penData.brand = '';
+    }
+    
     const specs = penData.specifications || {};
     const nib = specs.nib || {};
     const images = penData.images || {};
+    
+    // 确保至少有一个占位图片
+    if (!images.main) {
+      images.main = `https://dummyimage.com/800x600/F9F5F0/1A365D.png&text=${encodeURIComponent(penData.name)}`;
+    }
     
     const formatSpecValue = (value) => {
       if (value === null || value === undefined || value === '') return '—';
