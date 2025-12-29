@@ -1,0 +1,17 @@
+全面问题诊断报告
+======================================================================
+
+严重问题 (0):
+
+问题 (0):
+
+警告 (9):
+  - index.html: 可能缺少函数定义 sanitizeSearchQuery
+  - brands.html: 可能包含未转义的HTML
+  - favorites.html: 可能包含未转义的HTML
+  - history.html: 可能包含未转义的HTML
+  - index.html: 可能包含未转义的HTML
+  - inks.html: 可能包含未转义的HTML
+  - stats.html: 可能包含未转义的HTML
+  - ink-detail.html: 使用绝对路径 ['/inks.html']
+  - stats.html: 使用绝对路径 ['/g, ']

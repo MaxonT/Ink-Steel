@@ -21,6 +21,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="assets/scripts/components/navbar.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="public/manifest.json">
 </head>
 <body class="min-h-screen">
     <custom-navbar></custom-navbar>
@@ -82,7 +83,7 @@
         
         // Load pens data
         async function loadPens() {
-            const result = await loadJSONData('./data/pens.json');
+            const result = await loadJSONData("data/pens.json");
             if (!result.success) {
                 document.getElementById('brandsList').innerHTML = 
                     '<div class="text-center py-20 text-gray-500 italic">Error loading brands. Please try again later.</div>';
@@ -179,6 +180,21 @@
         // Load pens on page load
         loadPens();
     </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('public/service-worker.js')
+            .then((registration) => {
+})
+            .catch((error) => {
+              if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+
 </body>
 </html>
 

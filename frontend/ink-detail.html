@@ -25,6 +25,7 @@
     <script src="assets/scripts/components/ink-detail.js"></script>
     <script src="assets/scripts/components/loading-spinner.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="public/manifest.json">
 </head>
 <body class="min-h-screen">
     <custom-navbar></custom-navbar>
@@ -69,7 +70,7 @@
             inkDetail.innerHTML = '<div class="bg-white p-8 shadow-sm text-center"><loading-spinner></loading-spinner><p class="mt-4 text-gray-500">Loading ink details...</p></div>';
             
             // Fetch ink data
-            loadJSONData('./data/inks.json')
+            loadJSONData("data/inks.json")
                 .then(result => {
                     if (!result.success) {
                         inkDetail.innerHTML = 
@@ -118,6 +119,21 @@
                 });
         }
     </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('public/service-worker.js')
+            .then((registration) => {
+})
+            .catch((error) => {
+              if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+
 </body>
 </html>
 

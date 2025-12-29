@@ -15,7 +15,7 @@
     <meta name="twitter:title" content="Ink & Steel | Fountain Pen Gallery">
     <meta name="twitter:description" content="Explore our curated collection of fountain pens with detailed specifications, high-quality images, and purchase links.">
     <link rel="canonical" href="">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="public/manifest.json">
     <meta name="theme-color" content="#333">
     <link rel="stylesheet" href="assets/styles/tokens.css">
     <link rel="stylesheet" href="assets/styles/states.css">
@@ -284,7 +284,7 @@
         
         // Load pens data
         async function loadPens() {
-            const result = await loadJSONData('./data/pens.json');
+            const result = await loadJSONData('data/pens.json');
             if (!result.success) {
                 document.getElementById('pensGrid').innerHTML = 
                     '<div class="col-span-full text-center py-20 text-gray-500 italic">Error loading pens. Please try again later.</div>';
@@ -350,6 +350,7 @@
                 `;
             }).join('');
             
+            grid.innerHTML = penCards;
             document.getElementById('resultsCount').textContent = `Showing ${pens.length} of ${allPens.length} pens`;
         }
         
@@ -459,6 +460,10 @@
             const suggestionsDiv = document.getElementById('searchSuggestions');
             const historyDiv = document.getElementById('searchHistory');
             
+            if (!suggestionsDiv || !historyDiv) {
+                return;
+            }
+            
             if (!query || query.length < 2) {
                 // Show history if query is short
                 const history = getSearchHistory();
@@ -476,9 +481,12 @@
                     
                     historyDiv.querySelectorAll('.search-history-item').forEach(item => {
                         item.addEventListener('click', () => {
-                            document.getElementById('searchInput').value = item.getAttribute('data-query');
-                            applyFilters();
-                            hideSuggestions();
+                            const searchInputEl = document.getElementById('searchInput');
+                            if (searchInputEl) {
+                                searchInputEl.value = item.getAttribute('data-query');
+                                applyFilters();
+                                hideSuggestions();
+                            }
                         });
                     });
                 } else {
@@ -501,9 +509,12 @@
                 
                 suggestionsDiv.querySelectorAll('.search-suggestion-item').forEach(item => {
                     item.addEventListener('click', () => {
-                        document.getElementById('searchInput').value = item.getAttribute('data-suggestion');
-                        applyFilters();
-                        hideSuggestions();
+                        const searchInputEl = document.getElementById('searchInput');
+                        if (searchInputEl) {
+                            searchInputEl.value = item.getAttribute('data-suggestion');
+                            applyFilters();
+                            hideSuggestions();
+                        }
                     });
                 });
             } else {
@@ -512,8 +523,10 @@
         }
         
         function hideSuggestions() {
-            document.getElementById('searchSuggestions').classList.add('hidden');
-            document.getElementById('searchHistory').classList.add('hidden');
+            const suggestionsDiv = document.getElementById('searchSuggestions');
+            const historyDiv = document.getElementById('searchHistory');
+            if (suggestionsDiv) suggestionsDiv.classList.add('hidden');
+            if (historyDiv) historyDiv.classList.add('hidden');
         }
         
         function escapeHtml(text) {
@@ -623,6 +636,21 @@
         // Load pens on page load
         loadPens();
     </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('public/service-worker.js')
+            .then((registration) => {
+})
+            .catch((error) => {
+              if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+
 </body>
 </html>
 

@@ -23,6 +23,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="assets/scripts/components/navbar.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="public/manifest.json">
 </head>
 <body class="min-h-screen">
     <custom-navbar></custom-navbar>
@@ -45,7 +46,7 @@
                 </div>
                 <h2 class="text-2xl font-light mb-4">The Weight of Words: Balance in Fountain Pens</h2>
                 <p class="mb-6">How the distribution of mass in a writing instrument affects not just comfort but the very character of one's script.</p>
-                <a href="./blog/the-weight-of-words.html" class="inline-block border-b border-gray-300 pb-1 hover:border-gray-500 transition-colors">Read Essay</a>
+                <a href="#" class="inline-block border-b border-gray-300 pb-1 hover:border-gray-500 transition-colors">Read Essay</a>
             </article>
 
             <article class="bg-white p-8 shadow-sm">
@@ -59,7 +60,7 @@
                 </div>
                 <h2 class="text-2xl font-light mb-4">Chromatography of Desire: The Science Behind Ink Colors</h2>
                 <p class="mb-6">Exploring how chemical compositions create the subtle variations that make each ink unique to the discerning eye.</p>
-                <a href="./blog/chromatography-of-desire.html" class="inline-block border-b border-gray-300 pb-1 hover:border-gray-500 transition-colors">Read Essay</a>
+                <a href="#" class="inline-block border-b border-gray-300 pb-1 hover:border-gray-500 transition-colors">Read Essay</a>
             </article>
         </div>
     </main>
@@ -76,6 +77,21 @@
         document.querySelector('meta[property="og:url"]').content = pageUrl;
         document.querySelector('link[rel="canonical"]').href = pageUrl;
     </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('public/service-worker.js')
+            .then((registration) => {
+})
+            .catch((error) => {
+              if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+
 </body>
 </html>
 

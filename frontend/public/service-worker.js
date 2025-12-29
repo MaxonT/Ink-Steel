@@ -15,7 +15,7 @@ const STATIC_ASSETS = [
   '/assets/styles/states.css',
   '/assets/styles/main.css',
   '/assets/scripts/main.js',
-  '/public/manifest.json',
+  '/manifest.json',
   '/about.html',
   '/blog.html',
   '/brands.html',

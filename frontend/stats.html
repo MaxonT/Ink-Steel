@@ -17,6 +17,7 @@
     <script src="assets/scripts/components/navbar.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link rel="manifest" href="public/manifest.json">
 </head>
 <body class="min-h-screen">
     <custom-navbar></custom-navbar>
@@ -102,8 +103,8 @@
         
         // Load data and render statistics
         async function loadStatistics() {
-            const pensResult = await loadJSONData('./data/pens.json');
-            const inksResult = await loadJSONData('./data/inks.json');
+            const pensResult = await loadJSONData("data/pens.json");
+            const inksResult = await loadJSONData("data/inks.json");
             
             if (pensResult.success) {
                 allPens = pensResult.data.pens || [];
@@ -308,6 +309,21 @@
         
         loadStatistics();
     </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('public/service-worker.js')
+            .then((registration) => {
+})
+            .catch((error) => {
+              if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+
 </body>
 </html>
 

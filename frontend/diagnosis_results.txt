@@ -1,0 +1,18 @@
+总共发现 16 个问题
+
+1. HTML: 404.html - 缺少manifest链接
+2. HTML: about.html - 缺少manifest链接
+3. HTML: blog.html - 缺少manifest链接
+4. HTML: brands.html - 缺少manifest链接
+5. HTML: care.html - 缺少manifest链接
+6. HTML: compare.html - 缺少manifest链接
+7. HTML: contact.html - 缺少manifest链接
+8. HTML: favorites.html - 缺少manifest链接
+9. HTML: history.html - 缺少manifest链接
+10. HTML: ink-detail.html - 缺少manifest链接
+11. HTML: inks.html - 缺少manifest链接
+12. HTML: pen-detail.html - 缺少manifest链接
+13. HTML: stats.html - 缺少manifest链接
+14. SW: 没有找到service worker注册代码
+15. JS: assets/scripts/utils/sitemap-generator.js - 使用了绝对路径/data/，应该是data/
+16. SW: service-worker.js中使用/public/manifest.json，应该根据部署环境调整

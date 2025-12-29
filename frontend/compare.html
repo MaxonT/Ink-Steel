@@ -17,14 +17,13 @@
     <link rel="canonical" href="">
     <link rel="stylesheet" href="assets/styles/tokens.css">
     <link rel="stylesheet" href="assets/styles/states.css">
-    <link rel="stylesheet" href="assets/styles/tokens.css">
-    <link rel="stylesheet" href="assets/styles/states.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="assets/scripts/components/navbar.js"></script>
     <script src="assets/scripts/components/pen-comparison.js"></script>
     <script src="assets/scripts/components/size-visualization.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="public/manifest.json">
 </head>
 <body class="min-h-screen">
     <custom-navbar></custom-navbar>
@@ -87,7 +86,7 @@
             }
 
             // Load all pens data
-            loadJSONData('./data/pens.json')
+            loadJSONData("data/pens.json")
                 .then(result => {
                     if (!result.success) {
                         document.getElementById('comparisonContainer').innerHTML = 
@@ -149,6 +148,21 @@
 
         loadComparison();
     </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('public/service-worker.js')
+            .then((registration) => {
+})
+            .catch((error) => {
+              if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+
 </body>
 </html>
 

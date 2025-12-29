@@ -21,6 +21,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="assets/scripts/components/navbar.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="public/manifest.json">
 </head>
 <body class="min-h-screen">
     <custom-navbar></custom-navbar>
@@ -78,7 +79,7 @@
             document.getElementById('favoritesGrid').classList.remove('hidden');
             document.getElementById('emptyState').classList.add('hidden');
             
-            loadJSONData('./data/pens.json')
+            loadJSONData("data/pens.json")
                 .then(result => {
                     if (!result.success) {
                         document.getElementById('favoritesGrid').innerHTML = 
@@ -127,6 +128,21 @@
         
         loadFavorites();
     </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('public/service-worker.js')
+            .then((registration) => {
+})
+            .catch((error) => {
+              if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+
 </body>
 </html>
 

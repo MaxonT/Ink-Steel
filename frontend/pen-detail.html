@@ -29,6 +29,7 @@
     <script src="assets/scripts/components/favorite-button.js"></script>
     <script src="assets/scripts/components/share-button.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="public/manifest.json">
 </head>
 <body class="min-h-screen">
     <custom-navbar></custom-navbar>
@@ -40,6 +41,7 @@
     <custom-footer></custom-footer>
 
     <script src="assets/scripts/components/footer.js"></script>
+    <script src="assets/scripts/utils/security.js"></script>
     <script src="assets/scripts/utils/page-utils.js"></script>
     <script src="assets/scripts/utils/seo-utils.js"></script>
     <script src="assets/scripts/utils/browsing-history.js"></script>
@@ -71,7 +73,7 @@
             penDetail.innerHTML = '<div class="bg-white p-8 shadow-sm text-center"><loading-spinner></loading-spinner><p class="mt-4 text-gray-500">Loading pen details...</p></div>';
             
             // Fetch pen data
-            loadJSONData('./data/pens.json')
+            loadJSONData("data/pens.json")
                 .then(result => {
                     if (!result.success) {
                         penDetail.innerHTML = 
@@ -120,6 +122,21 @@
                 });
         }
     </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('public/service-worker.js')
+            .then((registration) => {
+})
+            .catch((error) => {
+              if (typeof console !== "undefined" && console.error) console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+
 </body>
 </html>
 

@@ -18,7 +18,7 @@ async function generateSitemap() {
 
   try {
     // Load pens data
-    const pensResult = await loadJSONData('./data/pens.json');
+    const pensResult = await loadJSONData('data/pens.json');
     const pens = pensResult.success ? (pensResult.data.pens || []) : [];
     
     // Generate sitemap XML
