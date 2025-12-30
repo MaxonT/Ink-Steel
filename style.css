@@ -85,6 +85,33 @@ p {
 }
 
 /* ========================================
+   CARD SIZING SYSTEM
+   ======================================== */
+.card-sm {
+  padding: var(--spacing-4); /* 16px */
+}
+
+.card-md {
+  padding: var(--spacing-5); /* 24px */
+}
+
+.card-lg {
+  padding: var(--spacing-6); /* 32px */
+}
+
+.card-base {
+  background: var(--bg-white);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+}
+
+.card-base:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+/* ========================================
    BASE INPUT AND BUTTON STYLES
    ======================================== */
 .input-base,
@@ -147,13 +174,13 @@ p {
 .ink-card:nth-child(5) { animation-delay: 0.5s; }
 .ink-card:nth-child(6) { animation-delay: 0.6s; }
 
-/* Blog article hover effect */
+/* Blog article hover effect - restrained */
 article {
-  transition: all var(--transition-base);
+  transition: all 0.2s ease;
 }
 
 article:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   box-shadow: var(--shadow-lg);
 }
 
