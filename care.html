@@ -21,9 +21,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="min-h-screen">
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:border focus:border-gray-300">
+        Skip to main content
+    </a>
+    
     <custom-navbar></custom-navbar>
 
-    <main class="page-container py-20">
+    <main id="main-content" class="page-container py-20">
         <header class="text-center mb-16">
             <h1 class="text-4xl font-light tracking-tight mb-4">Pen Preservation</h1>
             <p class="text-xl italic max-w-2xl mx-auto">The art of maintaining writing instruments</p>
