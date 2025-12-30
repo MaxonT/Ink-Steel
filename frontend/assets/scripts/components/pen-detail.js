@@ -49,7 +49,8 @@ class PenDetail extends HTMLElement {
       }
       
       if (!penData) {
-        this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Loading...</p>';
+        // 显示空白而不是 loading，因为数据应该立即可用
+        this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #999; font-family: \'Cormorant Garamond\', serif;">Pen data not found</p>';
         return;
       }
 

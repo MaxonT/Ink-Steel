@@ -49,7 +49,7 @@ class InkDetail extends HTMLElement {
       }
       
       if (!inkData) {
-        this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #666;">Loading...</p>';
+        this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #999; font-family: \'Cormorant Garamond\', serif;">Ink data not found</p>';
         return;
       }
 
