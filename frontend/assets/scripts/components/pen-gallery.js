@@ -143,7 +143,7 @@ class PenGallery extends HTMLElement {
       </style>
       <div class="gallery-container">
         <div class="main-image-container">
-          <img src="${allImages[0]}" alt="Pen" class="main-image" id="mainImage">
+          <img src="${allImages[0]}" alt="Pen" class="main-image" id="mainImage" onerror="this.style.backgroundColor='#f0ebe5'; this.style.display='none';">
         </div>
         ${allImages.length > 1 ? `
           <div class="thumbnail-container">
@@ -151,7 +151,8 @@ class PenGallery extends HTMLElement {
               <img src="${img}" 
                    alt="Thumbnail ${index + 1}" 
                    class="thumbnail ${index === 0 ? 'active' : ''}"
-                   data-index="${index}">
+                   data-index="${index}"
+                   onerror="this.style.backgroundColor='#f0ebe5'; this.style.display='none';">
             `).join('')}
           </div>
         ` : ''}

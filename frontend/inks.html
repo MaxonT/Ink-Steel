@@ -151,6 +151,8 @@
                 const inkId = escapeHtml(String(ink.id || ''));
                 // inkColor是CSS颜色值，需要验证但不转义HTML（因为它是属性值）
                 const inkColor = (ink.color || '#1a365d').replace(/[<>"']/g, '');
+                // 墨水瓶图片 URL（可选）
+                const bottleImage = ink.image_url || '';
                 
                 // 构建去歧义的显示名称：Color (Brand) 或 Color (Brand - Series)
                 let displayName = inkName;
@@ -164,8 +166,13 @@
                 
                 return `
                     <article class="ink-card" style="animation-delay: ${index * 0.05}s">
-                        <div style="padding: var(--spacing-4); background: var(--bg-gray-50); border-radius: var(--radius-sm) var(--radius-sm) 0 0;">
-                            <ink-swatch color="${inkColor}" name="${inkName}"></ink-swatch>
+                        <div style="padding: var(--spacing-4); background: var(--bg-gray-50); border-radius: var(--radius-sm) var(--radius-sm) 0 0); min-height: 150px; display: flex; align-items: center; justify-content: center;">
+                            ${bottleImage ? `
+                                <img src="${bottleImage}" alt="${inkName}" style="max-height: 140px; max-width: 100%; object-fit: contain;" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <ink-swatch color="${inkColor}" name="${inkName}" style="display: none;"></ink-swatch>
+                            ` : `
+                                <ink-swatch color="${inkColor}" name="${inkName}"></ink-swatch>
+                            `}
                         </div>
                         <div class="ink-card-content">
                             <h2 class="ink-card-title">${displayName}</h2>

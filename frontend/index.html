@@ -362,7 +362,8 @@
                             <img src="${mainImage}" 
                                  alt="${penName}" 
                                  class="pen-card-image"
-                                 loading="lazy">
+                                 loading="lazy"
+                                 onerror="this.style.backgroundColor='#f0ebe5'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.alt='${penName} - Image unavailable'; this.textContent=this.alt;">
                         </a>
                         <div class="pen-card-content">
                             <h2 class="pen-card-title">${penName}</h2>
