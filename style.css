@@ -21,26 +21,49 @@ body {
 /* ========================================
    TYPOGRAPHY
    ======================================== */
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-normal);
   letter-spacing: 0.5px;
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--spacing-4);
 }
 
 h1 {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-6);
 }
 
 h2 {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-5);
 }
 
 h3 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-4);
+}
+
+h4 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+}
+
+h5 {
   font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+}
+
+h6 {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 p {
   font-size: var(--font-size-base);
   color: var(--text-light);
+  line-height: var(--line-height-relaxed);
   margin-bottom: var(--spacing-5);
 }
 
@@ -51,6 +74,8 @@ p {
 .text-lg { font-size: var(--font-size-lg); }
 .text-xl { font-size: var(--font-size-xl); }
 .text-2xl { font-size: var(--font-size-2xl); }
+.text-3xl { font-size: var(--font-size-3xl); }
+.text-4xl { font-size: var(--font-size-4xl); }
 
 /* ========================================
    TEXT OVERFLOW UTILITIES
@@ -285,4 +310,32 @@ article:hover {
 
 .range-input span {
   color: var(--text-light);
+}
+
+/* ========================================
+   MOBILE & TOUCH TARGET UTILITIES
+   ======================================== */
+/* Ensure minimum touch target size of 44x44px */
+button,
+.button,
+a.button,
+input[type="submit"],
+input[type="button"] {
+  min-height: var(--input-height);
+  min-width: var(--input-height);
+}
+
+/* Small interactive elements need adequate spacing on mobile */
+@media (max-width: 768px) {
+  button,
+  .button,
+  a {
+    min-height: var(--input-height);
+  }
+  
+  /* Ensure adequate spacing between touch targets */
+  button + button,
+  a + a {
+    margin-left: var(--spacing-3);
+  }
 }

@@ -196,3 +196,49 @@ a:not(:disabled):active {
   text-decoration: underline;
 }
 
+/* ========================================
+   IMAGE LOADING STATE
+   ======================================== */
+.image-loading {
+  background: linear-gradient(
+    90deg,
+    var(--bg-gray-100) 25%,
+    var(--bg-gray-50) 50%,
+    var(--bg-gray-100) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s ease-in-out infinite;
+}
+
+.image-placeholder {
+  background-color: var(--bg-gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-lighter);
+  font-style: italic;
+  min-height: 200px;
+}
+
+.image-error {
+  background-color: var(--bg-gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-lighter);
+  font-size: var(--font-size-sm);
+  min-height: 200px;
+}
+
+img {
+  transition: opacity var(--transition-base);
+}
+
+img.loading {
+  opacity: 0;
+}
+
+img.loaded {
+  opacity: 1;
+}
+
