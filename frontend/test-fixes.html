@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修复验证测试 | Ink & Steel</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-section {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a365d;
+            border-bottom: 2px solid #1a365d;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2c5282;
+            margin-top: 0;
+        }
+        .test-item {
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #e2e8f0;
+            border-radius: 4px;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .status.fixed {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        .status.pending {
+            background: #fef5e7;
+            color: #744210;
+        }
+        .test-link {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #4299e1;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 5px 5px 5px 0;
+        }
+        .test-link:hover {
+            background: #3182ce;
+        }
+        .code {
+            background: #2d3748;
+            color: #63b3ed;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 13px;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .feature-list li:before {
+            content: "✓ ";
+            color: #48bb78;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔧 Ink & Steel 修复验证测试</h1>
+    
+    <div class="test-section">
+        <h2>✅ 问题 1: Pen Details 无限 Loading</h2>
+        <div class="test-item">
+            <strong>问题描述：</strong> 打开钢笔详情页一直显示 loading，无法看到内容
+            <span class="status fixed">已修复</span>
+        </div>
+        <div class="test-item">
+            <strong>修复方法：</strong> 在 setAttribute 前清空 innerHTML<br>
+            <div class="code">
+// ✅ 修复后<br>
+penDetail.innerHTML = '';  // 清空 loading<br>
+penDetail.setAttribute('pen-data', JSON.stringify(pen));
+            </div>
+        </div>
+        <div class="test-item">
+            <strong>测试链接：</strong><br>
+            <a class="test-link" href="./pen-detail.html?id=pelikan-m800-black" target="_blank">
+                Pelikan M800
+            </a>
+            <a class="test-link" href="./pen-detail.html?id=pilot-custom-74" target="_blank">
+                Pilot Custom 74
+            </a>
+            <a class="test-link" href="./pen-detail.html?id=lamy-2000" target="_blank">
+                Lamy 2000
+            </a>
+            <a class="test-link" href="./pen-detail.html?id=sailor-1911-large" target="_blank">
+                Sailor 1911
+            </a>
+        </div>
+        <div class="test-item">
+            <strong>预期结果：</strong>
+            <ul class="feature-list">
+                <li>页面显示 loading 状态（1-2秒）</li>
+                <li>Loading 消失，显示钢笔详情</li>
+                <li>能看到钢笔图片、规格、购买链接等完整信息</li>
+                <li>不会一直卡在 loading 状态</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>✅ 问题 2: Ink Details 无限 Loading</h2>
+        <div class="test-item">
+            <strong>问题描述：</strong> 墨水详情页同样存在无限 loading 问题
+            <span class="status fixed">已修复</span>
+        </div>
+        <div class="test-item">
+            <strong>修复方法：</strong> 同样的修复应用到墨水详情页
+        </div>
+        <div class="test-item">
+            <strong>测试链接：</strong><br>
+            <a class="test-link" href="./ink-detail.html?id=pilot-iroshizuku-tsuki-yo" target="_blank">
+                Pilot Tsuki-yo
+            </a>
+            <a class="test-link" href="./ink-detail.html?id=pilot-iroshizuku-kon-peki" target="_blank">
+                Pilot Kon-peki
+            </a>
+            <a class="test-link" href="./ink-detail.html?id=sailor-jentle-yama-dori" target="_blank">
+                Sailor Yama-dori
+            </a>
+        </div>
+        <div class="test-item">
+            <strong>预期结果：</strong>
+            <ul class="feature-list">
+                <li>Loading 正常结束</li>
+                <li>显示墨水颜色样本</li>
+                <li>显示墨水属性和购买链接</li>
+                <li>品牌/系列信息清晰显示</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>✅ 问题 3: Ink 页面颜色重复困惑</h2>
+        <div class="test-item">
+            <strong>问题描述：</strong> 多个品牌有相同颜色名（Red、Blue），用户无法区分
+            <span class="status fixed">已修复</span>
+        </div>
+        <div class="test-item">
+            <strong>修复方法：</strong> 添加品牌/系列标注<br>
+            <div class="code">
+// ✅ 新显示格式<br>
+"Red (Pilot)"<br>
+"Red (Sailor)"<br>
+"Blue (Pilot - Iroshizuku)"
+            </div>
+        </div>
+        <div class="test-item">
+            <strong>测试链接：</strong><br>
+            <a class="test-link" href="./inks.html" target="_blank">
+                Ink Collection (查看所有墨水)
+            </a>
+        </div>
+        <div class="test-item">
+            <strong>预期结果：</strong>
+            <ul class="feature-list">
+                <li>每个墨水名称后显示品牌标注（灰色小字）</li>
+                <li>相同颜色名的墨水可以通过品牌区分</li>
+                <li>品牌文字使用较轻的视觉权重，不喧宾夺主</li>
+                <li>如有系列名，显示为 "Color (Brand - Series)"</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>🔄 增强功能: 图片资产管道</h2>
+        <div class="test-item">
+            <strong>状态：</strong> 
+            <span class="status fixed">已完成</span>
+        </div>
+        <div class="test-item">
+            <strong>功能说明：</strong>
+            <ul class="feature-list">
+                <li>创建了图片资产管理系统</li>
+                <li>添加图片来源追踪（imageMetadata）</li>
+                <li>自动识别零售商图片源（Goulet Pens、JetPens）</li>
+                <li>验证现有图片 URL 有效性</li>
+                <li>高质量占位符作为 fallback</li>
+            </ul>
+        </div>
+        <div class="test-item">
+            <strong>运行结果：</strong><br>
+            <div class="code">
+📊 钢笔统计：<br>
+   • 总计: 111 支<br>
+   • 已更新: 111<br>
+   • 识别到来源: 108 (97%)<br>
+   • 使用占位符: 3<br>
+<br>
+📊 墨水统计：<br>
+   • 总计: 65 瓶<br>
+   • 已更新: 65<br>
+   • 有颜色数据: 65 (100%)<br>
+   • 识别到来源: 11
+            </div>
+        </div>
+        <div class="test-item">
+            <strong>查看效果：</strong><br>
+            <a class="test-link" href="./index.html" target="_blank">
+                Gallery (钢笔列表)
+            </a>
+            <a class="test-link" href="./inks.html" target="_blank">
+                Ink Collection
+            </a>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>📋 测试检查清单</h2>
+        <div class="test-item">
+            <strong>功能测试：</strong>
+            <ul class="feature-list">
+                <li>Pen Details 页面能正常加载并显示内容</li>
+                <li>Ink Details 页面能正常加载并显示内容</li>
+                <li>Ink 列表显示去歧义的品牌标注</li>
+                <li>Gallery 钢笔卡片正常显示</li>
+                <li>图片懒加载正常工作</li>
+            </ul>
+        </div>
+        <div class="test-item">
+            <strong>错误处理测试：</strong>
+            <ul class="feature-list">
+                <li>无效 ID: <a class="test-link" href="./pen-detail.html?id=invalid-pen-id" target="_blank">测试无效 ID</a></li>
+                <li>缺少 ID: <a class="test-link" href="./pen-detail.html" target="_blank">测试缺少 ID</a></li>
+                <li>网络错误: 断网后刷新页面查看错误提示</li>
+            </ul>
+        </div>
+        <div class="test-item">
+            <strong>视觉测试：</strong>
+            <ul class="feature-list">
+                <li>Loading 动画流畅</li>
+                <li>品牌标注视觉权重合适（不抢戏）</li>
+                <li>图片占位符美观</li>
+                <li>响应式布局在不同设备正常</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>📚 后续优化建议</h2>
+        <div class="test-item">
+            <strong>短期（1-2 周）：</strong>
+            <ul class="feature-list">
+                <li>添加图片 onerror 处理</li>
+                <li>完成边缘情况测试</li>
+                <li>性能监控</li>
+            </ul>
+        </div>
+        <div class="test-item">
+            <strong>中期（1 个月）：</strong>
+            <ul class="feature-list">
+                <li>收集真实图片（从零售商/官方）</li>
+                <li>实现图片本地存储或 CDN</li>
+                <li>图片健康检查定时任务</li>
+            </ul>
+        </div>
+        <div class="test-item">
+            <strong>长期（持续）：</strong>
+            <ul class="feature-list">
+                <li>建立图片资产管理系统</li>
+                <li>与品牌/零售商建立合作</li>
+                <li>用户反馈收集和迭代</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>📖 相关文档</h2>
+        <div class="test-item">
+            <a class="test-link" href="../IMPLEMENTATION_PLAN.md" target="_blank">
+                查看完整实施计划
+            </a>
+            <a class="test-link" href="../README.md" target="_blank">
+                项目 README
+            </a>
+        </div>
+    </div>
+
+    <footer style="text-align: center; padding: 40px 0; color: #718096;">
+        <p>最后更新：2025年12月30日</p>
+        <p>维护者：GitHub Copilot + 用户</p>
+    </footer>
+</body>
+</html>

@@ -145,11 +145,22 @@
             const inkCards = inks.map((ink, index) => {
                 const inkName = escapeHtml(ink.name || '');
                 const inkBrand = ink.brand ? escapeHtml(ink.brand) : '';
+                const inkSeries = ink.series ? escapeHtml(ink.series) : '';
                 const inkDescription = escapeHtml(ink.description || '');
                 const inkDetails = escapeHtml(ink.details || '');
                 const inkId = escapeHtml(String(ink.id || ''));
                 // inkColor是CSS颜色值，需要验证但不转义HTML（因为它是属性值）
                 const inkColor = (ink.color || '#1a365d').replace(/[<>"']/g, '');
+                
+                // 构建去歧义的显示名称：Color (Brand) 或 Color (Brand - Series)
+                let displayName = inkName;
+                if (inkBrand) {
+                    if (inkSeries && inkSeries !== inkBrand) {
+                        displayName = `${inkName} <span style="color: var(--text-light); font-size: 0.9em; font-weight: 400;">(${inkBrand} - ${inkSeries})</span>`;
+                    } else {
+                        displayName = `${inkName} <span style="color: var(--text-light); font-size: 0.9em; font-weight: 400;">(${inkBrand})</span>`;
+                    }
+                }
                 
                 return `
                     <article class="ink-card" style="animation-delay: ${index * 0.05}s">
@@ -157,8 +168,7 @@
                             <ink-swatch color="${inkColor}" name="${inkName}"></ink-swatch>
                         </div>
                         <div class="ink-card-content">
-                            <h2 class="ink-card-title">${inkName}</h2>
-                            ${inkBrand ? `<p class="ink-card-brand">${inkBrand}</p>` : ''}
+                            <h2 class="ink-card-title">${displayName}</h2>
                             <p class="ink-card-description">${inkDescription}</p>
                             ${inkDetails ? `<p style="font-size: var(--font-size-sm); color: var(--text-light); margin-top: var(--spacing-3);">${inkDetails}</p>` : ''}
                             <div class="ink-card-footer" style="margin-top: auto;">

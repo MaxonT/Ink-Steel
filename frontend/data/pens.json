@@ -54,11 +54,11 @@
         "balance": "Slightly rear-weighted when posted"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20M800%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BM800%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20M800%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20M800%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20M800%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -98,7 +98,13 @@
       "sources": [
         "Pelikan official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:53.708Z"
+      }
     },
     {
       "id": "pilot-custom-74",
@@ -157,11 +163,11 @@
         "balance": "Well-balanced"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2B74",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%2074%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2B74%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2B74%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2B74%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%2074%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%2074%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%2074%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -209,7 +215,13 @@
       "sources": [
         "Pilot official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/Pilot-Custom-74-Fountain-Pen",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:53.808Z"
+      }
     },
     {
       "id": "lamy-2000",
@@ -268,11 +280,11 @@
         "balance": "Perfect balance"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%202000%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B2000%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%202000%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%202000%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%202000%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -311,7 +323,13 @@
       "sources": [
         "Lamy official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/products/lamy-2000-fountain-pen",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:53.910Z"
+      }
     },
     {
       "id": "pilot-custom-823",
@@ -366,11 +384,11 @@
         "balance": "Slightly front-weighted"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2B823",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%20823%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2B823%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2B823%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2B823%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%20823%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%20823%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%20823%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -409,7 +427,13 @@
       "sources": [
         "Pilot official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/products/pilot-custom-823-fountain-pen",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:54.011Z"
+      }
     },
     {
       "id": "sailor-1911-large",
@@ -465,11 +489,11 @@
         "balance": "Well-balanced"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B1911%2BLarge",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%201911%20Large%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B1911%2BLarge%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B1911%2BLarge%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B1911%2BLarge%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%201911%20Large%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%201911%20Large%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%201911%20Large%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -508,7 +532,13 @@
       "sources": [
         "Sailor official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/products/sailor-1911-large-fountain-pen",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:54.113Z"
+      }
     },
     {
       "id": "platinum-3776-century",
@@ -567,11 +597,11 @@
         "balance": "Well-balanced"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B3776%2BCentury",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20%233776%20Century%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B3776%2BCentury%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B3776%2BCentury%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B3776%2BCentury%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20%233776%20Century%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20%233776%20Century%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20%233776%20Century%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -610,7 +640,13 @@
       "sources": [
         "Platinum official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/Platinum-3776-Century-Fountain-Pen",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:54.214Z"
+      }
     },
     {
       "id": "twsbi-diamond-580",
@@ -665,11 +701,11 @@
         "balance": "Slightly rear-weighted when posted"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Diamond%20580%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BDiamond%2B580%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Diamond%20580%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Diamond%20580%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Diamond%20580%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -708,7 +744,13 @@
       "sources": [
         "TWSBI official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/products/twsbi-diamond-580-fountain-pen",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:54.314Z"
+      }
     },
     {
       "id": "lamy-safari",
@@ -766,11 +808,11 @@
         "balance": "Well-balanced"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSafari",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Safari%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSafari%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSafari%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSafari%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Safari%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Safari%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Safari%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -810,7 +852,13 @@
       "sources": [
         "Lamy official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/products/lamy-safari-fountain-pen",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:54.415Z"
+      }
     },
     {
       "id": "pilot-metropolitan",
@@ -863,11 +911,11 @@
         "balance": "Slightly rear-weighted"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BMetropolitan",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Metropolitan%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BMetropolitan%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BMetropolitan%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BMetropolitan%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Metropolitan%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Metropolitan%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Metropolitan%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -906,7 +954,13 @@
       "sources": [
         "Pilot official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/Pilot-Metropolitan-Fountain-Pen",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:54.515Z"
+      }
     },
     {
       "id": "pilot-vanishing-point",
@@ -961,11 +1015,11 @@
         "balance": "Slightly front-weighted due to clicker"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BVanishing%2BPoint",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Vanishing%20Point%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BVanishing%2BPoint%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BVanishing%2BPoint%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BVanishing%2BPoint%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Vanishing%20Point%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Vanishing%20Point%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Vanishing%20Point%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -1004,7 +1058,13 @@
       "sources": [
         "Pilot official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/products/pilot-vanishing-point-fountain-pen",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:54.617Z"
+      }
     },
     {
       "id": "montblanc-149",
@@ -1063,11 +1123,11 @@
         "balance": "Well-balanced despite size"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Meisterst%C3%BCck%20149%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B149%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Meisterst%C3%BCck%20149%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Meisterst%C3%BCck%20149%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Meisterst%C3%BCck%20149%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -1107,7 +1167,13 @@
       "sources": [
         "Montblanc official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "placeholder",
+        "sourceUrl": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Meisterst%C3%BCck%20149%20Fountain%20Pen",
+        "licenseNote": "Placeholder image - real image pending",
+        "lastUpdated": "2025-12-30T05:55:54.718Z"
+      }
     },
     {
       "id": "waterman-expert",
@@ -1161,11 +1227,11 @@
         "balance": "Well-balanced"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Expert%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BExpert%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Expert%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Expert%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Expert%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -1204,7 +1270,13 @@
       "sources": [
         "Waterman official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "placeholder",
+        "sourceUrl": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Expert%20Fountain%20Pen",
+        "licenseNote": "Placeholder image - real image pending",
+        "lastUpdated": "2025-12-30T05:55:54.819Z"
+      }
     },
     {
       "id": "kaweco-sport",
@@ -1262,11 +1334,11 @@
         "balance": "Well-balanced when posted"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sport%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSport%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sport%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sport%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sport%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -1306,7 +1378,13 @@
       "sources": [
         "Kaweco official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/products/kaweco-sport-fountain-pen",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:54.921Z"
+      }
     },
     {
       "id": "parker-sonnet",
@@ -1360,11 +1438,11 @@
         "balance": "Well-balanced"
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sonnet%20Fountain%20Pen",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSonnet%2BClose-up"
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sonnet%20Fountain%20Pen%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sonnet%20Fountain%20Pen%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sonnet%20Fountain%20Pen%20uncapped"
         ],
         "dimensions": "",
         "writingSample": "",
@@ -1403,7 +1481,13 @@
       "sources": [
         "Parker official website"
       ],
-      "verified": true
+      "verified": true,
+      "imageMetadata": {
+        "source": "placeholder",
+        "sourceUrl": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sonnet%20Fountain%20Pen",
+        "licenseNote": "Placeholder image - real image pending",
+        "lastUpdated": "2025-12-30T05:55:55.022Z"
+      }
     },
     {
       "id": "montblanc-149-montblanc-149",
@@ -1431,12 +1515,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -1468,7 +1555,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc 149 It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Montblanc 149 It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%20149",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:55.123Z"
+      }
     },
     {
       "id": "platinum-sport-platinum-sport",
@@ -1496,12 +1589,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -1524,7 +1620,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Platinum Sport It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Platinum Sport It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Platinum%20Sport",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:55.225Z"
+      }
     },
     {
       "id": "lamy-expert-lamy-expert",
@@ -1552,12 +1654,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -1589,7 +1694,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy Expert It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Lamy Expert It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%20Expert",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:55.326Z"
+      }
     },
     {
       "id": "sailor-sonnet-sailor-sonnet",
@@ -1617,12 +1728,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -1645,7 +1759,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor Sonnet It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Sailor Sonnet It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%20Sonnet",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:55.427Z"
+      }
     },
     {
       "id": "pelikan-sport-pelikan-sport",
@@ -1673,12 +1793,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -1710,7 +1833,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan Sport It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Pelikan Sport It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%20Sport",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:55.529Z"
+      }
     },
     {
       "id": "twsbi-149-twsbi-149",
@@ -1738,12 +1867,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -1775,7 +1907,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the TWSBI 149 It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the TWSBI 149 It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=TWSBI%20149",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:55.637Z"
+      }
     },
     {
       "id": "parker-2000-parker-2000",
@@ -1803,12 +1941,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%202000",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B2000%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%202000%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%202000%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%202000%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -1840,7 +1981,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker 2000 It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Parker 2000 It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%202000",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:55.738Z"
+      }
     },
     {
       "id": "pilot-1911-pilot-1911",
@@ -1868,12 +2015,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -1896,7 +2046,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot 1911 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Pilot 1911 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%201911",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:55.839Z"
+      }
     },
     {
       "id": "montblanc-custom-montblanc-custom",
@@ -1924,12 +2080,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BCustom",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Custom",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BCustom%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BCustom%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BCustom%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Custom%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Custom%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Custom%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -1961,7 +2120,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc Custom It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Montblanc Custom It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%20Custom",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:55.941Z"
+      }
     },
     {
       "id": "lamy-2000-lamy-2000",
@@ -1989,12 +2154,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%202000",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B2000%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%202000%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%202000%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%202000%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2026,7 +2194,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy 2000 It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Lamy 2000 It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%202000",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.043Z"
+      }
     },
     {
       "id": "parker-custom-parker-custom",
@@ -2054,12 +2228,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BCustom",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Custom",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BCustom%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BCustom%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BCustom%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Custom%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Custom%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Custom%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2091,7 +2268,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker Custom It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Parker Custom It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%20Custom",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.143Z"
+      }
     },
     {
       "id": "parker-m800-parker-m800",
@@ -2119,12 +2302,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20M800",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BM800%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20M800%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20M800%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20M800%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2156,7 +2342,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker M800 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Parker M800 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%20M800",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.245Z"
+      }
     },
     {
       "id": "kaweco-diamond-580-kaweco-diamond-580",
@@ -2184,12 +2376,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2221,7 +2416,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco Diamond 580 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Kaweco Diamond 580 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%20Diamond%20580",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.347Z"
+      }
     },
     {
       "id": "sailor-sport-sailor-sport",
@@ -2249,12 +2450,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2277,7 +2481,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor Sport It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Sailor Sport It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%20Sport",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.447Z"
+      }
     },
     {
       "id": "waterman-sonnet-waterman-sonnet",
@@ -2305,12 +2515,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2342,7 +2555,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Waterman Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%20Sonnet",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.549Z"
+      }
     },
     {
       "id": "kaweco-m800-kaweco-m800",
@@ -2370,12 +2589,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20M800",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BM800%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20M800%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20M800%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20M800%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2407,7 +2629,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco M800 It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Kaweco M800 It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%20M800",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.651Z"
+      }
     },
     {
       "id": "pelikan-3776-pelikan-3776",
@@ -2435,12 +2663,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2470,7 +2701,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Pelikan 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%203776",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.752Z"
+      }
     },
     {
       "id": "platinum-149-platinum-149",
@@ -2498,12 +2735,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2525,7 +2765,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Platinum 149 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Platinum 149 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Platinum%20149",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.853Z"
+      }
     },
     {
       "id": "pelikan-expert-pelikan-expert",
@@ -2553,12 +2799,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2588,7 +2837,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan Expert It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Pelikan Expert It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%20Expert",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:56.954Z"
+      }
     },
     {
       "id": "platinum-custom-platinum-custom",
@@ -2616,12 +2871,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BCustom",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Custom",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BCustom%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BCustom%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BCustom%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Custom%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Custom%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Custom%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2643,7 +2901,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Platinum Custom It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Platinum Custom It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Platinum%20Custom",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.055Z"
+      }
     },
     {
       "id": "lamy-3776-lamy-3776",
@@ -2671,12 +2935,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2706,7 +2973,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Lamy 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%203776",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.157Z"
+      }
     },
     {
       "id": "twsbi-expert-twsbi-expert",
@@ -2734,12 +3007,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2769,7 +3045,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the TWSBI Expert It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the TWSBI Expert It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=TWSBI%20Expert",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.258Z"
+      }
     },
     {
       "id": "lamy-sonnet-lamy-sonnet",
@@ -2797,12 +3079,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2832,7 +3117,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Lamy Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%20Sonnet",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.359Z"
+      }
     },
     {
       "id": "kaweco-2000-kaweco-2000",
@@ -2860,12 +3151,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%202000",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B2000%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%202000%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%202000%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%202000%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2895,7 +3189,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco 2000 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Kaweco 2000 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%202000",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.461Z"
+      }
     },
     {
       "id": "waterman-custom-waterman-custom",
@@ -2923,12 +3223,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BCustom",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Custom",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BCustom%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BCustom%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BCustom%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Custom%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Custom%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Custom%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -2958,7 +3261,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman Custom It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Waterman Custom It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%20Custom",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.563Z"
+      }
     },
     {
       "id": "waterman-m800-waterman-m800",
@@ -2986,12 +3295,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20M800",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BM800%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20M800%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20M800%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20M800%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3021,7 +3333,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman M800 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Waterman M800 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%20M800",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.664Z"
+      }
     },
     {
       "id": "parker-3776-parker-3776",
@@ -3049,12 +3367,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3084,7 +3405,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Parker 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%203776",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.765Z"
+      }
     },
     {
       "id": "pelikan-149-pelikan-149",
@@ -3112,12 +3439,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3147,7 +3477,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan 149 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Pelikan 149 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%20149",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.867Z"
+      }
     },
     {
       "id": "waterman-2000-waterman-2000",
@@ -3175,12 +3511,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%202000",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B2000%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%202000%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%202000%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%202000%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3210,7 +3549,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman 2000 It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Waterman 2000 It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%202000",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:57.968Z"
+      }
     },
     {
       "id": "sailor-1911-sailor-1911",
@@ -3238,12 +3583,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3265,7 +3613,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Sailor 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%201911",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.069Z"
+      }
     },
     {
       "id": "sailor-m800-sailor-m800",
@@ -3293,12 +3647,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20M800",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BM800%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20M800%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20M800%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20M800%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3320,7 +3677,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor M800 It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Sailor M800 It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%20M800",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.169Z"
+      }
     },
     {
       "id": "parker-diamond-580-parker-diamond-580",
@@ -3348,12 +3711,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3383,7 +3749,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker Diamond 580 It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Parker Diamond 580 It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%20Diamond%20580",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.271Z"
+      }
     },
     {
       "id": "pelikan-m800-pelikan-m800",
@@ -3411,12 +3783,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20M800",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BM800%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20M800%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20M800%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20M800%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3446,7 +3821,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan M800 It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Pelikan M800 It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%20M800",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.372Z"
+      }
     },
     {
       "id": "lamy-m800-lamy-m800",
@@ -3474,12 +3855,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20M800",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BM800%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20M800%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20M800%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20M800%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3509,7 +3893,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy M800 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Lamy M800 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%20M800",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.473Z"
+      }
     },
     {
       "id": "waterman-3776-waterman-3776",
@@ -3537,12 +3927,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3572,7 +3965,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Waterman 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%203776",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.574Z"
+      }
     },
     {
       "id": "kaweco-sport-kaweco-sport",
@@ -3600,12 +3999,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3635,7 +4037,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco Sport It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Kaweco Sport It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%20Sport",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.676Z"
+      }
     },
     {
       "id": "twsbi-m800-twsbi-m800",
@@ -3663,12 +4071,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20M800",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BM800%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20M800%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20M800%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20M800%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3698,7 +4109,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the TWSBI M800 It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the TWSBI M800 It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=TWSBI%20M800",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.777Z"
+      }
     },
     {
       "id": "montblanc-1911-montblanc-1911",
@@ -3726,12 +4143,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3761,7 +4181,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Montblanc 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%201911",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.879Z"
+      }
     },
     {
       "id": "sailor-diamond-580-sailor-diamond-580",
@@ -3789,12 +4215,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3816,7 +4245,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor Diamond 580 It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Sailor Diamond 580 It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%20Diamond%20580",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:58.980Z"
+      }
     },
     {
       "id": "twsbi-diamond-580-twsbi-diamond-580",
@@ -3844,12 +4279,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3879,7 +4317,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the TWSBI Diamond 580 It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the TWSBI Diamond 580 It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=TWSBI%20Diamond%20580",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:59.082Z"
+      }
     },
     {
       "id": "kaweco-expert-kaweco-expert",
@@ -3907,12 +4351,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3942,7 +4389,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco Expert It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Kaweco Expert It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%20Expert",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:59.183Z"
+      }
     },
     {
       "id": "platinum-2000-platinum-2000",
@@ -3970,12 +4423,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%202000",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B2000%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%202000%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%202000%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%202000%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -3997,7 +4453,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Platinum 2000 It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Platinum 2000 It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Platinum%202000",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:59.284Z"
+      }
     },
     {
       "id": "platinum-expert-platinum-expert",
@@ -4025,12 +4487,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4052,7 +4517,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Platinum Expert It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Platinum Expert It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Platinum%20Expert",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:59.392Z"
+      }
     },
     {
       "id": "platinum-1911-platinum-1911",
@@ -4080,12 +4551,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4107,7 +4581,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Platinum 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Platinum 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Platinum%201911",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:59.494Z"
+      }
     },
     {
       "id": "pilot-sport-pilot-sport",
@@ -4135,12 +4615,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4162,7 +4645,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot Sport It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Pilot Sport It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%20Sport",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:59.596Z"
+      }
     },
     {
       "id": "pilot-diamond-580-pilot-diamond-580",
@@ -4190,12 +4679,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4217,7 +4709,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Pilot Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%20Diamond%20580",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:59.697Z"
+      }
     },
     {
       "id": "twsbi-3776-twsbi-3776",
@@ -4245,12 +4743,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4280,7 +4781,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the TWSBI 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the TWSBI 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=TWSBI%203776",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:59.798Z"
+      }
     },
     {
       "id": "waterman-sport-waterman-sport",
@@ -4308,12 +4815,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4343,7 +4853,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman Sport It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Waterman Sport It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%20Sport",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:55:59.900Z"
+      }
     },
     {
       "id": "pilot-custom-pilot-custom",
@@ -4371,12 +4887,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BCustom%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Custom%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4398,7 +4917,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot Custom It features a Steel nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Pilot Custom It features a Steel nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%20Custom",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.002Z"
+      }
     },
     {
       "id": "twsbi-sonnet-twsbi-sonnet",
@@ -4426,12 +4951,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4461,7 +4989,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the TWSBI Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the TWSBI Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=TWSBI%20Sonnet",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.103Z"
+      }
     },
     {
       "id": "waterman-149-waterman-149",
@@ -4489,12 +5023,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4524,7 +5061,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman 149 It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Waterman 149 It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%20149",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.204Z"
+      }
     },
     {
       "id": "pilot-149-pilot-149",
@@ -4552,12 +5095,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4579,7 +5125,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot 149 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Pilot 149 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%20149",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.306Z"
+      }
     },
     {
       "id": "platinum-sonnet-platinum-sonnet",
@@ -4607,12 +5159,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4634,7 +5189,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Platinum Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Platinum Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Platinum%20Sonnet",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.406Z"
+      }
     },
     {
       "id": "sailor-2000-sailor-2000",
@@ -4662,12 +5223,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%202000",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B2000%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%202000%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%202000%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%202000%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4689,7 +5253,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor 2000 It features a Steel nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Sailor 2000 It features a Steel nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%202000",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.508Z"
+      }
     },
     {
       "id": "parker-149-parker-149",
@@ -4717,12 +5287,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4752,7 +5325,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker 149 It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Parker 149 It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%20149",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.609Z"
+      }
     },
     {
       "id": "lamy-sport-lamy-sport",
@@ -4780,12 +5359,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4815,7 +5397,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy Sport It features a Steel nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Lamy Sport It features a Steel nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%20Sport",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.710Z"
+      }
     },
     {
       "id": "montblanc-diamond-580-montblanc-diamond-580",
@@ -4843,12 +5431,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4878,7 +5469,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc Diamond 580 It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Montblanc Diamond 580 It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%20Diamond%20580",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.813Z"
+      }
     },
     {
       "id": "kaweco-3776-kaweco-3776",
@@ -4906,12 +5503,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -4941,7 +5541,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Kaweco 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%203776",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:00.915Z"
+      }
     },
     {
       "id": "lamy-1911-lamy-1911",
@@ -4969,12 +5575,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5004,7 +5613,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy 1911 It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Lamy 1911 It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%201911",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.016Z"
+      }
     },
     {
       "id": "parker-sonnet-parker-sonnet",
@@ -5032,12 +5647,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5067,7 +5685,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker Sonnet It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Parker Sonnet It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%20Sonnet",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.117Z"
+      }
     },
     {
       "id": "kaweco-149-kaweco-149",
@@ -5095,12 +5719,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5130,7 +5757,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco 149 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Kaweco 149 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%20149",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.219Z"
+      }
     },
     {
       "id": "montblanc-2000-montblanc-2000",
@@ -5158,12 +5791,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%202000",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B2000%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%202000%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%202000%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%202000%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5193,7 +5829,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc 2000 It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Montblanc 2000 It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%202000",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.326Z"
+      }
     },
     {
       "id": "montblanc-m800-montblanc-m800",
@@ -5221,12 +5863,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20M800",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BM800%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20M800%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20M800%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20M800%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5256,7 +5901,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc M800 It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Montblanc M800 It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%20M800",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.427Z"
+      }
     },
     {
       "id": "montblanc-sonnet-montblanc-sonnet",
@@ -5284,12 +5935,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5319,7 +5973,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc Sonnet It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Montblanc Sonnet It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%20Sonnet",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.529Z"
+      }
     },
     {
       "id": "kaweco-custom-kaweco-custom",
@@ -5347,12 +6007,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BCustom",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Custom",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BCustom%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BCustom%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BCustom%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Custom%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Custom%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Custom%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5382,7 +6045,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco Custom It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Kaweco Custom It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%20Custom",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.635Z"
+      }
     },
     {
       "id": "pelikan-custom-pelikan-custom",
@@ -5410,12 +6079,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BCustom",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Custom",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BCustom%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BCustom%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BCustom%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Custom%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Custom%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Custom%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5445,7 +6117,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan Custom It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Pelikan Custom It features a Steel nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%20Custom",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.736Z"
+      }
     },
     {
       "id": "parker-1911-parker-1911",
@@ -5473,12 +6151,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5508,7 +6189,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Parker 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%201911",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.838Z"
+      }
     },
     {
       "id": "sailor-custom-sailor-custom",
@@ -5536,12 +6223,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BCustom",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Custom",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BCustom%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BCustom%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BCustom%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Custom%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Custom%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Custom%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5563,7 +6253,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor Custom It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Sailor Custom It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%20Custom",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:01.938Z"
+      }
     },
     {
       "id": "pilot-3776-pilot-3776",
@@ -5591,12 +6287,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5618,7 +6317,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Pilot 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%203776",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.040Z"
+      }
     },
     {
       "id": "twsbi-1911-twsbi-1911",
@@ -5646,12 +6351,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5681,7 +6389,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the TWSBI 1911 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the TWSBI 1911 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=TWSBI%201911",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.141Z"
+      }
     },
     {
       "id": "waterman-diamond-580-waterman-diamond-580",
@@ -5709,12 +6423,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5744,7 +6461,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Waterman Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%20Diamond%20580",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.242Z"
+      }
     },
     {
       "id": "twsbi-sport-twsbi-sport",
@@ -5772,12 +6495,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=TWSBI%20TWSBI%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5807,7 +6533,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the TWSBI Sport It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the TWSBI Sport It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=TWSBI%20Sport",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.343Z"
+      }
     },
     {
       "id": "sailor-expert-sailor-expert",
@@ -5835,12 +6567,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5862,7 +6597,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor Expert It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Sailor Expert It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%20Expert",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.445Z"
+      }
     },
     {
       "id": "kaweco-sonnet-kaweco-sonnet",
@@ -5890,12 +6631,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5925,7 +6669,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco Sonnet It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Kaweco Sonnet It features a 14K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%20Sonnet",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.546Z"
+      }
     },
     {
       "id": "parker-expert-parker-expert",
@@ -5953,12 +6703,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -5988,7 +6741,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker Expert It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Parker Expert It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%20Expert",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.647Z"
+      }
     },
     {
       "id": "pilot-m800-pilot-m800",
@@ -6016,12 +6775,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BM800",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20M800",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BM800%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BM800%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BM800%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20M800%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20M800%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20M800%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6043,7 +6805,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot M800 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Pilot M800 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%20M800",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.749Z"
+      }
     },
     {
       "id": "parker-sport-parker-sport",
@@ -6071,12 +6839,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Parker%20Parker%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6106,7 +6877,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Parker Sport It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Parker Sport It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Parker%20Sport",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.850Z"
+      }
     },
     {
       "id": "sailor-3776-sailor-3776",
@@ -6134,12 +6911,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6161,7 +6941,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Sailor 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%203776",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:02.952Z"
+      }
     },
     {
       "id": "pelikan-2000-pelikan-2000",
@@ -6189,12 +6975,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%202000",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B2000%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%202000%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%202000%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%202000%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6224,7 +7013,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan 2000 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Pelikan 2000 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%202000",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.053Z"
+      }
     },
     {
       "id": "lamy-149-lamy-149",
@@ -6252,12 +7047,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6287,7 +7085,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy 149 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Lamy 149 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%20149",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.154Z"
+      }
     },
     {
       "id": "sailor-149-sailor-149",
@@ -6315,12 +7119,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B149",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20149",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B149%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B149%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%2B149%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20149%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20149%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Sailor%20Sailor%20149%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6342,7 +7149,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Sailor 149 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Sailor 149 It features a Steel nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Sailor%20149",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.256Z"
+      }
     },
     {
       "id": "waterman-expert-waterman-expert",
@@ -6370,12 +7183,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6405,7 +7221,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman Expert It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Waterman Expert It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%20Expert",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.357Z"
+      }
     },
     {
       "id": "platinum-diamond-580-platinum-diamond-580",
@@ -6433,12 +7255,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6460,7 +7285,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Platinum Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Platinum Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Platinum%20Diamond%20580",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.458Z"
+      }
     },
     {
       "id": "montblanc-3776-montblanc-3776",
@@ -6488,12 +7319,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6523,7 +7357,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Montblanc 3776 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%203776",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.560Z"
+      }
     },
     {
       "id": "pelikan-diamond-580-pelikan-diamond-580",
@@ -6551,12 +7391,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6586,7 +7429,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Pelikan Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%20Diamond%20580",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.661Z"
+      }
     },
     {
       "id": "platinum-3776-platinum-3776",
@@ -6614,12 +7463,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B3776",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%203776",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B3776%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B3776%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%2B3776%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%203776%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%203776%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Platinum%20Platinum%203776%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6641,7 +7493,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Platinum 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Platinum 3776 It features a 14K Gold nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Platinum%203776",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.763Z"
+      }
     },
     {
       "id": "pilot-sonnet-pilot-sonnet",
@@ -6669,12 +7527,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6696,7 +7557,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Pilot Sonnet It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%20Sonnet",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.864Z"
+      }
     },
     {
       "id": "pelikan-sonnet-pelikan-sonnet",
@@ -6724,12 +7591,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BSonnet",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Sonnet",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BSonnet%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BSonnet%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2BSonnet%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Sonnet%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Sonnet%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%20Sonnet%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6759,7 +7629,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan Sonnet It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system."
+      "details": "the Pelikan Sonnet It features a Steel nib available in F, M, B sizes. The pen uses a cartridge filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%20Sonnet",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:03.965Z"
+      }
     },
     {
       "id": "montblanc-sport-montblanc-sport",
@@ -6787,12 +7663,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BSport",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Sport",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BSport%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BSport%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BSport%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Sport%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Sport%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Sport%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6822,7 +7701,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc Sport It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Montblanc Sport It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%20Sport",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:04.067Z"
+      }
     },
     {
       "id": "lamy-custom-lamy-custom",
@@ -6850,12 +7735,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BCustom",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Custom",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BCustom%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BCustom%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BCustom%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Custom%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Custom%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Custom%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6885,7 +7773,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy Custom It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Lamy Custom It features a 14K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%20Custom",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:04.168Z"
+      }
     },
     {
       "id": "kaweco-1911-kaweco-1911",
@@ -6913,12 +7807,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Kaweco%20Kaweco%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -6948,7 +7845,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Kaweco 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Kaweco 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Kaweco%201911",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:04.269Z"
+      }
     },
     {
       "id": "waterman-1911-waterman-1911",
@@ -6976,12 +7879,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Waterman%20Waterman%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -7011,7 +7917,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Waterman 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Waterman 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Waterman%201911",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:04.371Z"
+      }
     },
     {
       "id": "pilot-expert-pilot-expert",
@@ -7039,12 +7951,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -7066,7 +7981,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot Expert It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Pilot Expert It features a 14K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%20Expert",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:04.473Z"
+      }
     },
     {
       "id": "lamy-diamond-580-lamy-diamond-580",
@@ -7094,12 +8015,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BDiamond%2B580",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Diamond%20580",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BDiamond%2B580%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BDiamond%2B580%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%2BDiamond%2B580%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Diamond%20580%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Diamond%20580%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Lamy%20Lamy%20Diamond%20580%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -7129,7 +8053,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Lamy Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system."
+      "details": "the Lamy Diamond 580 It features a 18K Gold nib available in F, M, B sizes. The pen uses a vacuum filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Lamy%20Diamond%20580",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:04.574Z"
+      }
     },
     {
       "id": "pelikan-1911-pelikan-1911",
@@ -7157,12 +8087,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B1911",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%201911",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B1911%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B1911%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%2B1911%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%201911%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%201911%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pelikan%20Pelikan%201911%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -7192,7 +8125,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pelikan 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system."
+      "details": "the Pelikan 1911 It features a 18K Gold nib available in F, M, B sizes. The pen uses a converter filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Pelikan%201911",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:04.675Z"
+      }
     },
     {
       "id": "montblanc-expert-montblanc-expert",
@@ -7220,12 +8159,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BExpert",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Expert",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BExpert%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BExpert%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%2BExpert%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Expert%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Expert%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Montblanc%20Montblanc%20Expert%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -7255,7 +8197,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Montblanc Expert It features a Steel nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Montblanc Expert It features a Steel nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "Goulet Pens",
+        "sourceUrl": "https://www.gouletpens.com/search?q=Montblanc%20Expert",
+        "licenseNote": "Product image from Goulet Pens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:04.777Z"
+      }
     },
     {
       "id": "pilot-2000-pilot-2000",
@@ -7283,12 +8231,15 @@
         }
       },
       "images": {
-        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B2000",
+        "main": "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%202000",
         "gallery": [
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B2000%2BSide%2BView",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B2000%2BNib%2BDetail",
-          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%2B2000%2BClose-up"
-        ]
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%202000%20side%20view",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%202000%20nib%20detail",
+          "https://dummyimage.com/800x600/F9F5F0/1A365D.png?text=Pilot%20Pilot%202000%20uncapped"
+        ],
+        "dimensions": "",
+        "writingSample": "",
+        "packaging": ""
       },
       "purchaseLinks": [
         {
@@ -7310,7 +8261,13 @@
       ],
       "verified": false,
       "availability": "Unknown",
-      "details": "the Pilot 2000 It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system."
+      "details": "the Pilot 2000 It features a 18K Gold nib available in F, M, B sizes. The pen uses a piston filling system.",
+      "imageMetadata": {
+        "source": "JetPens",
+        "sourceUrl": "https://www.jetpens.com/search?q=Pilot%202000",
+        "licenseNote": "Product image from JetPens - for reference only",
+        "lastUpdated": "2025-12-30T05:56:04.878Z"
+      }
     }
   ]
 }

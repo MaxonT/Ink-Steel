@@ -178,7 +178,14 @@ class InkDetail extends HTMLElement {
       <div class="ink-detail-container">
         <div class="ink-header">
           <p class="ink-brand">${escapeHtmlSafe(inkData.brand || 'Unknown Brand')}</p>
-          <h1 class="ink-name">${escapeHtmlSafe(inkData.name || 'Ink Name')}</h1>
+          <h1 class="ink-name">
+            ${escapeHtmlSafe(inkData.name || 'Ink Name')}
+            ${inkData.brand && inkData.series ? 
+              `<span style="color: #999; font-size: 0.6em; font-weight: 400; margin-left: 0.5em;">(${escapeHtmlSafe(inkData.brand)} - ${escapeHtmlSafe(inkData.series)})</span>` : 
+              inkData.brand ? 
+              `<span style="color: #999; font-size: 0.6em; font-weight: 400; margin-left: 0.5em;">(${escapeHtmlSafe(inkData.brand)})</span>` : 
+              ''}
+          </h1>
           ${inkData.description ? `<p class="ink-description">${escapeHtmlSafe(inkData.description)}</p>` : ''}
         </div>
 

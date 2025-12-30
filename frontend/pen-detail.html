@@ -106,7 +106,8 @@
                     // Use String comparison to ensure type consistency
                     const pen = pens.find(p => String(p.id) === String(penId));
                     if (pen) {
-                        // 直接设置属性，组件会通过attributeChangedCallback响应
+                        // 清空 loading 元素，然后设置属性
+                        penDetail.innerHTML = '';
                         penDetail.setAttribute('pen-data', JSON.stringify(pen));
                         
                         // Add to browsing history

@@ -106,6 +106,8 @@
                     // Use String comparison to ensure type consistency
                     const ink = inks.find(i => String(i.id) === String(inkId));
                     if (ink) {
+                        // 清空 loading 元素，然后设置属性
+                        inkDetail.innerHTML = '';
                         inkDetail.setAttribute('ink-data', JSON.stringify(ink));
                         
                         // Update SEO meta tags - 使用textContent避免XSS（虽然风险较低，但为了安全）
