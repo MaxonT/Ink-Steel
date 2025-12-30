@@ -29,6 +29,8 @@
   --font-size-lg: 20px;    /* 1.25rem */
   --font-size-xl: 24px;    /* 1.5rem */
   --font-size-2xl: 32px;   /* 2rem */
+  --font-size-3xl: 40px;   /* 2.5rem */
+  --font-size-4xl: 48px;   /* 3rem */
   
   /* Font weights */
   --font-weight-light: 300;
