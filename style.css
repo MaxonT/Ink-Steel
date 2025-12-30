@@ -344,7 +344,8 @@ input[type="reset"],
 input[type="image"],
 [role="button"] {
   min-height: var(--input-height);
-  min-width: var(--input-height);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
 }
 
 /* Small interactive elements need adequate spacing on mobile */

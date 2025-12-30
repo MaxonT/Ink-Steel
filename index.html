@@ -308,7 +308,8 @@
         async function loadPens() {
             // Show loading skeleton
             const grid = document.getElementById('pensGrid');
-            grid.innerHTML = Array(6).fill(0).map(() => `
+            const skeletonCount = 6;
+            grid.innerHTML = Array(skeletonCount).fill(0).map(() => `
                 <div class="skeleton-card">
                     <div class="skeleton skeleton-image"></div>
                     <div class="skeleton skeleton-text"></div>
@@ -516,7 +517,7 @@
             if (fillingSystemFilter) activeFilters.push({ label: 'Filling', value: fillingSystemFilter, field: 'fillingSystemFilter' });
             if (availabilityFilter) activeFilters.push({ label: 'Availability', value: availabilityFilter, field: 'availabilityFilter' });
             if (priceMin || priceMax) {
-                const priceRange = `$${priceMin || '0'} - $${priceMax || '∞'}`;
+                const priceRange = `$${priceMin || '0'} - $${priceMax || 'No limit'}`;
                 activeFilters.push({ label: 'Price', value: priceRange, field: 'price' });
             }
             if (sortBy) {
