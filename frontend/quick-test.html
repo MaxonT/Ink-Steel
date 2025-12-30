@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>快速测试</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #f5f5f5; }
+        .container { background: white; padding: 20px; border-radius: 8px; max-width: 800px; }
+        h2 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; margin: 5px; cursor: pointer; border-radius: 4px; }
+        button:hover { background: #0056b3; }
+        .result { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 4px; border-left: 4px solid #007bff; }
+        .success { border-left-color: #4caf50; }
+        .error { border-left-color: #f44336; }
+        pre { background: #f9f9f9; padding: 10px; border-radius: 4px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Ink & Steel 快速诊断</h1>
+        
+        <h2>1. 测试 JSON 加载</h2>
+        <button onclick="testJSON()">测试 JSON</button>
+        <div id="json-result"></div>
+
+        <h2>2. 测试笔详情页</h2>
+        <button onclick="goToPenDetail()">打开笔详情页</button>
+        <button onclick="testDirectRender()">测试直接渲染</button>
+        <div id="render-result"></div>
+
+        <h2>3. 快速链接</h2>
+        <a href="pen-detail.html?id=pelikan-m800-black" target="_blank"><button>Pelikan M800</button></a>
+        <a href="pen-detail.html?id=pilot-custom-74" target="_blank"><button>Pilot Custom 74</button></a>
+        <a href="pen-detail.html?id=montblanc-149" target="_blank"><button>Montblanc 149</button></a>
+    </div>
+
+    <script>
+        async function testJSON() {
+            const resultDiv = document.getElementById('json-result');
+            resultDiv.innerHTML = '<div class="result">加载中...</div>';
+            
+            try {
+                const response = await fetch('data/pens.json');
+                const data = await response.json();
+                
+                if (data.pens && data.pens.length > 0) {
+                    const firstPen = data.pens[0];
+                    resultDiv.innerHTML = `
+                        <div class="result success">
+                            <strong>✅ JSON 加载成功!</strong><br>
+                            总笔数: ${data.pens.length}<br>
+                            第一个笔: ${firstPen.name} (ID: ${firstPen.id})<br>
+                            <pre>${JSON.stringify(firstPen, null, 2).substring(0, 500)}...</pre>
+                        </div>
+                    `;
+                } else {
+                    resultDiv.innerHTML = '<div class="result error">❌ JSON 结构错误</div>';
+                }
+            } catch (e) {
+                resultDiv.innerHTML = `<div class="result error">❌ 错误: ${e.message}</div>`;
+            }
+        }
+
+        function goToPenDetail() {
+            window.location.href = 'pen-detail.html?id=pelikan-m800-black';
+        }
+
+        async function testDirectRender() {
+            const resultDiv = document.getElementById('render-result');
+            resultDiv.innerHTML = '<div class="result">测试中...</div>';
+            
+            try {
+                // 加载组件脚本
+                if (!customElements.get('pen-detail')) {
+                    const script = document.createElement('script');
+                    script.src = 'assets/scripts/components/pen-detail.js';
+                    document.head.appendChild(script);
+                    
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                }
+                
+                // 加载数据
+                const response = await fetch('data/pens.json');
+                const data = await response.json();
+                const testPen = data.pens[0];
+                
+                // 创建元素并渲染
+                const container = document.createElement('div');
+                const penDetail = document.createElement('pen-detail');
+                
+                penDetail.setAttribute('pen-data', JSON.stringify(testPen));
+                if (typeof penDetail.render === 'function') {
+                    penDetail.render();
+                }
+                
+                container.appendChild(penDetail);
+                resultDiv.innerHTML = '';
+                resultDiv.appendChild(container);
+                
+                resultDiv.innerHTML = `<div class="result success">✅ 渲染测试完成 (${testPen.name})</div>` + resultDiv.innerHTML;
+                
+            } catch (e) {
+                resultDiv.innerHTML = `<div class="result error">❌ 错误: ${e.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html>

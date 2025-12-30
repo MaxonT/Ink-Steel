@@ -33,9 +33,10 @@ class PenDetail extends HTMLElement {
     };
 
     try {
-      const penDataAttr = this.getAttribute('pen-data');
       let penData = null;
       
+      // 首先尝试获取属性中的数据
+      const penDataAttr = this.getAttribute('pen-data');
       if (penDataAttr) {
         try {
           penData = JSON.parse(penDataAttr);
@@ -48,9 +49,28 @@ class PenDetail extends HTMLElement {
         }
       }
       
+      // 如果属性中没有数据，尝试从实例属性获取
+      if (!penData && this._penData) {
+        penData = this._penData;
+      }
+      
       if (!penData) {
-        // 显示空白而不是 loading，因为数据应该立即可用
-        this.shadowRoot.innerHTML = '<p style="padding: 2rem; text-align: center; color: #999; font-family: \'Cormorant Garamond\', serif;">Pen data not found</p>';
+        // 诊断信息：显示属性和实例属性的当前状态，便于定位问题
+        const hasAttr = !!this.getAttribute('pen-data');
+        const attrPreview = hasAttr ? (this.getAttribute('pen-data') || '').substring(0, 400) : '';
+        const hasInst = !!this._penData;
+        const instPreview = hasInst ? (this._penData && this._penData.name ? this._penData.name : JSON.stringify(this._penData).substring(0,200)) : '';
+        this.shadowRoot.innerHTML = `
+          <div style="padding:2rem; text-align:center; color:#999; font-family: 'Cormorant Garamond', serif;">
+            <p style="font-size:1.125rem; margin-bottom:0.5rem;">Pen data not found</p>
+            <div style="margin-top:0.5rem; font-size:0.9rem; color:#666; text-align:left; max-width:800px; margin-left:auto; margin-right:auto;">
+              <p><strong>pen-data attribute present:</strong> ${hasAttr}</p>
+              <p><strong>attribute preview:</strong> <code style="word-break:break-all;">${escapeHtmlSafe(attrPreview)}</code></p>
+              <p><strong>instance _penData present:</strong> ${hasInst}</p>
+              <p><strong>instance preview:</strong> <code style="word-break:break-all;">${escapeHtmlSafe(instPreview)}</code></p>
+            </div>
+          </div>
+        `;
         return;
       }
 

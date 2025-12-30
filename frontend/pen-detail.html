@@ -106,19 +106,24 @@
                     // Use String comparison to ensure type consistency
                     const pen = pens.find(p => String(p.id) === String(penId));
                     if (pen) {
+                        // 将 pen 数据存储为实例属性，确保组件可以访问
+                        penDetail._penData = pen;
+                        
                         // 强制重新创建 shadow root 并清空 loading 元素
                         if (penDetail.shadowRoot) {
                             penDetail.shadowRoot.innerHTML = '';
                         }
                         penDetail.innerHTML = '';
                         
-                        // 设置属性并直接调用 render
+                        // 设置属性并通过 setTimeout 确保属性被正确应用
                         penDetail.setAttribute('pen-data', JSON.stringify(pen));
                         
-                        // 强制立即触发渲染（防止异步延迟）
-                        if (typeof penDetail.render === 'function') {
-                            penDetail.render();
-                        }
+                        // 使用 requestAnimationFrame 确保 DOM 更新后再渲染
+                        requestAnimationFrame(() => {
+                            if (typeof penDetail.render === 'function') {
+                                penDetail.render();
+                            }
+                        });
                         
                         // Add to browsing history
                         addToBrowsingHistory(String(penId), pen);

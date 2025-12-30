@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen Details Test | Ink & Steel</title>
+    <link rel="stylesheet" href="frontend/assets/styles/tokens.css">
+    <link rel="stylesheet" href="frontend/assets/styles/states.css">
+    <link rel="stylesheet" href="frontend/assets/styles/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        #test-output {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 100vh;
+            background: #f0f0f0;
+            overflow-y: auto;
+            border-left: 2px solid #ddd;
+            padding: 10px;
+            font-size: 12px;
+            font-family: monospace;
+            z-index: 9999;
+        }
+        .log-entry {
+            margin: 5px 0;
+            padding: 5px;
+            background: white;
+            border-left: 3px solid #007bff;
+            border-radius: 2px;
+        }
+        .log-entry.error {
+            border-left-color: #f44336;
+            background: #ffebee;
+        }
+        .log-entry.success {
+            border-left-color: #4caf50;
+            background: #e8f5e9;
+        }
+        main { margin-right: 320px; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div id="test-output">
+        <strong style="display: block; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #ccc;">实时诊断日志</strong>
+        <div id="logs"></div>
+    </div>
+
+    <main class="page-container">
+        <pen-detail id="penDetail"></pen-detail>
+    </main>
+
+    <script src="frontend/assets/scripts/components/navbar.js"></script>
+    <script src="frontend/assets/scripts/components/pen-detail.js"></script>
+    <script src="frontend/assets/scripts/components/footer.js"></script>
+    <script src="frontend/assets/scripts/utils/security.js"></script>
+    <script src="frontend/assets/scripts/utils/page-utils.js"></script>
+    <script src="frontend/assets/scripts/utils/seo-utils.js"></script>
+    <script src="frontend/assets/scripts/utils/browsing-history.js"></script>
+    <script src="frontend/assets/scripts/main.js"></script>
+    
+    <script>
+        // 日志输出系统
+        const logs = [];
+        
+        function logTest(msg, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const log = `[${timestamp}] ${msg}`;
+            logs.push({ msg: log, type });
+            
+            const logDiv = document.getElementById('logs');
+            const entry = document.createElement('div');
+            entry.className = `log-entry ${type}`;
+            entry.textContent = log;
+            logDiv.appendChild(entry);
+            logDiv.scrollTop = logDiv.scrollHeight;
+            
+            console.log(`[${type.toUpperCase()}]`, msg);
+        }
+        
+        logTest('🚀 页面开始加载', 'info');
+        
+        // 拦截错误
+        window.addEventListener('error', function(e) {
+            logTest(`❌ 错误: ${e.message}`, 'error');
+        });
+        
+        // 页面加载完成
+        document.addEventListener('DOMContentLoaded', function() {
+            logTest('✅ DOM 加载完成', 'success');
+            
+            // 初始化页面逻辑
+            try {
+                logTest('获取 URL 参数...', 'info');
+                const urlParams = new URLSearchParams(window.location.search);
+                const rawPenId = urlParams.get('id');
+                logTest(`URL penId: ${rawPenId || '(无)'}`, 'info');
+                
+                const penDetail = document.getElementById('penDetail');
+                if (!penDetail) {
+                    logTest('❌ 无法找到 penDetail 元素', 'error');
+                    return;
+                }
+                logTest('✅ 找到 penDetail 元素', 'success');
+                
+                // 尝试手动设置测试数据
+                if (!rawPenId) {
+                    logTest('📝 未指定 penId，使用测试 ID: pelikan-m800-black', 'info');
+                    window.location.href = '?id=pelikan-m800-black';
+                    return;
+                }
+                
+                const decodedId = decodeURIComponent(rawPenId);
+                logTest(`解码后的 penId: ${decodedId}`, 'info');
+                
+                // 显示加载状态
+                penDetail.innerHTML = '<div class="bg-white p-8 shadow-sm text-center"><p class="text-gray-500">加载中...</p></div>';
+                logTest('显示加载状态...', 'info');
+                
+                // 加载 JSON 数据
+                logTest('开始加载 JSON...', 'info');
+                fetch('frontend/data/pens.json')
+                    .then(response => {
+                        logTest(`✅ 获取响应，状态: ${response.status}`, 'success');
+                        return response.json();
+                    })
+                    .then(data => {
+                        logTest(`✅ JSON 解析成功`, 'success');
+                        
+                        if (!data.pens) {
+                            logTest('❌ JSON 中无 pens 数据', 'error');
+                            return;
+                        }
+                        
+                        logTest(`✅ 找到 ${data.pens.length} 个笔`, 'success');
+                        
+                        // 查找笔
+                        const pen = data.pens.find(p => String(p.id) === String(decodedId));
+                        if (pen) {
+                            logTest(`✅ 找到笔: ${pen.name}`, 'success');
+                            
+                            // 清空并设置属性
+                            if (penDetail.shadowRoot) {
+                                penDetail.shadowRoot.innerHTML = '';
+                                logTest('清空 shadowRoot', 'info');
+                            }
+                            
+                            penDetail.innerHTML = '';
+                            logTest('清空 innerHTML', 'info');
+                            
+                            penDetail.setAttribute('pen-data', JSON.stringify(pen));
+                            logTest('设置 pen-data 属性', 'info');
+                            
+                            // 调用 render
+                            if (typeof penDetail.render === 'function') {
+                                logTest('调用 render 方法...', 'info');
+                                penDetail.render();
+                                logTest('✅ render 完成', 'success');
+                            } else {
+                                logTest('❌ render 方法不存在', 'error');
+                            }
+                            
+                        } else {
+                            logTest(`❌ 未找到笔 ID: ${decodedId}`, 'error');
+                            logTest(`可用的 ID: ${data.pens.map(p => p.id).slice(0, 5).join(', ')}...`, 'info');
+                        }
+                    })
+                    .catch(error => {
+                        logTest(`❌ 错误: ${error.message}`, 'error');
+                    });
+                    
+            } catch (e) {
+                logTest(`❌ 异常: ${e.message}`, 'error');
+            }
+        });
+        
+        window.addEventListener('load', function() {
+            logTest('✅ 页面完全加载', 'success');
+        });
+    </script>
+</body>
+</html>

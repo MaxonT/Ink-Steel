@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen Detail 诊断工具</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 4px solid #ddd;
+            border-radius: 4px;
+        }
+        .section.success {
+            border-left-color: #4caf50;
+        }
+        .section.error {
+            border-left-color: #f44336;
+        }
+        .section.warning {
+            border-left-color: #ff9800;
+        }
+        .status {
+            font-weight: bold;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+        }
+        .status.ok {
+            background: #c8e6c9;
+            color: #2e7d32;
+        }
+        .status.fail {
+            background: #ffcdd2;
+            color: #c62828;
+        }
+        .status.warning {
+            background: #fff3e0;
+            color: #e65100;
+        }
+        code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px 5px 10px 0;
+            font-size: 14px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .test-result {
+            padding: 10px;
+            margin: 5px 0;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            overflow-x: auto;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Pen Detail 页面诊断工具</h1>
+        
+        <div class="section">
+            <h2>1. 数据加载诊断</h2>
+            <button onclick="diagnosticDataLoad()">测试数据加载</button>
+            <div id="data-result"></div>
+        </div>
+
+        <div class="section">
+            <h2>2. 组件加载诊断</h2>
+            <button onclick="diagnosticComponent()">测试组件渲染</button>
+            <div id="component-result"></div>
+        </div>
+
+        <div class="section">
+            <h2>3. URL 参数诊断</h2>
+            <button onclick="diagnosticUrl()">检查 URL 参数</button>
+            <div id="url-result"></div>
+        </div>
+
+        <div class="section">
+            <h2>4. 快速测试</h2>
+            <p>点击下方链接测试笔详情页:</p>
+            <button onclick="openTestPage('pelikan-m800-black')">测试: Pelikan M800</button>
+            <button onclick="openTestPage('pilot-custom-74')">测试: Pilot Custom 74</button>
+            <button onclick="window.location.href='pen-detail.html?id=pelikan-m800-black'">打开完整页面</button>
+        </div>
+
+        <div class="section">
+            <h2>5. 浏览器控制台</h2>
+            <p>按 F12 打开开发者工具，查看 Console 标签中的任何错误信息。</p>
+            <button onclick="testConsoleLog()">输出测试日志</button>
+            <div id="console-result"></div>
+        </div>
+    </div>
+
+    <script>
+        // 全局错误捕获
+        window.addEventListener('error', function(e) {
+            console.error('全局错误:', e.message);
+        });
+
+        function diagnosticDataLoad() {
+            const result = document.getElementById('data-result');
+            result.innerHTML = '<div class="test-result">正在测试...</div>';
+            
+            // 测试 JSON 加载
+            fetch('data/pens.json')
+                .then(response => {
+                    result.innerHTML += '<div class="test-result ok">✅ JSON 文件可访问</div>';
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.pens && Array.isArray(data.pens)) {
+                        const pens = data.pens;
+                        result.innerHTML += `<div class="test-result ok">✅ 成功加载 ${pens.length} 个笔</div>`;
+                        
+                        // 测试特定 ID
+                        const testPen = pens.find(p => p.id === 'pelikan-m800-black');
+                        if (testPen) {
+                            result.innerHTML += `<div class="test-result ok">✅ 找到测试笔: ${testPen.name}</div>`;
+                            result.innerHTML += `<div class="test-result">笔 ID: <code>${testPen.id}</code></div>`;
+                            result.innerHTML += `<div class="test-result">图像: <code>${testPen.images?.main || '无'}</code></div>`;
+                        } else {
+                            result.innerHTML += `<div class="test-result fail">❌ 未找到 ID: pelikan-m800-black</div>`;
+                        }
+                    } else {
+                        result.innerHTML += `<div class="test-result fail">❌ JSON 结构不正确</div>`;
+                    }
+                })
+                .catch(error => {
+                    result.innerHTML += `<div class="test-result fail">❌ 加载失败: ${error.message}</div>`;
+                });
+        }
+
+        function diagnosticComponent() {
+            const result = document.getElementById('component-result');
+            result.innerHTML = '<div class="test-result">测试中...</div>';
+            
+            // 检查是否可以导入组件
+            const script = document.createElement('script');
+            script.src = 'assets/scripts/components/pen-detail.js';
+            script.onload = function() {
+                result.innerHTML = '<div class="test-result ok">✅ 组件脚本加载成功</div>';
+                
+                // 创建测试元素
+                if (!customElements.get('pen-detail')) {
+                    result.innerHTML += '<div class="test-result warning">⚠️ 组件尚未注册，等待片刻...</div>';
+                    setTimeout(() => {
+                        if (customElements.get('pen-detail')) {
+                            result.innerHTML = '<div class="test-result ok">✅ 组件已注册</div>';
+                        } else {
+                            result.innerHTML = '<div class="test-result fail">❌ 组件注册失败</div>';
+                        }
+                    }, 500);
+                } else {
+                    result.innerHTML += '<div class="test-result ok">✅ 组件已注册</div>';
+                }
+            };
+            script.onerror = function() {
+                result.innerHTML = '<div class="test-result fail">❌ 组件脚本加载失败</div>';
+            };
+            document.head.appendChild(script);
+        }
+
+        function diagnosticUrl() {
+            const result = document.getElementById('url-result');
+            const urlParams = new URLSearchParams(window.location.search);
+            const id = urlParams.get('id');
+            
+            result.innerHTML = `
+                <div class="test-result">当前 URL: <code>${window.location.href}</code></div>
+                <div class="test-result">ID 参数: <code>${id || '无'}</code></div>
+            `;
+        }
+
+        function openTestPage(penId) {
+            window.location.href = `pen-detail.html?id=${penId}`;
+        }
+
+        function testConsoleLog() {
+            const result = document.getElementById('console-result');
+            console.log('📋 诊断日志测试:');
+            console.log('- 页面已加载');
+            console.log('- 检查浏览器 F12 中的 Console 输出');
+            result.innerHTML = '<div class="test-result ok">✅ 已输出测试日志，请查看 Console（F12）</div>';
+        }
+
+        // 页面加载完成提示
+        window.addEventListener('load', function() {
+            console.log('🚀 诊断工具已加载');
+        });
+    </script>
+</body>
+</html>

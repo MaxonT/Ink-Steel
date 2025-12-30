@@ -106,19 +106,24 @@
                     // Use String comparison to ensure type consistency
                     const ink = inks.find(i => String(i.id) === String(inkId));
                     if (ink) {
+                        // 将 ink 数据存储为实例属性，确保组件可以访问
+                        inkDetail._inkData = ink;
+                        
                         // 强制重新创建 shadow root 并清空 loading 元素
                         if (inkDetail.shadowRoot) {
                             inkDetail.shadowRoot.innerHTML = '';
                         }
                         inkDetail.innerHTML = '';
                         
-                        // 设置属性并直接调用 render
+                        // 设置属性并通过 requestAnimationFrame 确保属性被正确应用
                         inkDetail.setAttribute('ink-data', JSON.stringify(ink));
                         
-                        // 强制立即触发渲染（防止异步延迟）
-                        if (typeof inkDetail.render === 'function') {
-                            inkDetail.render();
-                        }
+                        // 使用 requestAnimationFrame 确保 DOM 更新后再渲染
+                        requestAnimationFrame(() => {
+                            if (typeof inkDetail.render === 'function') {
+                                inkDetail.render();
+                            }
+                        });
                         
                         // Update SEO meta tags - 使用textContent避免XSS（虽然风险较低，但为了安全）
                         const inkName = String(ink.name || '').replace(/[<>]/g, '');
