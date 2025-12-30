@@ -139,7 +139,7 @@
 </head>
 <body class="min-h-screen">
     <!-- Skip to main content link for accessibility -->
-    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:border focus:border-gray-300">
+    <a href="#main-content" class="skip-link">
         Skip to main content
     </a>
     
@@ -243,7 +243,7 @@
                 <!-- Active Filters Display -->
                 <div id="activeFilters" class="hidden mt-4 pt-4 border-t border-gray-200">
                     <div class="text-sm text-gray-600 mb-2">Active Filters:</div>
-                    <div id="activeFiltersList" class="flex flex-wrap gap-2"></div>
+                    <div id="activeFiltersList" class="filter-tags-wrapper"></div>
                 </div>
                 </div>
 
@@ -519,15 +519,25 @@
                 const priceRange = `$${priceMin || '0'} - $${priceMax || '∞'}`;
                 activeFilters.push({ label: 'Price', value: priceRange, field: 'price' });
             }
-            if (sortBy) activeFilters.push({ label: 'Sort', value: sortBy.replace('-', ': '), field: 'sortBy' });
+            if (sortBy) {
+                // Format sort value properly
+                const sortLabels = {
+                    'name': 'Name',
+                    'brand': 'Brand',
+                    'price-asc': 'Price: Low to High',
+                    'price-desc': 'Price: High to Low',
+                    'date-added': 'Newest First'
+                };
+                activeFilters.push({ label: 'Sort', value: sortLabels[sortBy] || sortBy, field: 'sortBy' });
+            }
             
             if (activeFilters.length > 0) {
                 activeFiltersDiv.classList.remove('hidden');
                 activeFiltersListDiv.innerHTML = activeFilters.map(filter => `
-                    <span class="inline-flex items-center gap-2 px-3 py-1 bg-gray-100 rounded text-sm">
-                        <span class="font-medium">${filter.label}:</span>
+                    <span class="filter-tag">
+                        <span class="filter-tag-label">${filter.label}:</span>
                         <span>${filter.value}</span>
-                        <button class="remove-filter hover:text-red-600 transition-colors" data-field="${filter.field}" aria-label="Remove ${filter.label} filter">×</button>
+                        <button class="filter-tag-remove remove-filter" data-field="${filter.field}" aria-label="Remove ${filter.label} filter">×</button>
                     </span>
                 `).join('');
                 
